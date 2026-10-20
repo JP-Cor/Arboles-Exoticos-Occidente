@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    background: #f7f8f3;
+    color: #21352a;
+    font-family: system-ui, Arial, sans-serif
+}
+
+header {
+    background: #174a35;
+    color: white;
+    padding: 22px 0
+}
+
+header a {
+    color: #d8f5dd
+}
+
+header h1 {
+    margin: 8px 0
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 18px
+}
+
+.filtros {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 25px 0
+}
+
+.filtros input {
+    flex: 2;
+    min-width: 240px
+}
+
+.filtros select {
+    flex: 1;
+    min-width: 160px
+}
+
+input,
+select,
+button {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #c9d5cc;
+    font: inherit
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    gap: 20px;
+    margin-bottom: 50px
+}
+
+.tarjeta {
+    background: white;
+    border: 1px solid #e0e9df;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px #0000000a
+}
+
+.foto {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    object-position: center;
+    background-color: #eaf2e8;
+    display: block;
+    border-radius: 12px 12px 0 0;
+}
+
+.sin-foto {
+    height: 190px;
+    display: grid;
+    place-items: center;
+    background: #e8f0e6;
+    color: #51735b
+}
+
+.datos {
+    padding: 16px
+}
+
+.datos h2 {
+    font-size: 19px;
+    margin: 4px 0
+}
+
+.muted {
+    color: #65756b;
+    font-size: 13px
+}
+
+.precio {
+    font-size: 22px;
+    font-weight: 750;
+    color: #19683e
+}
+
+.botones {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap
+}
+
+.botones button,
+.botones a {
+    background: #1b6a46;
+    color: white;
+    border: 0;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px
+}
+
+.botones a {
+    background: #18875b
+}
+
+.foto-input {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 12px
+}
+
+dialog {
+    width: min(600px, 95vw);
+    border: 0;
+    border-radius: 16px;
+    padding: 22px
+}
+
+dialog::backdrop {
+    background: #0009
+}
+
+.cerrar {
+    float: right;
+    cursor: pointer
+}
+
+@media(max-width:600px) {
+    .filtros {
+        flex-direction: column
+    }
+}

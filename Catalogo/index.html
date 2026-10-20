@@ -1,1 +1,37 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Catálogo | Árboles Exóticos Occidente</title><link rel="stylesheet" href="catalogo.css"></head><body><header><div class="wrap"><a href="../index.html">← Inicio</a><h1>Árboles Exóticos Occidente</h1><p>Catálogo de especies y variedades</p></div></header><main class="wrap"><section class="filtros"><input id="buscar" type="search" placeholder="Buscar especie, variedad, nombre científico o inglés" aria-label="Buscar plantas"><select id="categoria" aria-label="Categoría"><option value="">Todas las categorías</option></select><select id="orden" aria-label="Ordenar"><option value="nombre">Ordenar por nombre</option><option value="precio-asc">Menor precio</option><option value="precio-desc">Mayor precio</option></select></section><p id="total" aria-live="polite"></p><div id="tarjetas" class="tarjetas"></div></main><dialog id="detalle"><button id="cerrar" class="cerrar">Cerrar ×</button><div id="contenido-detalle"></div></dialog><script src="catalogo.js" defer></script></body></html>
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catálogo | Árboles Exóticos Occidente</title>
+    <link rel="stylesheet" href="catalogo.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrap"><a href="../index.html">← Inicio</a>
+            <h1>Árboles Exóticos Occidente</h1>
+            <p>Catálogo de especies y variedades</p>
+        </div>
+    </header>
+    <main class="wrap">
+        <section class="filtros"><input id="buscar" type="search"
+                placeholder="Buscar especie, variedad, nombre científico o inglés" aria-label="Buscar plantas"><select
+                id="categoria" aria-label="Categoría">
+                <option value="">Todas las categorías</option>
+            </select><select id="orden" aria-label="Ordenar">
+                <option value="nombre">Ordenar por nombre</option>
+                <option value="precio-asc">Menor precio</option>
+                <option value="precio-desc">Mayor precio</option>
+            </select></section>
+        <p id="total" aria-live="polite"></p>
+        <div id="tarjetas" class="tarjetas"></div>
+    </main>
+    <dialog id="detalle"><button id="cerrar" class="cerrar">Cerrar ×</button>
+        <div id="contenido-detalle"></div>
+    </dialog>
+    <script src="catalogo.js" defer></script>
+</body>
+
+</html>

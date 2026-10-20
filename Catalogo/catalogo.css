@@ -157,3 +157,30 @@ dialog::backdrop {
         flex-direction: column
     }
 }
+/* Fotografías de la página principal */
+.plant > .foto,
+.plant > .sin-foto {
+    width: 100%;
+    height: 260px;
+    box-sizing: border-box;
+}
+
+.plant > .foto {
+    display: block;
+    object-fit: contain;
+    object-position: center;
+    background-color: #eaf2e8;
+}
+
+.plant > .sin-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaf2e8;
+    color: #246b45;
+    text-align: center;
+}
+
+.plant > .sin-foto[hidden] {
+    display: none;
+}

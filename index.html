@@ -1,1 +1,215 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Catálogo botánico de Árboles Exóticos Occidente"><title>Árboles Exóticos Occidente</title><link rel="stylesheet" href="styles.css"></head><body><header><div class="nav"><a class="brand" href="#">🌿 Árboles Exóticos Occidente</a><nav><a href="#catalogo" data-es="Catálogo" data-en="Catalog">Catálogo</a><a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a><button id="lang" aria-label="Cambiar idioma">EN</button></nav></div></header><section class="hero"><div class="wrap"><span class="eyebrow">ÁRBOLES EXÓTICOS OCCIDENTE</span><h1 id="hero-title">Descubrí la naturaleza en cada fruto</h1><p id="hero-desc">Explorá nuestro catálogo de árboles frutales y especies exóticas. Conocé sus nombres, características y fotografías.</p><a href="#catalogo" class="primary" id="explore">Explorar catálogo →</a></div></section><main class="wrap"><section id="catalogo"><div class="sectionhead"><div><span class="eyebrow" id="sectiontag">NUESTRO VIVERO</span><h2 id="catalog-title">Catálogo de plantas</h2><p id="intro">Fotografías del catálogo proporcionado por el vivero. Disponibilidad y precios sujetos a confirmación.</p></div><strong id="count"></strong></div><div class="filters"><input id="search" type="search" placeholder="Buscar por nombre o nombre científico..." aria-label="Buscar plantas"><select id="category"><option value="all">Todas las categorías</option><option value="Exóticos">Exóticos</option></select></div><div id="grid" class="grid"></div><p id="empty" hidden>No se encontraron plantas.</p></section><section class="about" id="contacto"><h2 id="contact-title">Consultas y pedidos</h2><p id="contact-text">Consultá disponibilidad, tamaño y precio de cada planta directamente con el vivero.</p><p id="contact-note">Para activar WhatsApp, configurá el número en app.js.</p></section></main><footer>© <span id="year"></span> Árboles Exóticos Occidente · <span id="footer-text">Catálogo informativo</span></footer><dialog id="detail"><button class="close" id="close" aria-label="Cerrar">×</button><div id="detail-content"></div></dialog><script src="plantas-data.js"></script><script src="app.js"></script></body></html>
+
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+          content="Árboles Exóticos Occidente. Vivero de árboles frutales y especies exóticas.">
+
+    <title>Árboles Exóticos Occidente</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <div class="nav">
+
+            <a class="brand" href="index.html">
+                🌿 Árboles Exóticos Occidente
+            </a>
+
+            <nav>
+                <a href="Catalogo/index.html"
+                   data-es="📖 Catálogo"
+                   data-en="📖 Catalog">
+                    📖 Catálogo
+                </a>
+
+                <a href="#contacto"
+                   data-es="Contacto"
+                   data-en="Contact">
+                    Contacto
+                </a>
+
+                <button id="lang"
+                        type="button"
+                        aria-label="Cambiar idioma">
+                    EN
+                </button>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- PRESENTACIÓN -->
+    <section class="hero">
+        <div class="wrap">
+
+            <span class="eyebrow">
+                ÁRBOLES EXÓTICOS OCCIDENTE
+            </span>
+
+            <h1 id="hero-title">
+                Descubrí la naturaleza en cada fruto
+            </h1>
+
+            <p id="hero-desc">
+                Explorá nuestra variedad de árboles frutales
+                y especies exóticas. Conocé sus características,
+                fotografías y precios.
+            </p>
+
+            <a href="Catalogo/index.html"
+               class="primary"
+               id="explore">
+                📖 Explorar catálogo →
+            </a>
+
+        </div>
+    </section>
+
+    <main class="wrap">
+
+        <!-- ACCESO AL CATÁLOGO -->
+        <section id="catalogo" class="catalogo-acceso">
+
+            <div class="catalogo-acceso-contenido">
+
+                <div class="catalogo-icono">
+                    🌳
+                </div>
+
+                <span class="eyebrow" id="sectiontag">
+                    NUESTRO VIVERO
+                </span>
+
+                <h2 id="catalog-title">
+                    Catálogo de plantas
+                </h2>
+
+                <p id="intro">
+                    Descubrí nuestras variedades de aguacates,
+                    cítricos, mangos, árboles frutales y especies
+                    exóticas. Consultá fotografías, características
+                    y precios.
+                </p>
+
+                <a href="Catalogo/index.html"
+                   class="boton-catalogo"
+                   id="catalog-link">
+                    📖 Ver catálogo de plantas →
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="about" id="contacto">
+
+            <h2 id="contact-title">
+                Consultas y pedidos
+            </h2>
+
+            <p id="contact-text">
+                Consultá disponibilidad, tamaño y precio
+                de cada planta directamente con el vivero.
+            </p>
+
+            <p id="contact-note">
+                Para activar WhatsApp, configurá
+                el número del vivero.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        © <span id="year"></span>
+        Árboles Exóticos Occidente ·
+        <span id="footer-text">
+            Catálogo informativo
+        </span>
+    </footer>
+
+    <!-- IDIOMA Y AÑO -->
+    <script>
+        let idioma = "es";
+
+        const traducciones = {
+            es: {
+                hero: "Descubrí la naturaleza en cada fruto",
+                descripcion: "Explorá nuestra variedad de árboles frutales y especies exóticas. Conocé sus características, fotografías y precios.",
+                explorar: "📖 Explorar catálogo →",
+                etiqueta: "NUESTRO VIVERO",
+                catalogo: "Catálogo de plantas",
+                intro: "Descubrí nuestras variedades de aguacates, cítricos, mangos, árboles frutales y especies exóticas. Consultá fotografías, características y precios.",
+                boton: "📖 Ver catálogo de plantas →",
+                contacto: "Consultas y pedidos",
+                contactoTexto: "Consultá disponibilidad, tamaño y precio de cada planta directamente con el vivero.",
+                nota: "Para activar WhatsApp, configurá el número del vivero.",
+                footer: "Catálogo informativo"
+            },
+
+            en: {
+                hero: "Discover nature in every fruit",
+                descripcion: "Explore our variety of fruit trees and exotic species. Discover their characteristics, photographs and prices.",
+                explorar: "📖 Explore catalog →",
+                etiqueta: "OUR NURSERY",
+                catalogo: "Plant catalog",
+                intro: "Discover our varieties of avocados, citrus fruits, mangoes, fruit trees and exotic species. Explore photographs, characteristics and prices.",
+                boton: "📖 View plant catalog →",
+                contacto: "Inquiries and orders",
+                contactoTexto: "Ask the nursery directly about plant availability, size and price.",
+                nota: "To enable WhatsApp, configure the nursery phone number.",
+                footer: "Informational catalog"
+            }
+        };
+
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+
+        document.getElementById("lang").addEventListener(
+            "click",
+            function () {
+
+                idioma = idioma === "es" ? "en" : "es";
+
+                const t = traducciones[idioma];
+
+                document.documentElement.lang = idioma;
+
+                document.getElementById("hero-title").textContent = t.hero;
+                document.getElementById("hero-desc").textContent = t.descripcion;
+                document.getElementById("explore").textContent = t.explorar;
+                document.getElementById("sectiontag").textContent = t.etiqueta;
+                document.getElementById("catalog-title").textContent = t.catalogo;
+                document.getElementById("intro").textContent = t.intro;
+                document.getElementById("catalog-link").textContent = t.boton;
+                document.getElementById("contact-title").textContent = t.contacto;
+                document.getElementById("contact-text").textContent = t.contactoTexto;
+                document.getElementById("contact-note").textContent = t.nota;
+                document.getElementById("footer-text").textContent = t.footer;
+
+                document.querySelectorAll("[data-es][data-en]").forEach(
+                    elemento => {
+                        elemento.textContent =
+                            elemento.getAttribute("data-" + idioma);
+                    }
+                );
+
+                this.textContent = idioma === "es" ? "EN" : "ES";
+            }
+        );
+    </script>
+
+</body>
+</html>

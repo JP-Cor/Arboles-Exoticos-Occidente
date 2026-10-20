@@ -11,7 +11,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/aguacate catalin.jpg"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/aguacate catalin2.jpg"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Chokette.webp"
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Chokette.webp"
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Ettinger.jpg"
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Ettinger.jpg"
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Kahalú.jpg"
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Kahalú.jpg"
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Puerto Rico.jpg"
   },
   {
     "id": 10,
@@ -137,7 +137,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Puerto Rico.jpg"
   },
   {
     "id": 11,
@@ -151,7 +151,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Simpson.jpg"
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Simpson.jpg"
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Simón.jpg"
   },
   {
     "id": 14,
@@ -193,7 +193,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Simón.jpg"
   },
   {
     "id": 15,
@@ -207,7 +207,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Vulcano.jpg"
   },
   {
     "id": 16,
@@ -221,7 +221,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "aguacates/Vulcano.jpg"
   },
   {
     "id": 17,
@@ -375,7 +375,7 @@
     "cientifico": "Annona muricata",
     "ingles": "Soursop",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "guanabana acida.jpg"
   },
   {
     "id": 28,
@@ -445,7 +445,7 @@
     "cientifico": "Eriobotrya japonica",
     "ingles": "Loquat",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "nispero japones.jpg"
   },
   {
     "id": 33,
@@ -599,7 +599,7 @@
     "cientifico": "Citrus × aurantiifolia",
     "ingles": "Key lime",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citrus-aurantiifolia.jpg"
+    "foto": ""
   },
   {
     "id": 44,
@@ -1607,7 +1607,7 @@
     "cientifico": "Pouteria caimito",
     "ingles": "Abiu",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "exoticos/abiu.jpg"
   },
   {
     "id": 116,
@@ -1621,7 +1621,7 @@
     "cientifico": "Malpighia emarginata",
     "ingles": "Barbados cherry",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "acerola roja.jpg"
   },
   {
     "id": 117,
@@ -1663,7 +1663,7 @@
     "cientifico": "Dimocarpus didyma",
     "ingles": "Alupag",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "alupac pequeño.jpg"
   },
   {
     "id": 120,
@@ -1705,7 +1705,7 @@
     "cientifico": "Euterpe oleracea",
     "ingles": "Açaí palm",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "acai very.jpg"
   },
   {
     "id": 123,
@@ -1845,7 +1845,7 @@
     "cientifico": "Cinnamomum verum",
     "ingles": "True cinnamon",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "canela.jpg"
   },
   {
     "id": 133,
@@ -1915,7 +1915,7 @@
     "cientifico": "Por verificar",
     "ingles": "To be confirmed",
     "validacion": "Pendiente de validar",
-    "foto": ""
+    "foto": "charichuelo.jpg"
   },
   {
     "id": 138,
@@ -1943,7 +1943,7 @@
     "cientifico": "Syzygium aromaticum",
     "ingles": "Clove",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "clavo de olor.jpg"
   },
   {
     "id": 140,
@@ -2097,7 +2097,7 @@
     "cientifico": "Chrysobalanus icaco",
     "ingles": "Cocoplum",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "icaco morado.jpg"
   },
   {
     "id": 151,
@@ -2111,7 +2111,7 @@
     "cientifico": "Plinia cauliflora",
     "ingles": "Jabuticaba",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "jaboticaba.jpg"
   },
   {
     "id": 152,
@@ -2125,7 +2125,7 @@
     "cientifico": "Por verificar",
     "ingles": "To be confirmed",
     "validacion": "Pendiente de validar",
-    "foto": ""
+    "foto": "jaboticaba azul.jpg"
   },
   {
     "id": 153,
@@ -2237,7 +2237,7 @@
     "cientifico": "Stelechocarpus burahol",
     "ingles": "Kepel fruit",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "kepel.jpg"
   },
   {
     "id": 161,
@@ -2307,7 +2307,7 @@
     "cientifico": "Garcinia intermedia",
     "ingles": "Lemon drop mangosteen",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "lemon drop.jpg"
   },
   {
     "id": 166,
@@ -2405,7 +2405,7 @@
     "cientifico": "Garcinia madruno",
     "ingles": "Madroño",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "madroño.jpg"
   },
   {
     "id": 173,
@@ -2419,7 +2419,7 @@
     "cientifico": "Spondias dulcis",
     "ingles": "Ambarella",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "mango ciruela.jpg"
   },
   {
     "id": 174,
@@ -2503,7 +2503,7 @@
     "cientifico": "Artocarpus odoratissimus",
     "ingles": "Marang",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "marang malayo.jpg"
   },
   {
     "id": 180,
@@ -2587,7 +2587,7 @@
     "cientifico": "Aleurites moluccanus",
     "ingles": "Candlenut",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "nuez de la india.jpg"
   },
   {
     "id": 186,
@@ -2671,7 +2671,7 @@
     "cientifico": "Piper nigrum",
     "ingles": "Black pepper",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "pimienta negra.jpg"
   },
   {
     "id": 192,
@@ -2699,7 +2699,7 @@
     "cientifico": "Nephelium ramboutan-ake",
     "ingles": "Pulasan",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "pulasan.jpg"
   },
   {
     "id": 194,
@@ -2811,7 +2811,7 @@
     "cientifico": "Tamarindus indica",
     "ingles": "Tamarind",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "tamarindo redondo.jpg"
   },
   {
     "id": 202,
@@ -2825,7 +2825,7 @@
     "cientifico": "Baccaurea macrocarpa",
     "ingles": "Tampoi",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "tampoi.jpg"
   },
   {
     "id": 203,
@@ -2839,7 +2839,7 @@
     "cientifico": "Artocarpus odoratissimus",
     "ingles": "Tarap",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "tarap.jpg"
   },
   {
     "id": 204,
@@ -3231,7 +3231,7 @@
     "cientifico": "Theobroma cacao",
     "ingles": "Cacao",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "cacao blanco.jpg"
   },
   {
     "id": 232,
@@ -3273,7 +3273,7 @@
     "cientifico": "Chrysophyllum cainito",
     "ingles": "Star apple",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "caimito.jpg"
   },
   {
     "id": 235,
@@ -3287,7 +3287,7 @@
     "cientifico": "Averrhoa carambola",
     "ingles": "Star fruit",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "carambola dulce.jpg"
   },
   {
     "id": 236,
@@ -3301,7 +3301,7 @@
     "cientifico": "Averrhoa carambola",
     "ingles": "Star fruit",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "carambola acida.jpg"
   },
   {
     "id": 237,
@@ -3385,7 +3385,7 @@
     "cientifico": "Annona muricata",
     "ingles": "Soursop",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "guanabana acida.jpg"
   },
   {
     "id": 243,
@@ -3469,7 +3469,7 @@
     "cientifico": "Por verificar",
     "ingles": "To be confirmed",
     "validacion": "Pendiente de validar",
-    "foto": ""
+    "foto": "mamon verde.jpg"
   },
   {
     "id": 249,
@@ -3497,7 +3497,7 @@
     "cientifico": "Syzygium aqueum",
     "ingles": "Water apple",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "manzana de agua criolla.jpg"
   },
   {
     "id": 251,

@@ -14,6 +14,7 @@ async function guardarFoto(id, file) { if (!file.type.startsWith('image/')) thro
 function nodo(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = String(text); return e }
 function moneda(n) { return Number.isFinite(Number(n)) && n !== null && n !== '' ? new Intl.NumberFormat('es-CR', { style: 'currency', currency: 'CRC', maximumFractionDigits: 0 }).format(n) : 'Consultar' }
 function precioValido(p) { return p && Number.isFinite(Number(p.precio)) && Number(p.precio) > 0 }
+function cantidadValida(valor) { const cantidad = Number(valor); return Number.isSafeInteger(cantidad) && cantidad >= 1 ? cantidad : 1 }
 function guardarCarrito() { localStorage.setItem(CLAVE_CARRITO, JSON.stringify(carrito.map(i => ({ id: i.id, cantidad: i.cantidad })))) }
 function cargarCarrito() {
     try {
@@ -26,9 +27,9 @@ function cargarCarrito() {
 }
 function sincronizarCarrito() {
     const disponibles = new Map(productos.map(p => [p.id, p]));
-    carrito = carrito.filter(i => precioValido(disponibles.get(i.id))).map(i => ({
+    carrito = carrito.filter(i => precioValido(disponibles.get(i.id)) && Number.isSafeInteger(i.cantidad) && i.cantidad > 0).map(i => ({
         id: i.id,
-        cantidad: Math.min(i.cantidad, 99)
+        cantidad: i.cantidad
     }));
     guardarCarrito();
     actualizarContador();
@@ -41,14 +42,15 @@ function totalCarrito() {
         return total + (precioValido(p) ? Number(p.precio) * i.cantidad : 0);
     }, 0);
 }
-function agregarAlCarrito(p) {
+function agregarAlCarrito(p, cantidad) {
     if (!precioValido(p)) {
         alert('Este producto no tiene un precio válido y no se puede agregar al carrito.');
         return;
     }
+    cantidad = cantidadValida(cantidad);
     const existente = productoEnCarrito(p.id);
-    if (existente) existente.cantidad = Math.min(existente.cantidad + 1, 99);
-    else carrito.push({ id: p.id, cantidad: 1 });
+    if (existente) existente.cantidad += cantidad;
+    else carrito.push({ id: p.id, cantidad });
     guardarCarrito();
     actualizarContador();
     mostrarCarrito();
@@ -58,7 +60,7 @@ function cambiarCantidad(id, delta) {
     if (!item) return;
     item.cantidad += delta;
     if (item.cantidad <= 0) carrito = carrito.filter(i => i.id !== id);
-    else item.cantidad = Math.min(item.cantidad, 99);
+    else item.cantidad = cantidadValida(item.cantidad);
     guardarCarrito();
     actualizarContador();
     mostrarCarrito();
@@ -208,7 +210,75 @@ async function imagen(p) {
 }
 function linea(contenedor, etiqueta, valor) { if (!valor) return; const p = nodo('p'); const b = nodo('strong', null, etiqueta + ': '); p.append(b, document.createTextNode(String(valor))); contenedor.append(p) }
 function detalle(p) { const c = $('contenido-detalle'); c.replaceChildren(); c.append(nodo('h2', null, p.especie)); linea(c, 'Categoría', p.categoria); linea(c, 'Nombre científico', p.cientifico); linea(c, 'Nombre en inglés', p.ingles); linea(c, 'Precio', moneda(p.precio)); linea(c, 'Tamaño', p.tamano); linea(c, 'Propagación / clima', p.propagacion); linea(c, 'Observaciones', p.observaciones); linea(c, 'Disponibilidad', p.disponibilidad || 'Consultar'); linea(c, 'Validación taxonómica', p.validacion); $('detalle').showModal() }
-async function tarjeta(p) { const card = nodo('article', 'tarjeta'); card.append(await imagen(p)); const d = nodo('div', 'datos'); d.append(nodo('span', 'muted', p.categoria), nodo('h2', null, p.especie), nodo('div', 'muted', p.cientifico || 'Nombre científico pendiente'), nodo('div', 'muted', p.ingles || 'Nombre inglés pendiente'), nodo('p', 'precio', moneda(p.precio)), nodo('p', 'muted', p.tamano || 'Tamaño por consultar')); const bs = nodo('div', 'botones'); const btn = nodo('button', null, 'Ver detalles'); btn.onclick = () => detalle(p); bs.append(btn); const agregar = nodo('button', 'agregar-carrito', precioValido(p) ? '🛒 Agregar al carrito' : 'Sin precio'); agregar.type = 'button'; agregar.disabled = !precioValido(p); agregar.onclick = () => agregarAlCarrito(p); bs.append(agregar); const wa = enlaceWA(p); if (wa) { const a = nodo('a', null, 'WhatsApp'); a.href = wa; a.target = '_blank'; a.rel = 'noopener noreferrer'; bs.append(a) } d.append(bs); const label = nodo('label', 'muted', 'Agregar/cambiar foto (solo este navegador)'); const file = nodo('input', 'foto-input'); file.type = 'file'; file.accept = 'image/*'; file.setAttribute('aria-label', 'Foto de ' + p.especie); file.onchange = async () => { try { if (!file.files[0]) return; await guardarFoto(p.id, file.files[0]); const nueva = await imagen(p); card.firstChild.replaceWith(nueva) } catch (e) { alert(e.message) } }; label.append(file); d.append(label); card.append(d); return card }
+async function tarjeta(p) {
+    const card = nodo('article', 'tarjeta');
+    card.append(await imagen(p));
+    const d = nodo('div', 'datos');
+    d.append(nodo('span', 'muted', p.categoria), nodo('h2', null, p.especie), nodo('div', 'muted', p.cientifico || 'Nombre científico pendiente'), nodo('div', 'muted', p.ingles || 'Nombre inglés pendiente'), nodo('p', 'precio', moneda(p.precio)), nodo('p', 'muted', p.tamano || 'Tamaño por consultar'));
+
+    const tienePrecio = precioValido(p);
+    const selector = nodo('div', 'selector-cantidad');
+    const menos = nodo('button', null, '−');
+    menos.type = 'button';
+    menos.setAttribute('aria-label', `Disminuir cantidad de ${p.especie}`);
+    const cantidad = nodo('input');
+    cantidad.type = 'number';
+    cantidad.min = '1';
+    cantidad.step = '1';
+    cantidad.value = '1';
+    cantidad.inputMode = 'numeric';
+    cantidad.setAttribute('aria-label', `Cantidad de ${p.especie}`);
+    const mas = nodo('button', null, '+');
+    mas.type = 'button';
+    mas.setAttribute('aria-label', `Aumentar cantidad de ${p.especie}`);
+    menos.disabled = !tienePrecio;
+    cantidad.disabled = !tienePrecio;
+    mas.disabled = !tienePrecio;
+    const subtotal = nodo('p', 'subtotal-tarjeta');
+    const actualizarSelector = () => {
+        cantidad.value = String(cantidadValida(cantidad.value));
+        subtotal.textContent = tienePrecio ? `Subtotal: ${moneda(Number(p.precio) * Number(cantidad.value))}` : 'Consultar precio';
+        agregar.textContent = tienePrecio ? `🛒 Agregar ${cantidad.value} al carrito` : 'Consultar precio';
+    };
+    menos.onclick = () => { cantidad.value = String(Math.max(1, cantidadValida(cantidad.value) - 1)); actualizarSelector() };
+    mas.onclick = () => { cantidad.value = String(cantidadValida(cantidad.value) + 1); actualizarSelector() };
+    cantidad.addEventListener('input', actualizarSelector);
+    cantidad.addEventListener('blur', actualizarSelector);
+    selector.append(menos, cantidad, mas);
+    d.append(selector, subtotal);
+
+    const bs = nodo('div', 'botones');
+    const btn = nodo('button', null, 'Ver detalles');
+    btn.onclick = () => detalle(p);
+    bs.append(btn);
+    const agregar = nodo('button', 'agregar-carrito', tienePrecio ? '🛒 Agregar 1 al carrito' : 'Consultar precio');
+    agregar.type = 'button';
+    agregar.disabled = !tienePrecio;
+    agregar.onclick = () => {
+        const unidades = cantidadValida(cantidad.value);
+        agregarAlCarrito(p, unidades);
+        cantidad.value = '1';
+        actualizarSelector();
+        const confirmacion = nodo('span', 'confirmacion-carrito', `${unidades} agregado${unidades === 1 ? '' : 's'} al carrito`);
+        bs.append(confirmacion);
+        window.setTimeout(() => confirmacion.remove(), 2200);
+    };
+    bs.append(agregar);
+    const wa = enlaceWA(p);
+    if (wa) { const a = nodo('a', null, 'WhatsApp'); a.href = wa; a.target = '_blank'; a.rel = 'noopener noreferrer'; bs.append(a) }
+    d.append(bs);
+    const label = nodo('label', 'muted', 'Agregar/cambiar foto (solo este navegador)');
+    const file = nodo('input', 'foto-input');
+    file.type = 'file';
+    file.accept = 'image/*';
+    file.setAttribute('aria-label', 'Foto de ' + p.especie);
+    file.onchange = async () => { try { if (!file.files[0]) return; await guardarFoto(p.id, file.files[0]); const nueva = await imagen(p); card.firstChild.replaceWith(nueva) } catch (e) { alert(e.message) } };
+    label.append(file);
+    d.append(label);
+    card.append(d);
+    actualizarSelector();
+    return card;
+}
 let renderVersion = 0;
 async function pintar() { const v = ++renderVersion; const q = $('buscar').value.toLocaleLowerCase('es').trim(), cat = $('categoria').value, ord = $('orden').value; const filtered = productos.filter(p => (!cat || p.categoria === cat) && [p.especie, p.cientifico, p.ingles, p.categoria].join(' ').toLocaleLowerCase('es').includes(q)); filtered.sort((a, b) => ord === 'precio-asc' ? Number(a.precio || 0) - Number(b.precio || 0) : ord === 'precio-desc' ? Number(b.precio || 0) - Number(a.precio || 0) : a.especie.localeCompare(b.especie, 'es')); $('total').textContent = `${filtered.length} presentaciones encontradas`; const cont = document.createDocumentFragment(); for (const p of filtered) { if (v !== renderVersion) return; cont.append(await tarjeta(p)) } if (v === renderVersion) $('tarjetas').replaceChildren(cont) }
 async function iniciar() {

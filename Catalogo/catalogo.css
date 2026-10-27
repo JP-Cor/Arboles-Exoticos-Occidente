@@ -128,6 +128,49 @@ button {
     color: #19683e
 }
 
+.selector-cantidad {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 4px
+}
+
+.selector-cantidad button {
+    width: 38px;
+    padding: 7px 0;
+    background: #e7f4e7;
+    color: #174a35;
+    cursor: pointer;
+    font-weight: 700
+}
+
+.selector-cantidad input {
+    width: 70px;
+    padding: 7px;
+    text-align: center
+}
+
+.selector-cantidad button:disabled,
+.selector-cantidad input:disabled {
+    cursor: not-allowed;
+    opacity: .55
+}
+
+.subtotal-tarjeta {
+    min-height: 22px;
+    margin: 4px 0 12px;
+    color: #19683e;
+    font-size: 15px;
+    font-weight: 650
+}
+
+.confirmacion-carrito {
+    align-self: center;
+    color: #19683e;
+    font-size: 12px;
+    font-weight: 650
+}
+
 .botones {
     display: flex;
     gap: 8px;
@@ -290,6 +333,11 @@ form textarea {
 
     .carrito-acceso {
         width: 100%
+    }
+
+    .selector-cantidad input {
+        flex: 1;
+        min-width: 0
     }
 
     .item-carrito {

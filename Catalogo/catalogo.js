@@ -17,6 +17,7 @@ function precioValido(p) { return p && Number.isFinite(Number(p.precio)) && Numb
 function cantidadValida(valor) { const cantidad = Number(valor); return Number.isSafeInteger(cantidad) && cantidad >= 1 ? cantidad : 1 }
 function guardarCarrito() { localStorage.setItem(CLAVE_CARRITO, JSON.stringify(carrito.map(i => ({ id: i.id, cantidad: i.cantidad })))) }
 function cargarCarrito() {
+    
     try {
         const guardado = JSON.parse(localStorage.getItem(CLAVE_CARRITO) || '[]');
         carrito = Array.isArray(guardado) ? guardado.filter(i => Number.isInteger(i.id) && Number.isInteger(i.cantidad) && i.cantidad > 0) : [];

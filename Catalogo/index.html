@@ -12,7 +12,11 @@
     <header>
         <div class="wrap"><a href="../index.html">← Inicio</a>
             <h1>Árboles Exóticos Occidente</h1>
-            <p>Catálogo de especies y variedades</p>
+            <div class="encabezado-fila">
+                <p>Catálogo de especies y variedades</p>
+                <button id="abrir-carrito" class="carrito-acceso" type="button" aria-controls="carrito"
+                    aria-label="Abrir carrito de compras">🛒 Carrito (<span id="contador-carrito">0</span>)</button>
+            </div>
         </div>
     </header>
     <main class="wrap">
@@ -30,6 +34,48 @@
     </main>
     <dialog id="detalle"><button id="cerrar" class="cerrar">Cerrar ×</button>
         <div id="contenido-detalle"></div>
+    </dialog>
+    <dialog id="carrito" class="dialogo-carrito">
+        <button id="cerrar-carrito" class="cerrar" type="button">Cerrar ×</button>
+        <h2>🛒 Mi carrito</h2>
+        <div id="contenido-carrito"></div>
+        <div class="carrito-acciones">
+            <button id="continuar-comprando" type="button">Continuar comprando</button>
+            <button id="realizar-pedido" class="boton-principal" type="button" disabled>Realizar pedido</button>
+        </div>
+    </dialog>
+    <dialog id="datos-pedido">
+        <button id="cerrar-datos" class="cerrar" type="button">Cerrar ×</button>
+        <h2>Datos del cliente</h2>
+        <form id="formulario-pedido">
+            <label>Nombre completo
+                <input id="nombre-cliente" name="nombre" required minlength="5" autocomplete="name">
+            </label>
+            <label>Teléfono
+                <input id="telefono-cliente" name="telefono" required inputmode="tel" autocomplete="tel"
+                    placeholder="88888888 o +506 88888888">
+            </label>
+            <label>Dirección completa
+                <textarea id="direccion-cliente" name="direccion" required minlength="10"
+                    autocomplete="street-address"></textarea>
+            </label>
+            <label>Observaciones (opcional)
+                <textarea id="observaciones-cliente" name="observaciones" maxlength="500"></textarea>
+            </label>
+            <p id="error-formulario" class="mensaje-error" role="alert"></p>
+            <button class="boton-principal" type="submit">Revisar pedido</button>
+        </form>
+    </dialog>
+    <dialog id="revision-pedido">
+        <button id="cerrar-revision" class="cerrar" type="button">Cerrar ×</button>
+        <h2>Revisión del pedido</h2>
+        <div id="contenido-revision"></div>
+        <p class="aviso-pedido">El monto mostrado corresponde al valor de los productos. La disponibilidad y el costo
+            del transporte serán confirmados por WhatsApp.</p>
+        <div class="carrito-acciones">
+            <button id="modificar-pedido" type="button">Modificar pedido</button>
+            <button id="enviar-whatsapp" class="boton-principal" type="button">Enviar por WhatsApp</button>
+        </div>
     </dialog>
     <script src="catalogo.js" defer></script>
 </body>

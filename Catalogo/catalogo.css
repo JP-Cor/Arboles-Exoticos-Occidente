@@ -23,6 +23,26 @@ header h1 {
     margin: 8px 0
 }
 
+.encabezado-fila {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px
+}
+
+.encabezado-fila p {
+    margin: 0
+}
+
+.carrito-acceso {
+    background: #e7f4e7;
+    color: #174a35;
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+    white-space: nowrap
+}
+
 .wrap {
     max-width: 1200px;
     margin: auto;
@@ -126,6 +146,17 @@ button {
     font-size: 14px
 }
 
+.botones .agregar-carrito,
+.boton-principal {
+    background: #174a35
+}
+
+.botones button:disabled,
+.boton-principal:disabled {
+    cursor: not-allowed;
+    opacity: .55
+}
+
 .botones a {
     background: #18875b
 }
@@ -152,9 +183,127 @@ dialog::backdrop {
     cursor: pointer
 }
 
+.dialogo-carrito {
+    width: min(720px, 95vw)
+}
+
+.item-carrito {
+    display: grid;
+    grid-template-columns: 76px 1fr auto;
+    gap: 14px;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #e0e9df
+}
+
+.miniatura-carrito {
+    width: 76px;
+    height: 76px;
+    object-fit: contain;
+    background: #eaf2e8;
+    border-radius: 8px
+}
+
+.item-carrito h3,
+.item-carrito p {
+    margin: 3px 0
+}
+
+.control-cantidad {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px
+}
+
+.control-cantidad button {
+    padding: 5px 10px;
+    cursor: pointer
+}
+
+.eliminar-item {
+    color: #8a2c2c;
+    cursor: pointer;
+    padding: 5px
+}
+
+.resumen-carrito {
+    text-align: right;
+    padding: 16px 0;
+    font-size: 17px
+}
+
+.total-carrito {
+    color: #19683e;
+    font-size: 24px;
+    font-weight: 750
+}
+
+.carrito-acciones {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-wrap: wrap
+}
+
+form label {
+    display: grid;
+    gap: 6px;
+    margin: 14px 0;
+    font-weight: 650
+}
+
+form textarea {
+    min-height: 80px;
+    resize: vertical
+}
+
+.mensaje-error {
+    color: #a52c2c;
+    min-height: 20px
+}
+
+.aviso-pedido {
+    padding: 12px;
+    background: #f0f6ed;
+    border-radius: 8px;
+    font-size: 14px
+}
+
+.revision-seccion {
+    margin: 16px 0
+}
+
+.revision-seccion p {
+    margin: 7px 0
+}
+
 @media(max-width:600px) {
     .filtros {
         flex-direction: column
+    }
+
+    .encabezado-fila {
+        align-items: stretch;
+        flex-direction: column
+    }
+
+    .carrito-acceso {
+        width: 100%
+    }
+
+    .item-carrito {
+        grid-template-columns: 58px 1fr
+    }
+
+    .miniatura-carrito {
+        width: 58px;
+        height: 58px
+    }
+
+    .item-carrito > .eliminar-item {
+        grid-column: 2;
+        justify-self: start
     }
 }
 /* Fotografías de la página principal */

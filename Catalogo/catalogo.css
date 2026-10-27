@@ -171,6 +171,66 @@ button {
     font-weight: 650
 }
 
+.notificaciones-carrito {
+    position: fixed;
+    z-index: 20;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: min(390px, calc(100vw - 40px));
+    pointer-events: none
+}
+
+.notificacion-carrito {
+    position: relative;
+    display: grid;
+    gap: 5px;
+    padding: 16px 38px 16px 16px;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #19683e;
+    box-shadow: 0 8px 24px #0003;
+    color: white;
+    pointer-events: auto;
+    animation: entrada-notificacion .2s ease-out
+}
+
+.notificacion-carrito.saliendo {
+    animation: salida-notificacion .18s ease-in forwards
+}
+
+.cerrar-notificacion {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    padding: 2px 8px;
+    border: 0;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 1
+}
+
+@keyframes entrada-notificacion {
+    from { opacity: 0; transform: translateX(20px) }
+    to { opacity: 1; transform: translateX(0) }
+}
+
+@keyframes salida-notificacion {
+    from { opacity: 1; transform: translateX(0) }
+    to { opacity: 0; transform: translateX(20px) }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .notificacion-carrito,
+    .notificacion-carrito.saliendo {
+        animation: none
+    }
+}
+
 .botones {
     display: flex;
     gap: 8px;
@@ -333,6 +393,12 @@ form textarea {
 
     .carrito-acceso {
         width: 100%
+    }
+
+    .notificaciones-carrito {
+        top: 12px;
+        right: 12px;
+        width: calc(100vw - 24px)
     }
 
     .selector-cantidad input {

@@ -45,8 +45,7 @@ function totalCarrito() {
 }
 function agregarAlCarrito(p, cantidad) {
     if (!precioValido(p)) {
-        alert('Este producto no tiene un precio válido y no se puede agregar al carrito.');
-        return;
+        return false;
     }
     cantidad = cantidadValida(cantidad);
     const existente = productoEnCarrito(p.id);
@@ -55,6 +54,29 @@ function agregarAlCarrito(p, cantidad) {
     guardarCarrito();
     actualizarContador();
     mostrarCarrito();
+    return true;
+}
+function mostrarNotificacionCarrito(p, cantidad) {
+    const contenedor = $('notificaciones-carrito');
+    const notificaciones = contenedor.querySelectorAll('.notificacion-carrito');
+    if (notificaciones.length >= 3) notificaciones[0].remove();
+    const toast = nodo('div', 'notificacion-carrito');
+    const cerrar = nodo('button', 'cerrar-notificacion', '×');
+    cerrar.type = 'button';
+    cerrar.setAttribute('aria-label', 'Cerrar notificación');
+    const titulo = nodo('strong', null, '✅ ¡Producto agregado al carrito!');
+    const producto = nodo('span', null, `🌳 Producto: ${p.especie}`);
+    const detalle = nodo('span', null, `📦 Cantidad agregada: ${cantidad} ${cantidad === 1 ? 'unidad' : 'unidades'}`);
+    const subtotal = nodo('span', null, `💰 Subtotal agregado: ${moneda(Number(p.precio) * cantidad)}`);
+    toast.append(cerrar, titulo, producto, detalle, subtotal);
+    contenedor.append(toast);
+    const retirar = () => {
+        if (!toast.isConnected) return;
+        toast.classList.add('saliendo');
+        window.setTimeout(() => toast.remove(), 180);
+    };
+    cerrar.onclick = retirar;
+    window.setTimeout(retirar, 4000);
 }
 function cambiarCantidad(id, delta) {
     const item = productoEnCarrito(id);
@@ -257,7 +279,8 @@ async function tarjeta(p) {
     agregar.disabled = !tienePrecio;
     agregar.onclick = () => {
         const unidades = cantidadValida(cantidad.value);
-        agregarAlCarrito(p, unidades);
+        if (!agregarAlCarrito(p, unidades)) return;
+        mostrarNotificacionCarrito(p, unidades);
         cantidad.value = '1';
         actualizarSelector();
         const confirmacion = nodo('span', 'confirmacion-carrito', `${unidades} agregado${unidades === 1 ? '' : 's'} al carrito`);

@@ -38,3 +38,27 @@ Catálogo botánico bilingüe estático, listo para GitHub Pages.
 Reemplazar `app.js`, `styles.css`, `plantas.json` y `README.md` en la raíz del repositorio. Las imágenes y `index.html` permanecen iguales. En Settings > Pages, la publicación se actualizará después del commit.
 
 **Nota:** la información nutricional es general, no una indicación médica. Los nombres y fotos de variedades deben validarse con el vivero.
+
+## Optimización de fotografías
+
+Instalar las dependencias desde la raíz del proyecto:
+
+```text
+python -m pip install -r requirements.txt
+```
+
+Para convertir las fotografías JPG, JPEG y PNG de `imagenes/` a WebP:
+
+```text
+python scripts/optimizar_imagenes.py
+```
+
+El script conserva los originales, genera WebP con calidad 85 %, limita el lado mayor a 1200 píxeles y actualiza las rutas convertidas de `Inventario/inventario.json`. Las imágenes que no cambiaron se omiten.
+
+Para vigilar nuevas fotografías o cambios mientras se trabaja:
+
+```text
+python scripts/optimizar_imagenes.py --watch
+```
+
+La vigilancia se detiene con `Ctrl+C`. También se puede ejecutar desde la tarea de VS Code **Optimizar fotografías del vivero** o **Vigilar fotografías del vivero**.

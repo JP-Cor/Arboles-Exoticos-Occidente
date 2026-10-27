@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Optimizar fotografías del vivero",
+            "type": "process",
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "${workspaceFolder}\\scripts\\optimizar_imagenes.py"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Vigilar fotografías del vivero",
+            "type": "process",
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "${workspaceFolder}\\scripts\\optimizar_imagenes.py",
+                "--watch"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,9 +1,10 @@
 // Catálogo generado a partir de Inventario/inventario.json.
 // Las fotos subidas desde el navegador se guardan LOCALMENTE en IndexedDB de ese navegador.
-const RUTA = '../Inventario/inventario.json';
+const RUTA = '../Inventario/inventario.json?v=20261026-2';
 const WHATSAPP = window.VIVERO_WHATSAPP;
 const WHATSAPP_PEDIDOS = window.VIVERO_WHATSAPP;
 const CLAVE_CARRITO = 'vivero-carrito';
+const DIAGNOSTICO_FOTOS = new URLSearchParams(window.location.search).has('diagnosticoFotos');
 const $ = id => document.getElementById(id);
 let productos = [];
 let carrito = [];
@@ -185,6 +186,20 @@ function mensajeWhatsApp() {
     return lineas.join('\n');
 }
 function enlaceWA(p) { if (!WHATSAPP) return null; const msg = `Hola, consulto por ${p.especie} (${p.cientifico || 'sin nombre científico confirmado'}), presentación ${p.tamano || 'por confirmar'}, precio ${moneda(p.precio)}.`; return 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(msg) }
+function rutaFotoPermanente(foto) {
+    let ruta = String(foto || '').replace(/\\/g, '/').trim();
+    if (!ruta) return null;
+    try {
+        ruta = decodeURIComponent(ruta);
+    } catch (error) {
+        if (DIAGNOSTICO_FOTOS) console.warn('Ruta de fotografía con codificación inválida:', foto, error);
+    }
+    ruta = ruta.replace(/^\/+/, '');
+    if (ruta.toLowerCase().startsWith('imagenes/')) ruta = ruta.slice('imagenes/'.length);
+    if (!ruta || ruta.split('/').some(segmento => !segmento || segmento === '..')) return null;
+    const segmentos = ruta.split('/').map(encodeURIComponent);
+    return new URL(`../imagenes/${segmentos.join('/')}`, document.baseURI).href;
+}
 async function imagen(p) {
     // 1. Buscar fotografía guardada en este navegador
     const local = await fotoLocal(p.id);
@@ -195,6 +210,7 @@ async function imagen(p) {
 
         img.src = url;
         img.alt = p.especie;
+        img.dataset.fotoOrigen = 'indexeddb';
 
         img.onload = () => URL.revokeObjectURL(url);
 
@@ -205,17 +221,27 @@ async function imagen(p) {
     if (p.foto) {
         const img = nodo('img', 'foto');
 
-        const ruta = String(p.foto)
-            .replace(/\\/g, '/')
-            .replace(/^\/+/, '');
-
-        img.src = '../imagenes/' +
-            ruta.split('/').map(encodeURIComponent).join('/');
+        const url = rutaFotoPermanente(p.foto);
+        if (!url) {
+            if (DIAGNOSTICO_FOTOS) console.warn('Fotografía permanente sin ruta válida:', {
+                id: p.id, producto: p.especie, rutaInventario: p.foto
+            });
+            return nodo('div', 'sin-foto', '🌱 Fotografía pendiente');
+        }
+        img.src = url;
 
         img.alt = p.especie;
         img.loading = 'lazy';
+        img.dataset.fotoOrigen = 'permanente';
 
         img.onerror = () => {
+            if (DIAGNOSTICO_FOTOS) console.error('No se pudo cargar fotografía permanente:', {
+                id: p.id,
+                producto: p.especie,
+                rutaInventario: p.foto,
+                urlFinal: url,
+                tipo: 'error de carga HTTP o archivo no disponible'
+            });
             img.replaceWith(
                 nodo('div', 'sin-foto', '🌱 Fotografía pendiente')
             );

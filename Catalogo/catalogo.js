@@ -1,8 +1,8 @@
 // Catálogo generado a partir de Inventario/inventario.json.
 // Las fotos subidas desde el navegador se guardan LOCALMENTE en IndexedDB de ese navegador.
 const RUTA = '../Inventario/inventario.json';
-const WHATSAPP = ''; // Escribir número con código de país, por ejemplo 506XXXXXXXX.
-const WHATSAPP_PEDIDOS = '50685574977';
+const WHATSAPP = window.VIVERO_WHATSAPP;
+const WHATSAPP_PEDIDOS = window.VIVERO_WHATSAPP;
 const CLAVE_CARRITO = 'vivero-carrito';
 const $ = id => document.getElementById(id);
 let productos = [];

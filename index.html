@@ -31,7 +31,9 @@
                     📖 Catálogo
                 </a>
 
-                <a href="#contacto"
+                <a id="contact-link" href="https://wa.me/50685574977"
+                   target="_blank"
+                   rel="noopener noreferrer"
                    data-es="Contacto"
                    data-en="Contact">
                     Contacto
@@ -141,8 +143,19 @@
     </footer>
 
     <!-- IDIOMA Y AÑO -->
+    <script src="whatsapp-config.js"></script>
     <script>
         let idioma = "es";
+        const mensajeContacto = {
+            es: "🌳 Hola, buenas. Me gustaría recibir información sobre los árboles disponibles en Árboles Exóticos Occidente.",
+            en: "🌳 Hello, I would like to receive information about the trees available at Árboles Exóticos Occidente."
+        };
+        const contacto = document.getElementById("contact-link");
+
+        contacto.addEventListener("click", function () {
+            const mensaje = encodeURIComponent(mensajeContacto[idioma]);
+            this.href = `https://wa.me/${window.VIVERO_WHATSAPP}?text=${mensaje}`;
+        });
 
         const traducciones = {
             es: {

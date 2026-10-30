@@ -488,6 +488,41 @@ footer {
     color: #6a7a6b
 }
 
+.photo-credits {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.photo-credits details {
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(31, 83, 56, 0.16);
+    border-radius: 12px;
+    padding: 0.9rem 1.1rem;
+}
+
+.photo-credits summary {
+    color: #1f5338;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.photo-credits p,
+.photo-credits li {
+    color: #496052;
+    font-size: 0.86rem;
+}
+
+.photo-credits ul {
+    columns: 2;
+    margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+    .photo-credits ul {
+        columns: 1;
+    }
+}
+
 dialog {
     border: 0;
     border-radius: 20px;

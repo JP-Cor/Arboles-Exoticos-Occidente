@@ -212,6 +212,16 @@
 
     </main>
 
+    <section class="photo-credits wrap" aria-labelledby="photo-credits-title">
+        <details>
+            <summary id="photo-credits-title">Créditos fotográficos</summary>
+            <p id="photo-credits-note">Fotografías reutilizadas con sus licencias correspondientes. Se aplicó recorte proporcional, lienzo blanco y conversión a WebP.</p>
+            <ul id="photo-credits-list">
+                <li>Cargando créditos fotográficos...</li>
+            </ul>
+        </details>
+    </section>
+
     <!-- PIE DE PÁGINA -->
     <footer>
         © <span id="year"></span>
@@ -274,7 +284,9 @@
                 contacto: "Consultas y pedidos",
                 contactoTexto: "Consultá disponibilidad, tamaño y precio de cada planta directamente con el vivero.",
                 nota: "Para activar notificaciones, clic  en el menú principal Contacto.",
-                footer: "Catálogo informativo "
+                footer: "Catálogo informativo ",
+                photoCredits: "Créditos fotográficos",
+                photoCreditsNote: "Fotografías reutilizadas con sus licencias correspondientes. Se aplicó recorte proporcional, lienzo blanco y conversión a WebP."
             },
 
             en: {
@@ -315,7 +327,9 @@
                 contacto: "Inquiries and orders",
                 contactoTexto: "Ask the nursery directly about plant availability, size and price.",
                 nota: "To enable WhatsApp, configure the nursery phone number.",
-                footer: "Informational catalog"
+                footer: "Informational catalog",
+                photoCredits: "Photo credits",
+                photoCreditsNote: "Reused photographs are shown with their applicable licenses. Proportional cropping, a white canvas and WebP conversion were applied."
             }
         };
 
@@ -349,6 +363,8 @@
                 document.getElementById("contact-text").textContent = t.contactoTexto;
                 document.getElementById("contact-note").textContent = t.nota;
                 document.getElementById("footer-text").textContent = t.footer;
+                document.getElementById("photo-credits-title").textContent = t.photoCredits;
+                document.getElementById("photo-credits-note").textContent = t.photoCreditsNote;
 
                 document.querySelectorAll("[data-es][data-en]").forEach(
                     elemento => {
@@ -356,6 +372,38 @@
                             elemento.getAttribute("data-" + idioma);
                     }
                 );
+
+                fetch("reportes/fuentes_fotograficas.json")
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error("No se pudo cargar el registro de créditos fotográficos.");
+                        }
+                        return response.json();
+                    })
+                    .then(fuentes => {
+                        const lista = document.getElementById("photo-credits-list");
+                        lista.replaceChildren();
+                        fuentes.forEach(fuente => {
+                            const item = document.createElement("li");
+                            item.append(document.createTextNode(`${fuente.identificacion} — ${fuente.autor} · `));
+                            const fuenteEnlace = document.createElement("a");
+                            fuenteEnlace.href = fuente.fuente;
+                            fuenteEnlace.target = "_blank";
+                            fuenteEnlace.rel = "noopener noreferrer";
+                            fuenteEnlace.textContent = "fuente";
+                            item.append(fuenteEnlace, document.createTextNode(" · "));
+                            const licenciaEnlace = document.createElement("a");
+                            licenciaEnlace.href = fuente.licencia_url || fuente.fuente;
+                            licenciaEnlace.target = "_blank";
+                            licenciaEnlace.rel = "noopener noreferrer";
+                            licenciaEnlace.textContent = fuente.licencia;
+                            item.append(licenciaEnlace);
+                            lista.appendChild(item);
+                        });
+                    })
+                    .catch(error => {
+                        document.getElementById("photo-credits-list").textContent = error.message;
+                    });
 
                 this.textContent = idioma === "es" ? "EN" : "ES";
                 cargarMenuCategorias();

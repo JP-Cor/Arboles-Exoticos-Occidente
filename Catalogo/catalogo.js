@@ -6,6 +6,7 @@ const WHATSAPP = window.VIVERO_WHATSAPP;
 const WHATSAPP_PEDIDOS = window.VIVERO_WHATSAPP;
 const CLAVE_CARRITO = 'vivero-carrito';
 const DIAGNOSTICO_FOTOS = new URLSearchParams(window.location.search).has('diagnosticoFotos');
+const FOTO_GENERICA = '../imagenes/Generica/logo.webp';
 const $ = id => document.getElementById(id);
 let productos = [];
 let fichas = [];
@@ -276,6 +277,17 @@ function rutaFotoPermanente(foto) {
     const segmentos = ruta.split('/').map(encodeURIComponent);
     return new URL(`../imagenes/${segmentos.join('/')}`, document.baseURI).href;
 }
+function imagenGenerica(p) {
+    const img = nodo('img', 'foto');
+    img.src = FOTO_GENERICA;
+    img.alt = `${p.especie} - Árboles Exóticos Occidente`;
+    img.loading = 'lazy';
+    img.dataset.fotoOrigen = 'generica';
+    img.onerror = () => {
+        img.replaceWith(nodo('div', 'sin-foto', '🌱 Fotografía pendiente'));
+    };
+    return img;
+}
 async function imagen(p) {
     // El diagnóstico fuerza la comprobación de la fotografía permanente.
     const local = DIAGNOSTICO_FOTOS ? null : await fotoLocal(p.id);
@@ -289,6 +301,10 @@ async function imagen(p) {
         img.dataset.fotoOrigen = 'indexeddb';
 
         img.onload = () => URL.revokeObjectURL(url);
+        img.onerror = () => {
+            URL.revokeObjectURL(url);
+            img.replaceWith(imagenGenerica(p));
+        };
 
         return img;
     }
@@ -296,20 +312,17 @@ async function imagen(p) {
     // Buscar fotografía permanente del catálogo.
     if (p.foto) {
         const img = nodo('img', 'foto');
-
         const url = rutaFotoPermanente(p.foto);
         if (!url) {
             if (DIAGNOSTICO_FOTOS) console.warn('Fotografía permanente sin ruta válida:', {
                 id: p.id, producto: p.especie, rutaInventario: p.foto
             });
-            return nodo('div', 'sin-foto', '🌱 Fotografía pendiente');
+            return imagenGenerica(p);
         }
         img.src = url;
-
         img.alt = p.especie;
         img.loading = 'lazy';
         img.dataset.fotoOrigen = 'permanente';
-
         img.onerror = () => {
             if (DIAGNOSTICO_FOTOS) console.error('No se pudo cargar fotografía permanente:', {
                 id: p.id,
@@ -318,20 +331,12 @@ async function imagen(p) {
                 urlFinal: url,
                 tipo: 'error de carga HTTP o archivo no disponible'
             });
-            img.replaceWith(
-                nodo('div', 'sin-foto', '🌱 Fotografía pendiente')
-            );
+            img.replaceWith(imagenGenerica(p));
         };
-
         return img;
     }
 
-    // 3. Mostrar imagen pendiente
-    return nodo(
-        'div',
-        'sin-foto',
-        '🌱 Fotografía pendiente'
-    );
+    return imagenGenerica(p);
 }
 function tieneDato(valor) { return valor !== null && valor !== undefined && valor !== '' && (!Array.isArray(valor) || valor.length > 0) }
 function linea(contenedor, etiqueta, valor) { if (!tieneDato(valor)) return false; const p = nodo('p'); const b = nodo('strong', null, etiqueta + ': '); p.append(b, document.createTextNode(String(valor))); contenedor.append(p); return true }
@@ -345,6 +350,9 @@ function listaFicha(contenedor, etiqueta, valores) {
     valores.forEach(valor => ul.append(nodo('li', null, valor)));
     section.append(ul);
     contenedor.append(section);
+}
+function agregarSeccionSiTieneContenido(contenedor, section) {
+    if (section.children.length > 1) contenedor.append(section);
 }
 async function detalle(p) {
     const c = $('contenido-detalle');
@@ -379,14 +387,14 @@ async function detalle(p) {
         if (!linea(condiciones, idioma === 'es' ? 'Riego' : 'Watering', valorFicha(cultivo.riego))) pendiente = true;
         const suelo = tieneDato(cultivo.suelo) ? `${cultivo.suelo}${cultivo.drenaje ? ` (${cultivo.drenaje})` : ''}` : null;
         if (!linea(condiciones, idioma === 'es' ? 'Suelo y drenaje' : 'Soil and drainage', suelo)) pendiente = true;
-        c.append(condiciones);
+        agregarSeccionSiTieneContenido(c, condiciones);
         const caracteristicas = ficha.caracteristicas;
         const arbol = nodo('div', 'ficha-seccion');
         arbol.append(nodo('h3', null, t('characteristics')));
         if (!linea(arbol, idioma === 'es' ? 'Altura adulta' : 'Mature height', valorFicha(caracteristicas.altura_adulta))) pendiente = true;
         if (!linea(arbol, idioma === 'es' ? 'Producción' : 'Bearing time', valorFicha(caracteristicas.tiempo_produccion))) pendiente = true;
         if (!linea(arbol, idioma === 'es' ? 'Poda' : 'Pruning', valorFicha(caracteristicas.recomendaciones_poda))) pendiente = true;
-        c.append(arbol);
+        agregarSeccionSiTieneContenido(c, arbol);
         const beneficios = nodo('div', 'ficha-seccion');
         beneficios.append(nodo('h3', null, t('nutrition')));
         if (!linea(beneficios, idioma === 'es' ? 'Vitaminas' : 'Vitamins', ficha.beneficios.vitaminas?.join(', '))) pendiente = true;
@@ -394,7 +402,20 @@ async function detalle(p) {
         if (!linea(beneficios, idioma === 'es' ? 'Antioxidantes' : 'Antioxidants', ficha.beneficios.antioxidantes?.join(', '))) pendiente = true;
         if (!linea(beneficios, idioma === 'es' ? 'Características nutricionales' : 'Nutritional characteristics', valorFicha(ficha.beneficios.nutricion))) pendiente = true;
         if (!linea(beneficios, idioma === 'es' ? 'Usos gastronómicos' : 'Culinary uses', valorFicha(ficha.beneficios.usos_gastronomicos))) pendiente = true;
-        c.append(beneficios);
+        agregarSeccionSiTieneContenido(c, beneficios);
+        const especiales = ficha.datos_especiales || {};
+        const especialKeys = Object.keys(especiales).filter(key => key !== 'identificacion_alternativas' && tieneDato(especiales[key]));
+        if (especialKeys.length) {
+            const especial = nodo('div', 'ficha-seccion');
+            especial.append(nodo('h3', null, ficha.categoria === 'Maderables'
+                ? (idioma === 'es' ? 'Características forestales' : 'Forestry characteristics')
+                : (idioma === 'es' ? 'Importancia para la fauna' : 'Wildlife importance')));
+            especialKeys.forEach(key => {
+                const valor = Array.isArray(especiales[key]) ? especiales[key].join(', ') : especiales[key];
+                linea(especial, key.replaceAll('_', ' '), valor);
+            });
+            agregarSeccionSiTieneContenido(c, especial);
+        }
         if (pendiente || ficha.cultivo.estado_validacion) c.append(nodo('p', 'aviso-pendiente-ficha', t('pendingNotice')));
     }
     $('detalle').showModal();

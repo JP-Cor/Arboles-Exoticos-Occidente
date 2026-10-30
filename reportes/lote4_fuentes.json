@@ -1,0 +1,100 @@
+[
+  {
+    "archivo_origen": "naranja-agria.jpg",
+    "archivo_commons": "Citrus aurantium Bouquet de fleurs - Sour orange.jpg",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Citrus_aurantium_%27Bouquet_de_fleurs%27_-_Sour_orange.jpg",
+    "identificacion": "Citrus ? aurantium",
+    "inventario_ids": [
+      70,
+      71,
+      72
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85."
+  },
+  {
+    "archivo_origen": "naranja-navel.jpg",
+    "archivo_commons": "Navel Lane Late.jpg",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Navel_Lane_Late.jpg",
+    "identificacion": "Citrus sinensis, navel",
+    "inventario_ids": [
+      85,
+      86,
+      87
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85."
+  },
+  {
+    "archivo_origen": "naranja-washington.jpg",
+    "archivo_commons": "Parent Washington Navel Orange Tree.JPG",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Parent_Washington_Navel_Orange_Tree.JPG",
+    "identificacion": "Citrus sinensis cv. Washington Navel",
+    "inventario_ids": [
+      103,
+      104,
+      105
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85."
+  },
+  {
+    "archivo_origen": "naranja-ortanique.jpg",
+    "archivo_commons": "Ortanique fruit.jpg",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Ortanique_fruit.jpg",
+    "identificacion": "Ortanique (Citrus reticulata hybrid)",
+    "inventario_ids": [
+      91,
+      92,
+      93
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85."
+  },
+  {
+    "archivo_origen": "naranja-valencia.jpg",
+    "archivo_commons": "Starr-070730-7915-Citrus sinensis-Valencia variety.jpg",
+    "autor": "Forest and Kim Starr",
+    "licencia": "CC BY 3.0 US",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Starr-070730-7915-Citrus_sinensis-Valencia_variety-Foodland_Pukalani-Maui_(24797197851).jpg",
+    "identificacion": "Citrus sinensis cv. Valencia",
+    "inventario_ids": [
+      100,
+      101,
+      102
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85."
+  },
+  {
+    "archivo_origen": "naranja-sanguinea.jpg",
+    "archivo_commons": "Blood orange DSCF7480.jpg",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Blood_orange_(DSCF7480).jpg",
+    "identificacion": "Citrus sinensis, blood orange",
+    "inventario_ids": [
+      97,
+      98,
+      99
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85."
+  },
+  {
+    "archivo_origen": "toronja.jpg",
+    "archivo_commons": "Citrus paradisi Grapefruit pink.jpg",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY-SA 2.5",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Citrus_paradisi_(Grapefruit,_pink).jpg",
+    "identificacion": "Citrus ? paradisi",
+    "inventario_ids": [
+      109,
+      110,
+      111
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85."
+  }
+]

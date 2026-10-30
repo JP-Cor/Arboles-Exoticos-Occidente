@@ -235,7 +235,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "hass-avocado.webp"
   },
   {
     "id": 18,
@@ -249,7 +249,7 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "hass-avocado.webp"
   },
   {
     "id": 19,
@@ -263,7 +263,12 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "imagenes/referencias/opcion-20261029-231754-246356.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma la especie ni la variedad.",
+    "foto_referencia_origen": "Wikimedia Commons (referencia visual)",
+    "foto_referencia_candidate_id": "holls-f2cd9f5d30b6-78c1aa928963"
   },
   {
     "id": 20,
@@ -277,7 +282,12 @@
     "cientifico": "Persea americana",
     "ingles": "Avocado",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "imagenes/referencias/opcion-20261029-231754-246356.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma la especie ni la variedad.",
+    "foto_referencia_origen": "Wikimedia Commons (referencia visual)",
+    "foto_referencia_candidate_id": "holls-f2cd9f5d30b6-78c1aa928963"
   },
   {
     "id": 21,
@@ -347,7 +357,12 @@
     "cientifico": "Punica granatum",
     "ingles": "Pomegranate",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "imagenes/referencias/opcion-20261029-231843-133326.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma la especie ni la variedad.",
+    "foto_referencia_origen": "Wikimedia Commons (referencia visual)",
+    "foto_referencia_candidate_id": "granada-gigante-7af4d1a1cb83-8f7b87379fe6"
   },
   {
     "id": 26,
@@ -361,7 +376,7 @@
     "cientifico": "Passiflora ligularis",
     "ingles": "Sweet granadilla",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "granadilla.webp"
   },
   {
     "id": 27,
@@ -389,7 +404,7 @@
     "cientifico": "Syzygium jambos",
     "ingles": "Rose apple",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "manzana-rosa.webp"
   },
   {
     "id": 29,
@@ -403,7 +418,7 @@
     "cientifico": "Passiflora edulis",
     "ingles": "Passion fruit",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "maracuya.webp"
   },
   {
     "id": 30,
@@ -417,7 +432,7 @@
     "cientifico": "Anacardium occidentale",
     "ingles": "Cashew",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "maranon.webp"
   },
   {
     "id": 31,
@@ -459,7 +474,7 @@
     "cientifico": "Carica papaya",
     "ingles": "Papaya",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "papaya.webp"
   },
   {
     "id": 34,
@@ -473,7 +488,7 @@
     "cientifico": "Cocos nucifera",
     "ingles": "Coconut palm",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "coco.webp"
   },
   {
     "id": 35,
@@ -487,7 +502,7 @@
     "cientifico": "Cocos nucifera",
     "ingles": "Coconut palm",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "coco.webp"
   },
   {
     "id": 36,
@@ -501,7 +516,7 @@
     "cientifico": "Physalis peruviana",
     "ingles": "Cape gooseberry",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "uchuva.webp"
   },
   {
     "id": 37,
@@ -935,7 +950,12 @@
     "cientifico": "Citrus reticulata",
     "ingles": "Mandarin orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Mandarina King.webp"
+    "foto": "imagenes/referencias/opcion-20261029-231855-284289.webp",
+    "foto_anterior_referencia": "citricos/Mandarina King.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma la especie ni la variedad.",
+    "foto_referencia_origen": "Wikimedia Commons (referencia visual)",
+    "foto_referencia_candidate_id": "mandarina-king-511da7dcd6df-12315236a113"
   },
   {
     "id": 68,
@@ -949,7 +969,12 @@
     "cientifico": "Citrus reticulata",
     "ingles": "Mandarin orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Mandarina King.webp"
+    "foto": "imagenes/referencias/opcion-20261029-231855-284289.webp",
+    "foto_anterior_referencia": "citricos/Mandarina King.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma la especie ni la variedad.",
+    "foto_referencia_origen": "Wikimedia Commons (referencia visual)",
+    "foto_referencia_candidate_id": "mandarina-king-511da7dcd6df-12315236a113"
   },
   {
     "id": 69,
@@ -963,7 +988,12 @@
     "cientifico": "Citrus reticulata",
     "ingles": "Mandarin orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Mandarina King.webp"
+    "foto": "imagenes/referencias/opcion-20261029-231855-284289.webp",
+    "foto_anterior_referencia": "citricos/Mandarina King.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma la especie ni la variedad.",
+    "foto_referencia_origen": "Wikimedia Commons (referencia visual)",
+    "foto_referencia_candidate_id": "mandarina-king-511da7dcd6df-12315236a113"
   },
   {
     "id": 70,
@@ -977,7 +1007,7 @@
     "cientifico": "Citrus × aurantium",
     "ingles": "Bitter orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Agria.webp"
+    "foto": "naranja-agria.webp"
   },
   {
     "id": 71,
@@ -991,7 +1021,7 @@
     "cientifico": "Citrus × aurantium",
     "ingles": "Bitter orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Agria.webp"
+    "foto": "naranja-agria.webp"
   },
   {
     "id": 72,
@@ -1005,7 +1035,7 @@
     "cientifico": "Citrus × aurantium",
     "ingles": "Bitter orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Agria.webp"
+    "foto": "naranja-agria.webp"
   },
   {
     "id": 73,
@@ -1019,7 +1049,12 @@
     "cientifico": "Citrus × aurantium",
     "ingles": "Bitter orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Agria variegada.webp"
+    "foto": "imagenes/referencias/opcion-20261029-231904-434224.webp",
+    "foto_anterior_referencia": "citricos/Naranja Agria variegada.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma la especie ni la variedad.",
+    "foto_referencia_origen": "Wikimedia Commons (referencia visual)",
+    "foto_referencia_candidate_id": "naranja-agria-variegada-9ba8e8c8471f-5649297911dd"
   },
   {
     "id": 74,
@@ -1033,7 +1068,12 @@
     "cientifico": "Citrus × aurantium",
     "ingles": "Bitter orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Agria variegada.webp"
+    "foto": "imagenes/referencias/opcion-20261029-231904-434224.webp",
+    "foto_anterior_referencia": "citricos/Naranja Agria variegada.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma la especie ni la variedad.",
+    "foto_referencia_origen": "Wikimedia Commons (referencia visual)",
+    "foto_referencia_candidate_id": "naranja-agria-variegada-9ba8e8c8471f-5649297911dd"
   },
   {
     "id": 75,
@@ -1047,7 +1087,12 @@
     "cientifico": "Citrus × aurantium",
     "ingles": "Bitter orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Agria variegada.webp"
+    "foto": "imagenes/referencias/opcion-20261029-231904-434224.webp",
+    "foto_anterior_referencia": "citricos/Naranja Agria variegada.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma la especie ni la variedad.",
+    "foto_referencia_origen": "Wikimedia Commons (referencia visual)",
+    "foto_referencia_candidate_id": "naranja-agria-variegada-9ba8e8c8471f-5649297911dd"
   },
   {
     "id": 76,
@@ -1187,7 +1232,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Navel.webp"
+    "foto": "naranja-navel.webp"
   },
   {
     "id": 86,
@@ -1201,7 +1246,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Navel.webp"
+    "foto": "naranja-navel.webp"
   },
   {
     "id": 87,
@@ -1215,7 +1260,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Navel.webp"
+    "foto": "naranja-navel.webp"
   },
   {
     "id": 88,
@@ -1271,7 +1316,7 @@
     "cientifico": "Citrus reticulata hybrid",
     "ingles": "Ortanique tangor",
     "validacion": "Pendiente de validar",
-    "foto": "citricos/Naranja Ortanique.webp"
+    "foto": "naranja-ortanique.webp"
   },
   {
     "id": 92,
@@ -1285,7 +1330,7 @@
     "cientifico": "Citrus reticulata hybrid",
     "ingles": "Ortanique tangor",
     "validacion": "Pendiente de validar",
-    "foto": "citricos/Naranja Ortanique.webp"
+    "foto": "naranja-ortanique.webp"
   },
   {
     "id": 93,
@@ -1299,7 +1344,7 @@
     "cientifico": "Citrus reticulata hybrid",
     "ingles": "Ortanique tangor",
     "validacion": "Pendiente de validar",
-    "foto": "citricos/Naranja Ortanique.webp"
+    "foto": "naranja-ortanique.webp"
   },
   {
     "id": 94,
@@ -1355,7 +1400,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Sanguínea.webp"
+    "foto": "naranja-sanguinea.webp"
   },
   {
     "id": 98,
@@ -1369,7 +1414,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Sanguínea.webp"
+    "foto": "naranja-sanguinea.webp"
   },
   {
     "id": 99,
@@ -1383,7 +1428,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Sanguínea.webp"
+    "foto": "naranja-sanguinea.webp"
   },
   {
     "id": 100,
@@ -1397,7 +1442,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Valencia.webp"
+    "foto": "naranja-valencia.webp"
   },
   {
     "id": 101,
@@ -1411,7 +1456,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Valencia.webp"
+    "foto": "naranja-valencia.webp"
   },
   {
     "id": 102,
@@ -1425,7 +1470,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Valencia.webp"
+    "foto": "naranja-valencia.webp"
   },
   {
     "id": 103,
@@ -1439,7 +1484,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Washington.webp"
+    "foto": "naranja-washington.webp"
   },
   {
     "id": 104,
@@ -1453,7 +1498,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Washington.webp"
+    "foto": "naranja-washington.webp"
   },
   {
     "id": 105,
@@ -1467,7 +1512,7 @@
     "cientifico": "Citrus × sinensis",
     "ingles": "Sweet orange",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Naranja Washington.webp"
+    "foto": "naranja-washington.webp"
   },
   {
     "id": 106,
@@ -1523,7 +1568,7 @@
     "cientifico": "Citrus × paradisi",
     "ingles": "Grapefruit",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Toronja.webp"
+    "foto": "toronja.webp"
   },
   {
     "id": 110,
@@ -1537,7 +1582,7 @@
     "cientifico": "Citrus × paradisi",
     "ingles": "Grapefruit",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Toronja.webp"
+    "foto": "toronja.webp"
   },
   {
     "id": 111,
@@ -1551,7 +1596,7 @@
     "cientifico": "Citrus × paradisi",
     "ingles": "Grapefruit",
     "validacion": "Referencia botánica sugerida",
-    "foto": "citricos/Toronja.webp"
+    "foto": "toronja.webp"
   },
   {
     "id": 112,
@@ -1635,7 +1680,11 @@
     "cientifico": "Garcinia humilis",
     "ingles": "Achachairu",
     "validacion": "Referencia botánica sugerida",
-    "foto": "exoticos/achachairu.webp"
+    "foto": "imagenes/exoticos/achachairu.webp",
+    "foto_anterior_referencia": "exoticos/achachairu.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 118,
@@ -1649,7 +1698,11 @@
     "cientifico": "Bixa orellana",
     "ingles": "Annatto",
     "validacion": "Referencia botánica sugerida",
-    "foto": "exoticos/achiote.webp"
+    "foto": "imagenes/exoticos/achiote.webp",
+    "foto_anterior_referencia": "exoticos/achiote.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 119,
@@ -1677,7 +1730,11 @@
     "cientifico": "Eugenia stipitata",
     "ingles": "Araza",
     "validacion": "Referencia botánica sugerida",
-    "foto": "exoticos/araza.webp"
+    "foto": "imagenes/exoticos/araza.webp",
+    "foto_anterior_referencia": "exoticos/araza.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 121,
@@ -1691,7 +1748,11 @@
     "cientifico": "Syzygium cumini",
     "ingles": "Java plum",
     "validacion": "Referencia botánica sugerida",
-    "foto": "exoticos/jaba.webp"
+    "foto": "imagenes/exoticos/arandano-jambolan.webp",
+    "foto_anterior_referencia": "exoticos/jaba.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 122,
@@ -1719,7 +1780,11 @@
     "cientifico": "Garcinia gardneriana",
     "ingles": "Bacupari",
     "validacion": "Referencia botánica sugerida",
-    "foto": "exoticos/bacupari.webp"
+    "foto": "imagenes/exoticos/bacupari.webp",
+    "foto_anterior_referencia": "exoticos/bacupari.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 124,
@@ -1733,7 +1798,11 @@
     "cientifico": "Annona mucosa",
     "ingles": "Biriba",
     "validacion": "Referencia botánica sugerida",
-    "foto": "exoticos/biriba.webp"
+    "foto": "imagenes/exoticos/biriba-injertado.webp",
+    "foto_anterior_referencia": "exoticos/biriba.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 125,
@@ -1747,7 +1816,11 @@
     "cientifico": "Alibertia patinoi",
     "ingles": "Borojo",
     "validacion": "Referencia botánica sugerida",
-    "foto": "exoticos/borojo.webp"
+    "foto": "imagenes/exoticos/borojo-injertado.webp",
+    "foto_anterior_referencia": "exoticos/borojo.webp",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 126,
@@ -1761,7 +1834,7 @@
     "cientifico": "Theobroma cacao",
     "ingles": "Cacao",
     "validacion": "Referencia botánica sugerida",
-    "foto": "exoticos/cacao_blanco.webp"
+    "foto": "cacao blanco.webp"
   },
   {
     "id": 127,
@@ -1803,7 +1876,7 @@
     "cientifico": "Citrus × microcarpa",
     "ingles": "Calamansi",
     "validacion": "Referencia botánica sugerida",
-    "foto": "exoticos/calamansi.webp"
+    "foto": "calamondin.webp"
   },
   {
     "id": 130,
@@ -1817,7 +1890,7 @@
     "cientifico": "Citrus × microcarpa",
     "ingles": "Calamansi",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "calamondin.webp"
   },
   {
     "id": 131,
@@ -1831,7 +1904,7 @@
     "cientifico": "Citrus × microcarpa",
     "ingles": "Calamansi",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "calamondin.webp"
   },
   {
     "id": 132,
@@ -1859,7 +1932,7 @@
     "cientifico": "Pouteria campechiana",
     "ingles": "Canistel",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "canistel.webp"
   },
   {
     "id": 134,
@@ -1957,7 +2030,7 @@
     "cientifico": "Theobroma grandiflorum",
     "ingles": "Cupuaçu",
     "validacion": "Referencia botánica sugerida",
-    "foto": "exoticos/copoazu.webp"
+    "foto": "copoazu.webp"
   },
   {
     "id": 141,
@@ -2041,7 +2114,7 @@
     "cientifico": "Eugenia brasiliensis",
     "ingles": "Grumichama",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "grumichama.webp"
   },
   {
     "id": 147,
@@ -2055,7 +2128,7 @@
     "cientifico": "Eugenia brasiliensis",
     "ingles": "Grumichama",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "grumichama.webp"
   },
   {
     "id": 148,
@@ -2251,7 +2324,7 @@
     "cientifico": "Citrus japonica",
     "ingles": "Kumquat",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "kumquat.webp"
   },
   {
     "id": 162,
@@ -2265,7 +2338,7 @@
     "cientifico": "Citrus japonica",
     "ingles": "Kumquat",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "kumquat.webp"
   },
   {
     "id": 163,
@@ -2279,7 +2352,7 @@
     "cientifico": "Citrus japonica",
     "ingles": "Kumquat",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "kumquat.webp"
   },
   {
     "id": 164,
@@ -2335,7 +2408,7 @@
     "cientifico": "Litchi chinensis",
     "ingles": "Lychee",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "litchi.webp"
   },
   {
     "id": 168,
@@ -2349,7 +2422,7 @@
     "cientifico": "Dimocarpus longan",
     "ingles": "Longan",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "longan.webp"
   },
   {
     "id": 169,
@@ -2377,7 +2450,7 @@
     "cientifico": "Diospyros blancoi",
     "ingles": "Velvet apple",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "mabolo.webp"
   },
   {
     "id": 171,
@@ -2433,7 +2506,7 @@
     "cientifico": "Garcinia mangostana",
     "ingles": "Mangosteen",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "mangostan.webp"
   },
   {
     "id": 175,
@@ -2447,7 +2520,7 @@
     "cientifico": "Garcinia mangostana",
     "ingles": "Mangosteen",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "mangostan.webp"
   },
   {
     "id": 176,
@@ -2545,7 +2618,7 @@
     "cientifico": "Moringa oleifera",
     "ingles": "Moringa",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "moringa.webp"
   },
   {
     "id": 183,
@@ -2573,7 +2646,7 @@
     "cientifico": "Morinda citrifolia",
     "ingles": "Noni",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "noni.webp"
   },
   {
     "id": 185,
@@ -2657,7 +2730,7 @@
     "cientifico": "Bactris gasipaes",
     "ingles": "Peach palm",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "pejibaye.webp"
   },
   {
     "id": 191,
@@ -2685,7 +2758,7 @@
     "cientifico": "Selenicereus undatus",
     "ingles": "Dragon fruit",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "pitahaya.webp"
   },
   {
     "id": 193,
@@ -2867,7 +2940,7 @@
     "cientifico": "Artocarpus heterophyllus",
     "ingles": "Jackfruit",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "yaca.webp"
   },
   {
     "id": 206,
@@ -3217,7 +3290,11 @@
     "cientifico": "Annona squamosa",
     "ingles": "Sugar apple",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "imagenes/otros-frutales-injertados/anona.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 231,
@@ -3315,7 +3392,7 @@
     "cientifico": "Psidium friedrichsthalianum",
     "ingles": "Costa Rican guava",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "cas.webp"
   },
   {
     "id": 238,
@@ -3329,7 +3406,11 @@
     "cientifico": "Por verificar",
     "ingles": "To be confirmed",
     "validacion": "Pendiente de validar",
-    "foto": ""
+    "foto": "imagenes/otros-frutales-injertados/cas-brasileno.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 239,
@@ -3399,7 +3480,7 @@
     "cientifico": "Psidium guajava",
     "ingles": "Guava",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "guayaba.webp"
   },
   {
     "id": 244,
@@ -3413,7 +3494,7 @@
     "cientifico": "Psidium guajava",
     "ingles": "Guava",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "guayaba.webp"
   },
   {
     "id": 245,
@@ -3483,7 +3564,7 @@
     "cientifico": "Garcinia mangostana",
     "ingles": "Mangosteen",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "mangostan.webp"
   },
   {
     "id": 250,
@@ -3553,7 +3634,7 @@
     "cientifico": "Byrsonima crassifolia",
     "ingles": "Nance",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "nance.webp"
   },
   {
     "id": 255,
@@ -3567,7 +3648,7 @@
     "cientifico": "Byrsonima crassifolia",
     "ingles": "Nance",
     "validacion": "Referencia botánica sugerida",
-    "foto": ""
+    "foto": "nance.webp"
   },
   {
     "id": 256,
@@ -3623,7 +3704,11 @@
     "cientifico": "Por verificar",
     "ingles": "Identification pending",
     "validacion": "Identificación científica pendiente de confirmación.",
-    "foto": ""
+    "foto": "imagenes/maderables/aceituno.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 260,
@@ -3637,7 +3722,11 @@
     "cientifico": "Por verificar",
     "ingles": "Identification pending",
     "validacion": "Identificación científica pendiente de confirmación.",
-    "foto": ""
+    "foto": "imagenes/maderables/caoba.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 261,
@@ -3665,7 +3754,11 @@
     "cientifico": "Por verificar",
     "ingles": "Identification pending",
     "validacion": "Identificación científica pendiente de confirmación.",
-    "foto": ""
+    "foto": "imagenes/maderables/cedro-dulce.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 263,
@@ -3679,7 +3772,11 @@
     "cientifico": "Por verificar",
     "ingles": "Identification pending",
     "validacion": "Identificación científica pendiente de confirmación.",
-    "foto": ""
+    "foto": "imagenes/maderables/ceiba.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 264,
@@ -3693,7 +3790,11 @@
     "cientifico": "Por verificar",
     "ingles": "Identification pending",
     "validacion": "Identificación científica pendiente de confirmación.",
-    "foto": ""
+    "foto": "imagenes/maderables/cenizaro.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 265,
@@ -3847,7 +3948,11 @@
     "cientifico": "Por verificar",
     "ingles": "Identification pending",
     "validacion": "Identificación científica pendiente de confirmación.",
-    "foto": ""
+    "foto": "imagenes/frutas-para-aves/aguacatito.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 276,
@@ -3861,7 +3966,11 @@
     "cientifico": "Por verificar",
     "ingles": "Identification pending",
     "validacion": "Identificación científica pendiente de confirmación.",
-    "foto": ""
+    "foto": "imagenes/frutas-para-aves/almendro-de-montana.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 277,
@@ -3875,7 +3984,11 @@
     "cientifico": "Por verificar",
     "ingles": "Identification pending",
     "validacion": "Identificación científica pendiente de confirmación.",
-    "foto": ""
+    "foto": "imagenes/frutas-para-aves/almendro-de-playa.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 278,
@@ -3889,7 +4002,11 @@
     "cientifico": "Por verificar",
     "ingles": "Identification pending",
     "validacion": "Identificación científica pendiente de confirmación.",
-    "foto": ""
+    "foto": "imagenes/frutas-para-aves/capulin.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 279,
@@ -3903,7 +4020,11 @@
     "cientifico": "Por verificar",
     "ingles": "Identification pending",
     "validacion": "Identificación científica pendiente de confirmación.",
-    "foto": ""
+    "foto": "imagenes/frutas-para-aves/cereza.webp",
+    "foto_anterior_referencia": "",
+    "foto_referencia": true,
+    "foto_referencia_aviso": "Imagen ilustrativa provisional; no confirma especie ni variedad.",
+    "foto_referencia_origen": "Imagen pegada manualmente del portapapeles; licencia y autor pendientes de revisión"
   },
   {
     "id": 280,

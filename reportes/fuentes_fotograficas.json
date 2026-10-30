@@ -1,0 +1,435 @@
+[
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Avocado-Hass-Kern.jpg/1280px-Avocado-Hass-Kern.jpg",
+    "archivo_commons": "Avocado-Hass-Kern.jpg",
+    "autor": "MartinThoma",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Avocado-Hass-Kern.jpg",
+    "identificacion": "Persea americana cv. Hass",
+    "lote": 2,
+    "archivo": "hass-avocado.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Passiflora_ligularis%2C_the_sweet_granadilla_or_grenadia_at_Mannavan_Shola%2C_Anamudi_Shola_National_Park%2C_Kerala_%285%29.jpg/1280px-Passiflora_ligularis%2C_the_sweet_granadilla_or_grenadia_at_Mannavan_Shola%2C_Anamudi_Shola_National_Park%2C_Kerala_%285%29.jpg",
+    "archivo_commons": "Passiflora ligularis...",
+    "autor": "Vinayaraj",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Passiflora_ligularis,_the_sweet_granadilla_or_grenadia_at_Mannavan_Shola,_Anamudi_Shola_National_Park,_Kerala_(5).jpg",
+    "identificacion": "Passiflora ligularis",
+    "lote": 2,
+    "archivo": "granadilla.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Passiflora_Edulis_Closed_Fruit.jpg/1280px-Passiflora_Edulis_Closed_Fruit.jpg",
+    "archivo_commons": "Passiflora Edulis Closed Fruit.jpg",
+    "autor": "Alexander Klink",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Passiflora_Edulis_Closed_Fruit.jpg",
+    "identificacion": "Passiflora edulis",
+    "lote": 2,
+    "archivo": "maracuya.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Anacardium_occidentale_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08934.jpg/1280px-Anacardium_occidentale_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08934.jpg",
+    "archivo_commons": "Anacardium occidentale - Fruit and Spice Park...",
+    "autor": "Daderot",
+    "licencia": "CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Anacardium_occidentale_-_Fruit_and_Spice_Park_-_Homestead,_Florida_-_DSC08934.jpg",
+    "identificacion": "Anacardium occidentale",
+    "lote": 2,
+    "archivo": "maranon.webp",
+    "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Carica_papaya_14_7_2012.jpg/1280px-Carica_papaya_14_7_2012.jpg",
+    "archivo_commons": "Carica papaya 14 7 2012.jpg",
+    "autor": "Joydeep",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Carica_papaya_14_7_2012.jpg",
+    "identificacion": "Carica papaya",
+    "lote": 2,
+    "archivo": "papaya.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/5759Cocos_nucifera_%28fruit%29_textures_07.jpg/1280px-5759Cocos_nucifera_%28fruit%29_textures_07.jpg",
+    "archivo_commons": "5759Cocos nucifera (fruit) textures 07.jpg",
+    "autor": "Judgefloro",
+    "licencia": "CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:5759Cocos_nucifera_(fruit)_textures_07.jpg",
+    "identificacion": "Cocos nucifera",
+    "lote": 2,
+    "archivo": "coco.webp",
+    "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Physalis_Peruviana_in_Germany_October_2024_01.jpg/1280px-Physalis_Peruviana_in_Germany_October_2024_01.jpg",
+    "archivo_commons": "Physalis Peruviana in Germany October 2024 01.jpg",
+    "autor": "Wiki leylek",
+    "licencia": "CC BY 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Physalis_Peruviana_in_Germany_October_2024_01.jpg",
+    "identificacion": "Physalis peruviana",
+    "lote": 2,
+    "archivo": "uchuva.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Starr_060916-8847_Syzygium_jambos.jpg/1280px-Starr_060916-8847_Syzygium_jambos.jpg",
+    "archivo_commons": "Starr 060916-8847 Syzygium jambos.jpg",
+    "autor": "Forest & Kim Starr",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Starr_060916-8847_Syzygium_jambos.jpg",
+    "identificacion": "Syzygium jambos",
+    "lote": 2,
+    "archivo": "manzana-rosa.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  {
+    "archivo_commons": "Citrus japonica.jpg",
+    "autor": "Phuong Tran",
+    "licencia": "CC BY 2.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Citrus_japonica.jpg",
+    "identificacion": "Citrus japonica",
+    "inventario_ids": [
+      161,
+      162,
+      163
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "kumquat.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    "archivo_commons": "Citrus x microcarpa Kalamondin 2018-09-02 01.jpg",
+    "autor": "Agnieszka Kwiecie?, Nova",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Citrus_x_microcarpa_Kalamondin_2018-09-02_01.jpg",
+    "identificacion": "Citrus ? microcarpa",
+    "inventario_ids": [
+      129,
+      130,
+      131
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "calamondin.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "archivo_commons": "Garcinia mangostana 171480563.jpg",
+    "autor": "Skjold S?ndergaard",
+    "licencia": "CC BY 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Garcinia_mangostana_171480563.jpg",
+    "identificacion": "Garcinia mangostana",
+    "inventario_ids": [
+      174,
+      175,
+      249
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "mangostan.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "archivo_commons": "Canistel.jpg",
+    "autor": "Hans B.",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Canistel.jpg",
+    "identificacion": "Pouteria campechiana",
+    "inventario_ids": [
+      133
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "canistel.webp",
+    "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  {
+    "archivo_commons": "Crguava.jpg",
+    "autor": "Trnscndr",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Crguava.jpg",
+    "identificacion": "Psidium friedrichsthalianum",
+    "inventario_ids": [
+      237
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "cas.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "archivo_commons": "Eugenia brasiliensis.JPG",
+    "autor": "B.navez",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Eugenia_brasiliensis.JPG",
+    "identificacion": "Eugenia brasiliensis",
+    "inventario_ids": [
+      146,
+      147
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "grumichama.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "archivo_commons": "HK food Psidium guajava fruit July 2024 R12S 01.jpg",
+    "autor": "FourVZS 2024",
+    "licencia": "CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:HK_food_???_Psidium_guajava_??_fruit_July_2024_R12S_01.jpg",
+    "identificacion": "Psidium guajava",
+    "inventario_ids": [
+      243,
+      244
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "guayaba.webp",
+    "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "archivo_commons": "Artocarpus heterophyllus Jack fruits on Simhachalam Hills 01.jpg",
+    "autor": "Adityamadhav83",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:(Artocarpus_heterophyllus)_Jack_fruits_on_Simhachalam_Hills_01.jpg",
+    "identificacion": "Artocarpus heterophyllus",
+    "inventario_ids": [
+      205
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "yaca.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "archivo_commons": "2013-12-28 19-46-10 Litchi-17f.jpg",
+    "autor": "Thomas Bresson",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:2013-12-28_19-46-10_Litchi-17f.jpg",
+    "identificacion": "Litchi chinensis",
+    "inventario_ids": [
+      167
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "litchi.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  {
+    "archivo_commons": "Dimocarpus longan (2).jpg",
+    "autor": "Dinkun Chen",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Dimocarpus_longan_(2).jpg",
+    "identificacion": "Dimocarpus longan",
+    "inventario_ids": [
+      168
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "longan.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "archivo_commons": "9447 Diospyros blancoi Mabolo fruit 01.jpg",
+    "autor": "Judgefloro",
+    "licencia": "CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:9447Diospyros_blancoi_Mabolo_fruit_01.jpg",
+    "identificacion": "Diospyros blancoi",
+    "inventario_ids": [
+      170
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "mabolo.webp",
+    "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "archivo_commons": "Flower of Moringa oleifera.jpg",
+    "autor": "Rehman Abubakr",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Flower_of_Moringa_oleifera.jpg",
+    "identificacion": "Moringa oleifera",
+    "inventario_ids": [
+      182
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "moringa.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "archivo_commons": "2010.05.03.183848 Nance Guatemala City.jpg",
+    "autor": "Hermann Luyken",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:2010.05.03.183848_Nance_Guatemala_City.jpg",
+    "identificacion": "Byrsonima crassifolia",
+    "inventario_ids": [
+      254,
+      255
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "nance.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "archivo_commons": "Indian mulberry Morinda citrifolia 1583.jpg",
+    "autor": "Vengolis",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Indian_mulberry_(Morinda_citrifolia)_1583.jpg",
+    "identificacion": "Morinda citrifolia",
+    "inventario_ids": [
+      184
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "noni.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "archivo_commons": "Bactris gasipaes 12zz.jpg",
+    "autor": "David J. Stang",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Bactris_gasipaes_12zz.jpg",
+    "identificacion": "Bactris gasipaes",
+    "inventario_ids": [
+      190
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "pejibaye.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "archivo_commons": "Dragon fruit Hylocereus Undatus Vietnam White.jpg",
+    "autor": "Zenyrgarden",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Dragon_fruit_Hylocereus_Undatus_(Vietnam_White).jpg",
+    "identificacion": "Selenicereus undatus",
+    "inventario_ids": [
+      192
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 3,
+    "archivo": "pitahaya.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "archivo_commons": "Citrus aurantium Bouquet de fleurs - Sour orange.jpg",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Citrus_aurantium_%27Bouquet_de_fleurs%27_-_Sour_orange.jpg",
+    "identificacion": "Citrus ? aurantium",
+    "inventario_ids": [
+      70,
+      71,
+      72
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 4,
+    "archivo": "naranja-agria.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "archivo_commons": "Navel Lane Late.jpg",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Navel_Lane_Late.jpg",
+    "identificacion": "Citrus sinensis, navel",
+    "inventario_ids": [
+      85,
+      86,
+      87
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 4,
+    "archivo": "naranja-navel.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "archivo_commons": "Parent Washington Navel Orange Tree.JPG",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Parent_Washington_Navel_Orange_Tree.JPG",
+    "identificacion": "Citrus sinensis cv. Washington Navel",
+    "inventario_ids": [
+      103,
+      104,
+      105
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 4,
+    "archivo": "naranja-washington.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "archivo_commons": "Ortanique fruit.jpg",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Ortanique_fruit.jpg",
+    "identificacion": "Ortanique (Citrus reticulata hybrid)",
+    "inventario_ids": [
+      91,
+      92,
+      93
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 4,
+    "archivo": "naranja-ortanique.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "archivo_commons": "Starr-070730-7915-Citrus sinensis-Valencia variety.jpg",
+    "autor": "Forest and Kim Starr",
+    "licencia": "CC BY 3.0 US",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Starr-070730-7915-Citrus_sinensis-Valencia_variety-Foodland_Pukalani-Maui_(24797197851).jpg",
+    "identificacion": "Citrus sinensis cv. Valencia",
+    "inventario_ids": [
+      100,
+      101,
+      102
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 4,
+    "archivo": "naranja-valencia.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  {
+    "archivo_commons": "Blood orange DSCF7480.jpg",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Blood_orange_(DSCF7480).jpg",
+    "identificacion": "Citrus sinensis, blood orange",
+    "inventario_ids": [
+      97,
+      98,
+      99
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 4,
+    "archivo": "naranja-sanguinea.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "archivo_commons": "Citrus paradisi Grapefruit pink.jpg",
+    "autor": "Wikimedia Commons contributor",
+    "licencia": "CC BY-SA 2.5",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Citrus_paradisi_(Grapefruit,_pink).jpg",
+    "identificacion": "Citrus ? paradisi",
+    "inventario_ids": [
+      109,
+      110,
+      111
+    ],
+    "modificaciones": "Recorte proporcional, lienzo blanco 800x800 y conversi?n a WebP calidad 85.",
+    "lote": 4,
+    "archivo": "toronja.webp",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/2.5/"
+  }
+]

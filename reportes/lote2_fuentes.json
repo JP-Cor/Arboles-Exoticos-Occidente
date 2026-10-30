@@ -1,0 +1,74 @@
+[
+  {
+    "archivo": "hass-avocado.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Avocado-Hass-Kern.jpg/1280px-Avocado-Hass-Kern.jpg",
+    "archivo_commons": "Avocado-Hass-Kern.jpg",
+    "autor": "MartinThoma",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Avocado-Hass-Kern.jpg",
+    "identificacion": "Persea americana cv. Hass"
+  },
+  {
+    "archivo": "granadilla.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Passiflora_ligularis%2C_the_sweet_granadilla_or_grenadia_at_Mannavan_Shola%2C_Anamudi_Shola_National_Park%2C_Kerala_%285%29.jpg/1280px-Passiflora_ligularis%2C_the_sweet_granadilla_or_grenadia_at_Mannavan_Shola%2C_Anamudi_Shola_National_Park%2C_Kerala_%285%29.jpg",
+    "archivo_commons": "Passiflora ligularis...",
+    "autor": "Vinayaraj",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Passiflora_ligularis,_the_sweet_granadilla_or_grenadia_at_Mannavan_Shola,_Anamudi_Shola_National_Park,_Kerala_(5).jpg",
+    "identificacion": "Passiflora ligularis"
+  },
+  {
+    "archivo": "maracuya.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Passiflora_Edulis_Closed_Fruit.jpg/1280px-Passiflora_Edulis_Closed_Fruit.jpg",
+    "archivo_commons": "Passiflora Edulis Closed Fruit.jpg",
+    "autor": "Alexander Klink",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Passiflora_Edulis_Closed_Fruit.jpg",
+    "identificacion": "Passiflora edulis"
+  },
+  {
+    "archivo": "maranon.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Anacardium_occidentale_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08934.jpg/1280px-Anacardium_occidentale_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08934.jpg",
+    "archivo_commons": "Anacardium occidentale - Fruit and Spice Park...",
+    "autor": "Daderot",
+    "licencia": "CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Anacardium_occidentale_-_Fruit_and_Spice_Park_-_Homestead,_Florida_-_DSC08934.jpg",
+    "identificacion": "Anacardium occidentale"
+  },
+  {
+    "archivo": "papaya.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Carica_papaya_14_7_2012.jpg/1280px-Carica_papaya_14_7_2012.jpg",
+    "archivo_commons": "Carica papaya 14 7 2012.jpg",
+    "autor": "Joydeep",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Carica_papaya_14_7_2012.jpg",
+    "identificacion": "Carica papaya"
+  },
+  {
+    "archivo": "coco.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/5759Cocos_nucifera_%28fruit%29_textures_07.jpg/1280px-5759Cocos_nucifera_%28fruit%29_textures_07.jpg",
+    "archivo_commons": "5759Cocos nucifera (fruit) textures 07.jpg",
+    "autor": "Judgefloro",
+    "licencia": "CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:5759Cocos_nucifera_(fruit)_textures_07.jpg",
+    "identificacion": "Cocos nucifera"
+  },
+  {
+    "archivo": "uchuva.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Physalis_Peruviana_in_Germany_October_2024_01.jpg/1280px-Physalis_Peruviana_in_Germany_October_2024_01.jpg",
+    "archivo_commons": "Physalis Peruviana in Germany October 2024 01.jpg",
+    "autor": "Wiki leylek",
+    "licencia": "CC BY 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Physalis_Peruviana_in_Germany_October_2024_01.jpg",
+    "identificacion": "Physalis peruviana"
+  },
+  {
+    "archivo": "manzana-rosa.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Starr_060916-8847_Syzygium_jambos.jpg/1280px-Starr_060916-8847_Syzygium_jambos.jpg",
+    "archivo_commons": "Starr 060916-8847 Syzygium jambos.jpg",
+    "autor": "Forest & Kim Starr",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Starr_060916-8847_Syzygium_jambos.jpg",
+    "identificacion": "Syzygium jambos"
+  }
+]

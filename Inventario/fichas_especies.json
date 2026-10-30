@@ -3468,28 +3468,28 @@
       "nombre_es": "Icaco",
       "nombre_en": "Cocoplum",
       "nombre_cientifico": "Chrysobalanus icaco",
-      "familia_botanica": null,
+      "familia_botanica": "Chrysobalanaceae",
       "categoria": "Exóticos",
-      "origen": null,
+      "origen": "Costas tropicales de America y Africa; nativo en zonas costeras de Costa Rica.",
       "cultivo": {
         "altitud_minima": 0,
-        "altitud_maxima": 1200,
+        "altitud_maxima": 500,
         "altitud_ideal_minima": 0,
         "altitud_ideal_maxima": 800,
         "temperatura_minima": 18,
         "temperatura_maxima": 34,
         "temperatura_optima": "22-30 °C",
         "clima": [
-          "tropical húmedo",
-          "tropical cálido"
+          "tropical calido",
+          "tropical humedo"
         ],
         "exposicion_solar": "Pleno sol o semisombra luminosa",
-        "riego": "Regular, ajustado a lluvia y etapa de desarrollo; evitar encharcamientos.",
-        "suelo": "Franco, fértil y rico en materia orgánica.",
+        "riego": "Regular durante establecimiento.",
+        "suelo": "Arenoso o franco, bien drenado.",
         "drenaje": "Bueno a excelente.",
         "resistencia_viento": "Moderada; proteger durante establecimiento.",
         "tolerancia_sequia": "Baja a moderada.",
-        "estado_validacion": "Referencia hortícola general; confirmar por especie y microclima."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -3514,10 +3514,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Icaco (Chrysobalanus icaco) es una opción de interés para el jardín y la producción tropical. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
-        "en": "Cocoplum (Chrysobalanus icaco) is an interesting option for tropical gardens and production. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
+        "es": "El icaco es una especie costera nativa; sus frutos y cobertura pueden contribuir a jardines para fauna y restauracion costera.",
+        "en": "Cocoplum is a coastal species; its fruits and cover may contribute to wildlife gardens and coastal restoration."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ]
     },
     {
       "id_especie": "plinia_cauliflora_exoticos",
@@ -3526,29 +3533,29 @@
       ],
       "nombre_es": "Jaboticaba",
       "nombre_en": "Jabuticaba",
-      "nombre_cientifico": "Plinia cauliflora",
+      "nombre_cientifico": "Plinia cauliflora (Mart.) Kausel",
       "familia_botanica": "Myrtaceae",
       "categoria": "Exóticos",
-      "origen": null,
+      "origen": "Brasil; introducida y cultivada en regiones tropicales.",
       "cultivo": {
         "altitud_minima": 0,
-        "altitud_maxima": 1200,
+        "altitud_maxima": 1000,
         "altitud_ideal_minima": 0,
         "altitud_ideal_maxima": 800,
         "temperatura_minima": 18,
         "temperatura_maxima": 34,
         "temperatura_optima": "22-30 °C",
         "clima": [
-          "tropical húmedo",
-          "tropical cálido"
+          "tropical calido",
+          "tropical humedo"
         ],
         "exposicion_solar": "Pleno sol o semisombra luminosa",
-        "riego": "Regular, ajustado a lluvia y etapa de desarrollo; evitar encharcamientos.",
-        "suelo": "Franco, fértil y rico en materia orgánica.",
+        "riego": "Regular; evitar sequia prolongada.",
+        "suelo": "Fertil y bien drenado.",
         "drenaje": "Bueno a excelente.",
         "resistencia_viento": "Moderada; proteger durante establecimiento.",
         "tolerancia_sequia": "Baja a moderada.",
-        "estado_validacion": "Referencia hortícola general; confirmar por especie y microclima."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -3573,10 +3580,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Jaboticaba (Plinia cauliflora) es una opción de interés para el jardín y la producción tropical. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
-        "en": "Jabuticaba (Plinia cauliflora) is an interesting option for tropical gardens and production. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
+        "es": "La jaboticaba es un frutal introducido de Brasil, apreciado por sus bayas caulifloras y potencial para jardines de fauna.",
+        "en": "Jabuticaba is an introduced fruit tree from Brazil, valued for its cauliflorous berries and potential in wildlife gardens."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ]
     },
     {
       "id_especie": "artocarpus_heterophyllus_exoticos",
@@ -5021,9 +5035,9 @@
       "nombre_es": "Papaturro",
       "nombre_en": "Sea grape relative",
       "nombre_cientifico": "Coccoloba sp.",
-      "familia_botanica": null,
+      "familia_botanica": "Polygonaceae",
       "categoria": "Exóticos",
-      "origen": null,
+      "origen": "Identificacion especifica pendiente; Coccoloba es un genero tropical americano.",
       "cultivo": {
         "altitud_minima": null,
         "altitud_maxima": null,
@@ -5039,7 +5053,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Pendiente de validación botánica específica."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -5064,10 +5078,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Papaturro (Coccoloba sp.) es una opción de interés para el jardín y la producción tropical. Características del fruto pendientes de validación botánica. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
-        "en": "Sea grape relative (Coccoloba sp.) is an interesting option for tropical gardens and production. Características del fruto pendientes de validación botánica. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
+        "es": "Papaturro permanece como Coccoloba sp.; se requieren localidad y material botanico antes de completar cultivo, fruto o fauna.",
+        "en": "Papaturro remains Coccoloba sp.; locality and botanical material are needed before completing cultivation, fruit or wildlife data."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ]
     },
     {
       "id_especie": "bactris_gasipaes_exoticos",
@@ -6832,7 +6853,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Identificación científica pendiente; “Aceituno” puede referirse a varias especies."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -6857,13 +6878,28 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Aceituno pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Aceituno pending scientific identification and growing-condition validation."
+        "es": "Aceituno permanece pendiente de identificación científica: el nombre común puede referirse a Simarouba amara, Simarouba glauca u otras especies según la localidad.",
+        "en": "Aceituno remains pending scientific identification: the common name may refer to Simarouba amara, Simarouba glauca or other species depending on locality."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "La identificación local debe confirmarse antes de asignar datos de cultivo o aprovechamiento.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        },
+        {
+          "titulo": "Plants of the World Online: Simarouba amara",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:814124-1"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [
+          "Simarouba amara",
+          "Simarouba glauca"
+        ],
+        "nota": "No seleccionar una alternativa sin muestra, localidad o confirmación del vivero."
+      }
     },
     {
       "id_especie": "pendiente_260_caoba",
@@ -6872,38 +6908,41 @@
       ],
       "nombre_es": "Caoba",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Swietenia macrophylla King",
+      "familia_botanica": "Meliaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "América tropical; nativa desde México hasta Bolivia y Brasil, incluyendo Centroamérica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1200,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
-        "drenaje": null,
+        "clima": [
+          "tropical húmedo",
+          "tropical estacionalmente seco"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Asegurar humedad durante el establecimiento; evitar encharcamiento.",
+        "suelo": "Profundo y bien drenado; la fuente consultada no establece un pH único.",
+        "drenaje": "Bien drenado.",
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomía y distribución verificadas; parámetros productivos locales pendientes."
       },
       "caracteristicas": {
-        "altura_adulta": null,
+        "altura_adulta": "Hasta aproximadamente 60 m en condiciones favorables.",
         "diametro_copa": null,
-        "velocidad_crecimiento": null,
+        "velocidad_crecimiento": "Rápida en condiciones adecuadas; cuantificación local pendiente.",
         "tiempo_produccion": null,
         "epoca_floracion": null,
         "epoca_cosecha": null,
         "produccion_estimada": null,
-        "recomendaciones_poda": null,
+        "recomendaciones_poda": "Definir mediante manejo forestal local; retirar ramas dañadas durante el establecimiento.",
         "distancia_siembra": null,
-        "fruto": null
+        "fruto": "Cápsula leñosa con semillas aladas; no es un fruto alimentario para este catálogo."
       },
       "beneficios": {
         "vitaminas": [],
@@ -6916,13 +6955,35 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Caoba pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Caoba pending scientific identification and growing-condition validation."
+        "es": "La caoba de hoja grande (Swietenia macrophylla) es un árbol maderable nativo de América tropical. Su madera es valiosa para muebles y carpintería, pero su conservación y aprovechamiento están sujetos a regulación; en Costa Rica debe verificarse la normativa vigente.",
+        "en": "Big-leaf mahogany (Swietenia macrophylla) is a timber tree native to tropical America. Its wood is valued for furniture and joinery, but conservation and harvesting are regulated; current Costa Rican requirements must be checked."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuente_datos": "Taxonomía, distribución, bioma y estado de conservación verificados en Kew; los rangos de manejo local no se presentan como validados.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        },
+        {
+          "titulo": "Swietenia macrophylla | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:246905-2/general-information"
+        },
+        {
+          "titulo": "CITESwoodID: Swietenia macrophylla",
+          "url": "https://www.delta-intkey.com/citeswood/en/www/melsmac.htm"
+        }
+      ],
+      "datos_especiales": {
+        "tipo_madera": "Madera de alto valor comercial; propiedades detalladas pendientes de validación local.",
+        "usos_forestales": [
+          "Muebles",
+          "Carpintería y ebanistería"
+        ],
+        "importancia_ecologica": "Árbol de dosel en bosques tropicales.",
+        "reforestacion": "Requiere sitio, espaciamiento y cumplimiento normativo definidos por un profesional forestal.",
+        "limitaciones": "Especie Vulnerable y regulada por CITES; no presentar como aprovechamiento libre."
+      }
     },
     {
       "id_especie": "pendiente_261_cedro_amargo",
@@ -6931,38 +6992,41 @@
       ],
       "nombre_es": "Cedro Amargo",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Cedrela odorata L.",
+      "familia_botanica": "Meliaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "América tropical; nativa desde México hasta Sudamérica y el Caribe, incluyendo Costa Rica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1200,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
-        "drenaje": null,
+        "clima": [
+          "tropical estacionalmente seco",
+          "tropical húmedo"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Humedad regular durante el establecimiento; tolerancia a estación seca no cuantificada aquí.",
+        "suelo": "Profundo y fértil, con buen drenaje.",
+        "drenaje": "Bien drenado.",
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomía y distribución verificadas; parámetros productivos locales pendientes."
       },
       "caracteristicas": {
-        "altura_adulta": null,
+        "altura_adulta": "Hasta aproximadamente 30 m.",
         "diametro_copa": null,
-        "velocidad_crecimiento": null,
+        "velocidad_crecimiento": "Crecimiento inicial rápido según referencias forestales; cuantificación local pendiente.",
         "tiempo_produccion": null,
         "epoca_floracion": null,
         "epoca_cosecha": null,
         "produccion_estimada": null,
-        "recomendaciones_poda": null,
+        "recomendaciones_poda": "Poda de formación y sanitaria bajo criterio forestal.",
         "distancia_siembra": null,
-        "fruto": null
+        "fruto": "Cápsula leñosa con semillas aladas."
       },
       "beneficios": {
         "vitaminas": [],
@@ -6975,13 +7039,36 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Cedro Amargo pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Cedro Amargo pending scientific identification and growing-condition validation."
+        "es": "El cedro amargo (Cedrela odorata) es un árbol maderable nativo de América tropical, apreciado por su madera aromática para muebles y carpintería. Su establecimiento debe considerar el sitio, el manejo forestal y la regulación aplicable en Costa Rica.",
+        "en": "Spanish cedar (Cedrela odorata) is a timber tree native to tropical America, valued for its aromatic wood in furniture and joinery. Establishment must consider site conditions, forestry management and applicable Costa Rican regulations."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuente_datos": "Taxonomía, distribución, bioma y estado de conservación verificados en Kew; datos de producción, espaciamiento y temperatura óóptima requieren validación local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        },
+        {
+          "titulo": "Cedrela odorata L. | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:51010-2/general-information"
+        },
+        {
+          "titulo": "CITESwoodID: Cedrela spp.",
+          "url": "https://www.delta-intkey.com/citeswood/en/www/melceod.htm"
+        }
+      ],
+      "datos_especiales": {
+        "tipo_madera": "Madera aromática y durable; propiedades detalladas pendientes de validación local.",
+        "usos_forestales": [
+          "Muebles",
+          "Paneles",
+          "Carpintería"
+        ],
+        "importancia_ecologica": "Especie de bosque tropical utilizada también en sistemas agroforestales.",
+        "reforestacion": "Requiere planificación forestal y verificación de normativa.",
+        "limitaciones": "Cedrela está sujeta a controles internacionales; verificar requisitos vigentes."
+      }
     },
     {
       "id_especie": "pendiente_262_cedro_dulce",
@@ -6990,38 +7077,41 @@
       ],
       "nombre_es": "Cedro Dulce",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Cedrela tonduzii C.DC.",
+      "familia_botanica": "Meliaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "Mesoamérica; nativa desde México hasta Centroamérica, incluyendo las montañas de Costa Rica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 1200,
+        "altitud_maxima": 2800,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
-        "drenaje": null,
+        "clima": [
+          "tropical húmedo",
+          "montañoso"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Humedad regular; evitar encharcamiento.",
+        "suelo": "Suelos profundos y bien drenados; la fuente consultada no confirma un pH específico.",
+        "drenaje": "Bien drenado.",
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomía y distribución verificadas; identificación local de “Cedro Dulce” debe confirmarse."
       },
       "caracteristicas": {
-        "altura_adulta": null,
+        "altura_adulta": "Hasta aproximadamente 40 m según referencias taxonómicas y forestales consultadas.",
         "diametro_copa": null,
         "velocidad_crecimiento": null,
         "tiempo_produccion": null,
         "epoca_floracion": null,
         "epoca_cosecha": null,
         "produccion_estimada": null,
-        "recomendaciones_poda": null,
+        "recomendaciones_poda": "Poda de formación y sanitaria bajo criterio forestal.",
         "distancia_siembra": null,
-        "fruto": null
+        "fruto": "Cápsula leñosa con semillas aladas."
       },
       "beneficios": {
         "vitaminas": [],
@@ -7034,13 +7124,30 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Cedro Dulce pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Cedro Dulce pending scientific identification and growing-condition validation."
+        "es": "El nombre Cedro Dulce se usa localmente para Cedrela tonduzii, pero debe confirmarse con localidad y material botánico. La especie se asocia con bosques montanos húmedos de Mesoamérica y puede ser relevante para restauración en zonas altas.",
+        "en": "The common name Cedro Dulce is locally used for Cedrela tonduzii, but it should be confirmed with locality and botanical material. The species is associated with humid montane forests of Mesoamerica and may be relevant to restoration in highland areas."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuente_datos": "Taxonomía, distribución y bioma verificados en Kew; la equivalencia del nombre comercial y los parámetros de manejo local requieren confirmación.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        },
+        {
+          "titulo": "Cedrela tonduzii | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:51028-2"
+        }
+      ],
+      "datos_especiales": {
+        "tipo_madera": "Madera comparable a otros cedros; propiedades específicas pendientes.",
+        "usos_forestales": [
+          "Carpintería local documentada; validar antes de promover aprovechamiento."
+        ],
+        "importancia_ecologica": "Especie de bosques montanos húmedos.",
+        "reforestacion": "Considerar restauración con material local y asesoría forestal.",
+        "limitaciones": "No asumir que todo “Cedro Dulce” corresponde a esta especie."
+      }
     },
     {
       "id_especie": "pendiente_263_ceiba",
@@ -7049,38 +7156,42 @@
       ],
       "nombre_es": "Ceiba",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Ceiba pentandra (L.) Gaertn.",
+      "familia_botanica": "Malvaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "Regiones tropicales de América; nativa en Mesoamérica y América tropical.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1000,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
-        "drenaje": null,
+        "clima": [
+          "tropical húmedo",
+          "tropical subhúmedo",
+          "tropical estacionalmente seco"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Humedad regular durante el establecimiento; evitar encharcamientos.",
+        "suelo": "Profundo y bien drenado, especialmente aluvial.",
+        "drenaje": "Bien drenado.",
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomía y distribución verificadas; parámetros productivos locales pendientes."
       },
       "caracteristicas": {
-        "altura_adulta": null,
+        "altura_adulta": "Aproximadamente 40–70 m en condiciones favorables.",
         "diametro_copa": null,
-        "velocidad_crecimiento": null,
+        "velocidad_crecimiento": "Rápida durante etapas tempranas según referencias generales.",
         "tiempo_produccion": null,
         "epoca_floracion": null,
         "epoca_cosecha": null,
         "produccion_estimada": null,
-        "recomendaciones_poda": null,
+        "recomendaciones_poda": "Requiere espacio amplio; poda solo con criterio técnico por su tamaño.",
         "distancia_siembra": null,
-        "fruto": null
+        "fruto": "Cápsula con fibra de kapok y semillas."
       },
       "beneficios": {
         "vitaminas": [],
@@ -7093,13 +7204,31 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Ceiba pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Ceiba pending scientific identification and growing-condition validation."
+        "es": "La ceiba (Ceiba pentandra) es un árbol tropical de gran porte y valor ecológico y cultural. Produce fibra de kapok y puede ofrecer refugio y estructura para fauna; requiere espacio amplio y no debe plantarse cerca de infraestructura.",
+        "en": "The kapok tree (Ceiba pentandra) is a large tropical tree with ecological and cultural value. It produces kapok fiber and can provide structure and shelter for wildlife; it needs ample space and should not be planted near infrastructure."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuente_datos": "Taxonomía, distribución, bioma y usos generales verificados en Kew; rangos de temperatura, espaciamiento y producción no se presentan como validados.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        },
+        {
+          "titulo": "Ceiba pentandra | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1166232-2"
+        }
+      ],
+      "datos_especiales": {
+        "tipo_madera": "Madera ligera; usos específicos requieren validación local.",
+        "usos_forestales": [
+          "Canoas",
+          "Cajas y tallas"
+        ],
+        "importancia_ecologica": "árbol emergente de gran porte con raíces tabulares y valor para fauna.",
+        "reforestacion": "Adecuada solo donde exista espacio suficiente y un plan de establecimiento.",
+        "limitaciones": "Su tamaño y raíces hacen inadecuada la plantación junto a edificaciones o tuberías."
+      }
     },
     {
       "id_especie": "pendiente_264_cenizaro",
@@ -7108,26 +7237,29 @@
       ],
       "nombre_es": "Cenízaro",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Samanea saman (Jacq.) Merr.",
+      "familia_botanica": "Fabaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "America tropical, incluido Costa Rica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1000,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical seco",
+          "tropical humedo"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Regular durante establecimiento.",
+        "suelo": "Suelos diversos con buen drenaje.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7152,12 +7284,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Cenízaro pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Cenízaro pending scientific identification and growing-condition validation."
+        "es": "El cenizaro es un arbol de copa amplia, valorado por sombra, restauracion y madera. Requiere espacio considerable.",
+        "en": "Cenizaro is a broad-crowned tree valued for shade, restoration and timber. It needs considerable space."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -7167,26 +7304,29 @@
       ],
       "nombre_es": "Ciprés",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Hesperocyparis lusitanica (Mill.) Bartel",
+      "familia_botanica": "Cupressaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "Mexico y Centroamerica; introducido y plantado en tierras altas de Costa Rica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 1200,
+        "altitud_maxima": 3000,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "montanoso",
+          "subtropical"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Riego de establecimiento; evitar encharcamiento.",
+        "suelo": "Bien drenado.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7211,12 +7351,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Ciprés pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Ciprés pending scientific identification and growing-condition validation."
+        "es": "El cipres es una conifera introducida utilizada en zonas altas para madera, cortinas rompevientos y ornamentacion.",
+        "en": "Cypress is an introduced conifer used in highlands for timber, windbreaks and ornament."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -7226,26 +7371,28 @@
       ],
       "nombre_es": "Cocobolo",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Dalbergia retusa Hemsl.",
+      "familia_botanica": "Fabaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "Pacifico de Mesoamerica hasta Colombia; nativo en bosques secos del Pacifico costarricense.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 800,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical seco"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Riego de establecimiento.",
+        "suelo": "Bien drenado.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7270,12 +7417,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Cocobolo pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Cocobolo pending scientific identification and growing-condition validation."
+        "es": "El cocobolo es un arbol maderable de madera muy densa y apreciada. Su conservacion exige verificar regulacion y procedencia.",
+        "en": "Cocobolo is a timber tree with very dense, valued wood. Conservation requires checking regulation and provenance."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -7285,26 +7437,29 @@
       ],
       "nombre_es": "Cristóbal",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Platymiscium pinnatum (Jacq.) Dugand",
+      "familia_botanica": "Fabaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "Desde Mexico y Centroamerica hasta el norte de Sudamerica; nativo en Costa Rica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1000,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical humedo",
+          "tropical seco"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Humedad regular durante establecimiento.",
+        "suelo": "Profundo y bien drenado.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7329,13 +7484,24 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Cristóbal pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Cristóbal pending scientific identification and growing-condition validation."
+        "es": "Cristobal es un arbol maderable nativo; la identificacion debe confirmarse porque existen especies similares.",
+        "en": "Cristobal is a native timber tree; identification should be confirmed because similar species exist."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [
+          "Platymiscium pinnatum",
+          "otras especies de Platymiscium"
+        ],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_268_espavel",
@@ -7344,26 +7510,28 @@
       ],
       "nombre_es": "Espavel",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Anacardium excelsum (Bertero ex Balb. ex Kunth) Skeels",
+      "familia_botanica": "Anacardiaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "Mesoamerica y Sudamerica tropical; nativo de bosques humedos y riberenos de Costa Rica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1000,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical humedo"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Humedad regular durante establecimiento.",
+        "suelo": "Profundo y bien drenado.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7388,12 +7556,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Espavel pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Espavel pending scientific identification and growing-condition validation."
+        "es": "El espavel es un arbol nativo grande de ambientes humedos y riberenos, util para restauracion y sombra.",
+        "en": "Espavel is a large native tree of humid and riparian environments, useful for restoration and shade."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -7422,7 +7595,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7447,13 +7620,26 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Eucalipto pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Eucalipto pending scientific identification and growing-condition validation."
+        "es": "Eucalipto puede referirse a varias especies con requerimientos distintos.",
+        "en": "Eucalyptus may refer to several species with different requirements."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [
+          "Eucalyptus deglupta",
+          "Eucalyptus grandis",
+          "Eucalyptus tereticornis",
+          "Eucalyptus camaldulensis"
+        ],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_270_guachipelin",
@@ -7462,26 +7648,29 @@
       ],
       "nombre_es": "Guachipelín",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Diphysa americana (Mill.) M.Sousa",
+      "familia_botanica": "Fabaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "Mexico y Centroamerica; nativo de regiones tropicales de Costa Rica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1200,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical seco",
+          "tropical humedo"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Riego de establecimiento.",
+        "suelo": "Bien drenado.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7506,12 +7695,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Guachipelín pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Guachipelín pending scientific identification and growing-condition validation."
+        "es": "El guachipelin es una leguminosa nativa utilizada en paisajes rurales, sombra y restauracion.",
+        "en": "Guachipelin is a native legume used in rural landscapes, shade and restoration."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -7521,26 +7715,29 @@
       ],
       "nombre_es": "Guapinol",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Hymenaea courbaril L.",
+      "familia_botanica": "Fabaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "America tropical; nativo de Costa Rica y bosques tropicales.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1300,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical humedo",
+          "tropical seco"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Regular durante establecimiento.",
+        "suelo": "Profundo y bien drenado.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7565,12 +7762,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Guapinol pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Guapinol pending scientific identification and growing-condition validation."
+        "es": "El guapinol es un arbol nativo de gran porte y valor forestal y ecologico; sus frutos pueden ser aprovechados por fauna.",
+        "en": "Guapinol is a large native tree with forestry and ecological value; its fruits may be used by wildlife."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -7599,7 +7801,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7624,13 +7826,24 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Nogal pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Nogal pending scientific identification and growing-condition validation."
+        "es": "Nogal requiere confirmacion local antes de asignar especie.",
+        "en": "Nogal requires local confirmation before assigning a species."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [
+          "Juglans olanchana",
+          "otras especies llamadas Nogal en Costa Rica"
+        ],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_273_pochote",
@@ -7639,26 +7852,29 @@
       ],
       "nombre_es": "Pochote",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Pachira quinata (Jacq.) W.S.Alverson",
+      "familia_botanica": "Malvaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "Mesoamerica y norte de Sudamerica; nativo de bosques tropicales.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1000,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical seco",
+          "tropical humedo"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Riego durante establecimiento.",
+        "suelo": "Bien drenado.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7683,12 +7899,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Pochote pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Pochote pending scientific identification and growing-condition validation."
+        "es": "El pochote es un arbol forestal nativo de gran porte, util para restauracion y madera.",
+        "en": "Pochote is a large native forest tree useful for restoration and timber."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -7698,26 +7919,29 @@
       ],
       "nombre_es": "Ron Ron",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Astronium graveolens Jacq.",
+      "familia_botanica": "Anacardiaceae",
       "categoria": "Maderables",
-      "origen": null,
+      "origen": "Mexico, Centroamerica y Sudamerica tropical; nativo de Costa Rica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1000,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical seco",
+          "tropical humedo"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Riego de establecimiento.",
+        "suelo": "Bien drenado.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7742,12 +7966,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Ron Ron pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Ron Ron pending scientific identification and growing-condition validation."
+        "es": "El ron ron es un arbol maderable nativo; su aprovechamiento requiere verificar procedencia y normativa.",
+        "en": "Ron ron is a native timber tree; use requires checking provenance and regulations."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -7776,7 +8005,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7801,13 +8030,23 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Aguacatito pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Aguacatito pending scientific identification and growing-condition validation."
+        "es": "Aguacatito requiere identificacion local; no se asignan datos sin confirmacion.",
+        "en": "Aguacatito requires local identification; no data are assigned without confirmation."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [
+          "Especies de Lauraceae llamadas aguacatito o aguacatillo"
+        ],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_276_almendro_de_montana",
@@ -7816,26 +8055,28 @@
       ],
       "nombre_es": "Almendro de Montaña",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Dipteryx panamensis (Pittier) Record & Mell",
+      "familia_botanica": "Fabaceae",
       "categoria": "Frutas para Aves",
-      "origen": null,
+      "origen": "Nicaragua, Costa Rica, Panama y regiones vecinas; nativo de bosques humedos.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1000,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical humedo"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Humedad regular durante establecimiento.",
+        "suelo": "Profundo y bien drenado.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7860,12 +8101,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Almendro de Montaña pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Almendro de Montaña pending scientific identification and growing-condition validation."
+        "es": "El almendro de montana es un arbol nativo de bosques humedos y de alto valor para la conservacion.",
+        "en": "Almendro de montana is a native humid-forest tree with high conservation value."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -7875,26 +8121,29 @@
       ],
       "nombre_es": "Almendro de Playa",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Terminalia catappa L.",
+      "familia_botanica": "Combretaceae",
       "categoria": "Frutas para Aves",
-      "origen": null,
+      "origen": "Regiones tropicales del Indo-Pacifico; introducido y cultivado en Costa Rica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 800,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical calido",
+          "tropical humedo"
+        ],
+        "exposicion_solar": "Pleno sol",
+        "riego": "Regular durante establecimiento.",
+        "suelo": "Bien drenado; tolera suelos arenosos costeros.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7919,12 +8168,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Almendro de Playa pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Almendro de Playa pending scientific identification and growing-condition validation."
+        "es": "El almendro de playa es un arbol tropical introducido, ornamental y tolerante a condiciones costeras.",
+        "en": "Sea almond is an introduced tropical tree, ornamental and tolerant of coastal conditions."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -7953,7 +8207,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -7978,13 +8232,24 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Capulín pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Capulín pending scientific identification and growing-condition validation."
+        "es": "Capulin puede referirse a varias especies segun la region.",
+        "en": "Capulin may refer to several species depending on region."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [
+          "Prunus serotina subsp. capuli",
+          "Muntingia calabura"
+        ],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_279_cereza",
@@ -8012,7 +8277,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -8037,13 +8302,25 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Cereza pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Cereza pending scientific identification and growing-condition validation."
+        "es": "Cereza puede referirse a varias especies.",
+        "en": "Cereza may refer to several species."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [
+          "Eugenia uniflora",
+          "Muntingia calabura",
+          "otras especies llamadas Cereza"
+        ],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_280_damas",
@@ -8071,7 +8348,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -8096,13 +8373,21 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Damas pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Damas pending scientific identification and growing-condition validation."
+        "es": "Damas permanece pendiente de identificacion cientifica.",
+        "en": "Damas remains pending scientific identification."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_281_guayaba_de_mono",
@@ -8130,7 +8415,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -8155,13 +8440,25 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Guayaba de Mono pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Guayaba de Mono pending scientific identification and growing-condition validation."
+        "es": "Guayaba de Mono requiere confirmacion local.",
+        "en": "Guayaba de Mono requires local confirmation."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [
+          "Psidium guineense",
+          "Psidium friedrichsthalianum",
+          "otras Myrtaceae locales"
+        ],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_282_guitite",
@@ -8189,7 +8486,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -8214,13 +8511,25 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Güitite pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Güitite pending scientific identification and growing-condition validation."
+        "es": "Guitite requiere confirmacion local.",
+        "en": "Guitite requires local confirmation."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [
+          "Solanum arboreum",
+          "Solanum umbellatum",
+          "otras especies de Solanum"
+        ],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_283_manzanita",
@@ -8248,7 +8557,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -8273,13 +8582,21 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Manzanita pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Manzanita pending scientific identification and growing-condition validation."
+        "es": "Manzanita permanece pendiente; no se asignan datos de fruto o fauna sin confirmar la especie.",
+        "en": "Manzanita remains pending; fruit and wildlife data are not assigned without species confirmation."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_284_pitanga",
@@ -8288,26 +8605,29 @@
       ],
       "nombre_es": "Pitanga",
       "nombre_en": "Identification pending",
-      "nombre_cientifico": "Por verificar",
-      "familia_botanica": null,
+      "nombre_cientifico": "Eugenia uniflora L.",
+      "familia_botanica": "Myrtaceae",
       "categoria": "Frutas para Aves",
-      "origen": null,
+      "origen": "Sudamerica; introducida y cultivada en regiones tropicales, incluida Costa Rica.",
       "cultivo": {
-        "altitud_minima": null,
-        "altitud_maxima": null,
+        "altitud_minima": 0,
+        "altitud_maxima": 1000,
         "altitud_ideal_minima": null,
         "altitud_ideal_maxima": null,
         "temperatura_minima": null,
         "temperatura_maxima": null,
         "temperatura_optima": null,
-        "clima": [],
-        "exposicion_solar": null,
-        "riego": null,
-        "suelo": null,
+        "clima": [
+          "tropical calido",
+          "tropical humedo"
+        ],
+        "exposicion_solar": "Pleno sol o semisombra luminosa",
+        "riego": "Regular; evitar sequia prolongada.",
+        "suelo": "Fertil y bien drenado.",
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -8332,12 +8652,17 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Pitanga pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Pitanga pending scientific identification and growing-condition validation."
+        "es": "La pitanga es un arbusto o arbol pequeno cultivado por sus frutos. Puede aportar alimento a fauna generalista, sin atribuir aves especificas sin documentacion local.",
+        "en": "Pitanga is a shrub or small tree cultivated for its fruits. It may feed generalist wildlife; specific birds are not assigned without local documentation."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
-      "estado_investigacion": "Pendiente",
-      "fuentes": [],
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
+      "estado_investigacion": "Parcialmente validada",
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
       "datos_especiales": {}
     },
     {
@@ -8366,7 +8691,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -8391,13 +8716,21 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Tucuico pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Tucuico pending scientific identification and growing-condition validation."
+        "es": "Tucuico requiere confirmacion regional antes de asignar usos o relaciones con fauna.",
+        "en": "Tucuico requires regional confirmation before assigning uses or wildlife relationships."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     },
     {
       "id_especie": "pendiente_286_uva_de_la_selva",
@@ -8425,7 +8758,7 @@
         "drenaje": null,
         "resistencia_viento": null,
         "tolerancia_sequia": null,
-        "estado_validacion": "Identificación científica pendiente de confirmación."
+        "estado_validacion": "Taxonomia y distribucion verificadas; parametros productivos locales pendientes."
       },
       "caracteristicas": {
         "altura_adulta": null,
@@ -8450,13 +8783,21 @@
         "usos_tradicionales": null
       },
       "descripcion": {
-        "es": "Ficha botánica de Uva de la Selva pendiente de identificación científica y validación de condiciones de cultivo.",
-        "en": "Botanical record for Uva de la Selva pending scientific identification and growing-condition validation."
+        "es": "Uva de la Selva permanece pendiente de identificacion.",
+        "en": "Uva de la Selva remains pending identification."
       },
-      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "fuente_datos": "Investigacion documental; campos sin respaldo especifico se mantienen pendientes de validacion local.",
       "estado_investigacion": "Pendiente",
-      "fuentes": [],
-      "datos_especiales": {}
+      "fuentes": [
+        {
+          "titulo": "Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/"
+        }
+      ],
+      "datos_especiales": {
+        "identificacion_alternativas": [],
+        "nota": "Confirmar con localidad, muestra o material de referencia."
+      }
     }
   ],
   "referencias_comerciales": {

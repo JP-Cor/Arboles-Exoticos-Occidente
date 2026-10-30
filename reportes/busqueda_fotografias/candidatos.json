@@ -1,0 +1,978 @@
+[
+  {
+    "name": "Holls",
+    "scientific": "Persea americana",
+    "ids": [
+      "19",
+      "20"
+    ],
+    "candidates": [
+      {
+        "title": "File:Avocado 6.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Avocado_6.JPG/1280px-Avocado_6.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Avocado_6.JPG",
+        "author": "Petar43",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Frutti di avocado su una pianta ambientata a Roma (IT)",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "holls-f2cd9f5d30b6-8f998e4bad84"
+      },
+      {
+        "title": "File:Avocado On Tree.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Avocado_On_Tree.jpg/1280px-Avocado_On_Tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Avocado_On_Tree.jpg",
+        "author": "safaritravelplus",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "description": "Picture of avocado still on a tree.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "holls-f2cd9f5d30b6-78c1aa928963"
+      },
+      {
+        "title": "File:Criollo avocados de Oaxaca.png",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Criollo_avocados_de_Oaxaca.png/1280px-Criollo_avocados_de_Oaxaca.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Criollo_avocados_de_Oaxaca.png",
+        "author": "nsaum75¡שיחת!‎",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "Nsaum75 at English Wikipedia",
+        "description": "Criollo Avocados, the fruit of the native, uncultivated Criollo Avocado tree, in Oaxaca, Mexico.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "holls-f2cd9f5d30b6-a4b2651a98a4"
+      },
+      {
+        "title": "File:Persea americana fruit 2.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Persea_americana_fruit_2.JPG/1280px-Persea_americana_fruit_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Persea_americana_fruit_2.JPG",
+        "author": "B.navez",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "description": "Avocados (Persea americana)",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "holls-f2cd9f5d30b6-811b07d6b42d"
+      },
+      {
+        "title": "File:Persea americana fruit.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Persea_americana_fruit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Persea_americana_fruit.JPG",
+        "author": "B.navez",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "description": "Avocado (Persea americana) - fruit on the tree, Réunion island",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "holls-f2cd9f5d30b6-50202d87f0c3"
+      }
+    ]
+  },
+  {
+    "name": "Lamb Hass",
+    "scientific": "Persea americana",
+    "ids": [
+      "21",
+      "22"
+    ],
+    "candidates": [
+      {
+        "title": "File:Avocado 6.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Avocado_6.JPG/1280px-Avocado_6.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Avocado_6.JPG",
+        "author": "Petar43",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Frutti di avocado su una pianta ambientata a Roma (IT)",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "lamb-hass-ea89eeecb27a-8f998e4bad84"
+      },
+      {
+        "title": "File:Avocado On Tree.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Avocado_On_Tree.jpg/1280px-Avocado_On_Tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Avocado_On_Tree.jpg",
+        "author": "safaritravelplus",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "description": "Picture of avocado still on a tree.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "lamb-hass-ea89eeecb27a-78c1aa928963"
+      },
+      {
+        "title": "File:Criollo avocados de Oaxaca.png",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Criollo_avocados_de_Oaxaca.png/1280px-Criollo_avocados_de_Oaxaca.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Criollo_avocados_de_Oaxaca.png",
+        "author": "nsaum75¡שיחת!‎",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "Nsaum75 at English Wikipedia",
+        "description": "Criollo Avocados, the fruit of the native, uncultivated Criollo Avocado tree, in Oaxaca, Mexico.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "lamb-hass-ea89eeecb27a-a4b2651a98a4"
+      },
+      {
+        "title": "File:Persea americana fruit 2.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Persea_americana_fruit_2.JPG/1280px-Persea_americana_fruit_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Persea_americana_fruit_2.JPG",
+        "author": "B.navez",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "description": "Avocados (Persea americana)",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "lamb-hass-ea89eeecb27a-811b07d6b42d"
+      },
+      {
+        "title": "File:Persea americana fruit.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Persea_americana_fruit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Persea_americana_fruit.JPG",
+        "author": "B.navez",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "description": "Avocado (Persea americana) - fruit on the tree, Réunion island",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "lamb-hass-ea89eeecb27a-50202d87f0c3"
+      }
+    ]
+  },
+  {
+    "name": "Oro Verde",
+    "scientific": "Persea americana",
+    "ids": [
+      "23",
+      "24"
+    ],
+    "candidates": [
+      {
+        "title": "File:Avocado 6.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Avocado_6.JPG/1280px-Avocado_6.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Avocado_6.JPG",
+        "author": "Petar43",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Frutti di avocado su una pianta ambientata a Roma (IT)",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "oro-verde-69f658e9ea94-8f998e4bad84"
+      },
+      {
+        "title": "File:Avocado On Tree.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Avocado_On_Tree.jpg/1280px-Avocado_On_Tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Avocado_On_Tree.jpg",
+        "author": "safaritravelplus",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "description": "Picture of avocado still on a tree.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "oro-verde-69f658e9ea94-78c1aa928963"
+      },
+      {
+        "title": "File:Criollo avocados de Oaxaca.png",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Criollo_avocados_de_Oaxaca.png/1280px-Criollo_avocados_de_Oaxaca.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Criollo_avocados_de_Oaxaca.png",
+        "author": "nsaum75¡שיחת!‎",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "Nsaum75 at English Wikipedia",
+        "description": "Criollo Avocados, the fruit of the native, uncultivated Criollo Avocado tree, in Oaxaca, Mexico.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "oro-verde-69f658e9ea94-a4b2651a98a4"
+      },
+      {
+        "title": "File:Persea americana fruit 2.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Persea_americana_fruit_2.JPG/1280px-Persea_americana_fruit_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Persea_americana_fruit_2.JPG",
+        "author": "B.navez",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "description": "Avocados (Persea americana)",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "oro-verde-69f658e9ea94-811b07d6b42d"
+      },
+      {
+        "title": "File:Persea americana fruit.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Persea_americana_fruit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Persea_americana_fruit.JPG",
+        "author": "B.navez",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "description": "Avocado (Persea americana) - fruit on the tree, Réunion island",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "oro-verde-69f658e9ea94-50202d87f0c3"
+      }
+    ]
+  },
+  {
+    "name": "Granada gigante",
+    "scientific": "Punica granatum",
+    "ids": [
+      "25"
+    ],
+    "candidates": [
+      {
+        "title": "File:Pomegranate Tree 2.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Pomegranate_Tree_2.jpg/1280px-Pomegranate_Tree_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Pomegranate_Tree_2.jpg",
+        "author": "Shrinivaskulkarni1388",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Pomegranate Tree 2",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "granada-gigante-7af4d1a1cb83-30b515670e2b"
+      },
+      {
+        "title": "File:Pomegranate Tree 3.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Pomegranate_Tree_3.jpg/1280px-Pomegranate_Tree_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Pomegranate_Tree_3.jpg",
+        "author": "Shrinivaskulkarni1388",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Pomegranate Tree 3",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "granada-gigante-7af4d1a1cb83-1ac2e37ad73d"
+      },
+      {
+        "title": "File:Punica granatum fruit Grenade.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Punica_granatum_fruit_Grenade.jpg/1280px-Punica_granatum_fruit_Grenade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Punica_granatum_fruit_Grenade.jpg",
+        "author": "Jebulon",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "description": "A pomegranate opened on the tree (Punica granatum), showing the arils. Granada, Spain.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "granada-gigante-7af4d1a1cb83-8f7b87379fe6"
+      }
+    ]
+  },
+  {
+    "name": "Mora de palo sin espina",
+    "scientific": "Rubus sp.",
+    "ids": [
+      "31"
+    ],
+    "candidates": []
+  },
+  {
+    "name": "Mandarina King",
+    "scientific": "Citrus reticulata",
+    "ids": [
+      "67",
+      "68",
+      "69"
+    ],
+    "candidates": [
+      {
+        "title": "File:Citrus reticulata April 2013 Nordbaden.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Citrus_reticulata_April_2013_Nordbaden.JPG/1280px-Citrus_reticulata_April_2013_Nordbaden.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Citrus_reticulata_April_2013_Nordbaden.JPG",
+        "author": "4028mdk09",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "description": "Mandarinenbäumchen (Citrus reticulata), fotografiert in einem Gewächshaus in Nordbaden (Deutschland)",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "mandarina-king-511da7dcd6df-12315236a113"
+      },
+      {
+        "title": "File:Citrus unshiu 20101127 c.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Citrus_unshiu_20101127_c.jpg/1280px-Citrus_unshiu_20101127_c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Citrus_unshiu_20101127_c.jpg",
+        "author": "Batholith",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "Citrus unshiu from Shizuoka Prefecture, Japan.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "mandarina-king-511da7dcd6df-e266eaf2e43c"
+      },
+      {
+        "title": "File:Mandalina.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Mandalina.jpg/1280px-Mandalina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Mandalina.jpg",
+        "author": "Maderibeyza",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "description": "Citrus reticulata",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "mandarina-king-511da7dcd6df-0829d8b47516"
+      },
+      {
+        "title": "File:Map of inferred original wild ranges of the main Citrus cultivars, and selected relevant wild taxa (Fuller et al., 2017)-ar.png",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Map_of_inferred_original_wild_ranges_of_the_main_Citrus_cultivars%2C_and_selected_relevant_wild_taxa_%28Fuller_et_al.%2C_2017%29-ar.png/1280px-Map_of_inferred_original_wild_ranges_of_the_main_Citrus_cultivars%2C_and_selected_relevant_wild_taxa_%28Fuller_et_al.%2C_2017%29-ar.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Map_of_inferred_original_wild_ranges_of_the_main_Citrus_cultivars,_and_selected_relevant_wild_taxa_(Fuller_et_al.,_2017)-ar.png",
+        "author": "Bassem Fleifel",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "خريطة تُظهر موطن الأنواع الرئيسة من الحمضيَّات البريَّة.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "mandarina-king-511da7dcd6df-920b58934e8c"
+      },
+      {
+        "title": "File:Orange on the tree.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Orange_on_the_tree.jpg/1280px-Orange_on_the_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Orange_on_the_tree.jpg",
+        "author": "Kylelovesyou",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "orange on an orange tree. Belongs at the category, Citrus ×sinensis (or syn. Citrus aurantium L. var. dulcis L., or Citrus aurantium Risso). Can you believe that the orange is a hybrid of ancient cultivated origin, possibly between pomelo (Citrus maxima) and tangerine (Citrus reticulata). Image no.06920",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "mandarina-king-511da7dcd6df-e8067c3f2feb"
+      }
+    ]
+  },
+  {
+    "name": "Naranja Agria variegada",
+    "scientific": "Citrus × aurantium",
+    "ids": [
+      "73",
+      "74",
+      "75"
+    ],
+    "candidates": [
+      {
+        "title": "File:Bitter orange - Citrus aurantium 01.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Bitter_orange_-_Citrus_aurantium_01.JPG/1280px-Bitter_orange_-_Citrus_aurantium_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Bitter_orange_-_Citrus_aurantium_01.JPG",
+        "author": "Zeynel Cebeci",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Flowers of bitter orange (Citrus aurantium). Kozan, Adana - Turkey.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "naranja-agria-variegada-9ba8e8c8471f-a3f1415b26b3"
+      },
+      {
+        "title": "File:Bitter orange - Citrus aurantium 08.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Bitter_orange_-_Citrus_aurantium_08.JPG/1280px-Bitter_orange_-_Citrus_aurantium_08.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Bitter_orange_-_Citrus_aurantium_08.JPG",
+        "author": "Zeynel Cebeci",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Bitter orange (Citrus aurantium) trees by sidewalks of Yukaru Çarşı St in Kozan, Adana - Turkey.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "naranja-agria-variegada-9ba8e8c8471f-96baef8cfeb2"
+      },
+      {
+        "title": "File:Bitter orange - Citrus aurantium 10.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Bitter_orange_-_Citrus_aurantium_10.JPG/1280px-Bitter_orange_-_Citrus_aurantium_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Bitter_orange_-_Citrus_aurantium_10.JPG",
+        "author": "Zeynel Cebeci",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Flowering bitter orange (Citrus aurantium) tree. Kozan, Adana - Turkey.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "naranja-agria-variegada-9ba8e8c8471f-5649297911dd"
+      },
+      {
+        "title": "File:Citrus Bigaradia Sinensis - Citronier Bifaradier Chinois. (Bitter sweet oranges on a branch) (NYPL b14485031-1110821).tiff",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Citrus_Bigaradia_Sinensis_-_Citronier_Bifaradier_Chinois._%28Bitter_sweet_oranges_on_a_branch%29_%28NYPL_b14485031-1110821%29.tiff/lossy-page1-1280px-Citrus_Bigaradia_Sinensis_-_Citronier_Bifaradier_Chinois._%28Bitter_sweet_oranges_on_a_branch%29_%28NYPL_b14485031-1110821%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Citrus_Bigaradia_Sinensis_-_Citronier_Bifaradier_Chinois._(Bitter_sweet_oranges_on_a_branch)_(NYPL_b14485031-1110821).tiff",
+        "author": "Scan by NYPL",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "* 'Rédigé par Mm. Veillard, Jaume-Saint-Hilaire, Mirbel, Poiret, et continuâe par M. Loiseleur-Deslongchamps.' \nVol. 1 has engr. t.p. and half-title.\nVol. 2 has edition statement: Nouv. âed., augm. de plus de \nmoitié pour le nombre des espáeces ... avec des figures d'aprés les dessins de P.-J. Redouté ... \nVol. 2-5 have imprint: Paris : Michel.\nVol. 5 has title: Nouveau Duhamel, ou, Traité des arbres et \narbustes que l'on cultive en France / rédigé  par G.-L.-A. Loiseleur Deslongchamps, avec des figures d'aprés les dessins de MM. P.-J. Redouté et P. Bessa. \nVols. 6-7 have title: Traitâe des arbres et arbustes que l'on \ncultive en pleine terre en Europe, et particuliérement en France / par Duhamel.\nVols 6-7: \"Edition augmentâee de plus de moitié pour le nombre \n\ndes espéces ... râedigâe par",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "naranja-agria-variegada-9ba8e8c8471f-20faafcb311a"
+      },
+      {
+        "title": "File:Citrus Bigaradia violacea - Citronier Bigaradier à fruit violet (NYPL b14485031-1110830).tiff",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_%28NYPL_b14485031-1110830%29.tiff/lossy-page1-1280px-Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_%28NYPL_b14485031-1110830%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_(NYPL_b14485031-1110830).tiff",
+        "author": "Scan by NYPL",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "* 'Rédigé par Mm. Veillard, Jaume-Saint-Hilaire, Mirbel, Poiret, et continuâe par M. Loiseleur-Deslongchamps.' \nVol. 1 has engr. t.p. and half-title.\nVol. 2 has edition statement: Nouv. âed., augm. de plus de \nmoitié pour le nombre des espáeces ... avec des figures d'aprés les dessins de P.-J. Redouté ... \nVol. 2-5 have imprint: Paris : Michel.\nVol. 5 has title: Nouveau Duhamel, ou, Traité des arbres et \narbustes que l'on cultive en France / rédigé  par G.-L.-A. Loiseleur Deslongchamps, avec des figures d'aprés les dessins de MM. P.-J. Redouté et P. Bessa. \nVols. 6-7 have title: Traitâe des arbres et arbustes que l'on \ncultive en pleine terre en Europe, et particuliérement en France / par Duhamel.\nVols 6-7: \"Edition augmentâee de plus de moitié pour le nombre \n\ndes espéces ... râedigâe par",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "naranja-agria-variegada-9ba8e8c8471f-654f38ef6784"
+      }
+    ]
+  },
+  {
+    "name": "Naranja Dulce variegada",
+    "scientific": "Citrus × sinensis",
+    "ids": [
+      "76",
+      "77",
+      "78"
+    ],
+    "candidates": [
+      {
+        "title": "File:Citrus Bigaradia violacea - Citronier Bigaradier à fruit violet (NYPL b14485031-1110830).tiff",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_%28NYPL_b14485031-1110830%29.tiff/lossy-page1-1280px-Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_%28NYPL_b14485031-1110830%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_(NYPL_b14485031-1110830).tiff",
+        "author": "Scan by NYPL",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "* 'Rédigé par Mm. Veillard, Jaume-Saint-Hilaire, Mirbel, Poiret, et continuâe par M. Loiseleur-Deslongchamps.' \nVol. 1 has engr. t.p. and half-title.\nVol. 2 has edition statement: Nouv. âed., augm. de plus de \nmoitié pour le nombre des espáeces ... avec des figures d'aprés les dessins de P.-J. Redouté ... \nVol. 2-5 have imprint: Paris : Michel.\nVol. 5 has title: Nouveau Duhamel, ou, Traité des arbres et \narbustes que l'on cultive en France / rédigé  par G.-L.-A. Loiseleur Deslongchamps, avec des figures d'aprés les dessins de MM. P.-J. Redouté et P. Bessa. \nVols. 6-7 have title: Traitâe des arbres et arbustes que l'on \ncultive en pleine terre en Europe, et particuliérement en France / par Duhamel.\nVols 6-7: \"Edition augmentâee de plus de moitié pour le nombre \n\ndes espéces ... râedigâe par",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "naranja-dulce-variegada-ba8ad2437a6a-654f38ef6784"
+      }
+    ]
+  },
+  {
+    "name": "Naranja Malagueña",
+    "scientific": "Citrus × sinensis",
+    "ids": [
+      "79",
+      "80",
+      "81"
+    ],
+    "candidates": [
+      {
+        "title": "File:Citrus Bigaradia violacea - Citronier Bigaradier à fruit violet (NYPL b14485031-1110830).tiff",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_%28NYPL_b14485031-1110830%29.tiff/lossy-page1-1280px-Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_%28NYPL_b14485031-1110830%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_(NYPL_b14485031-1110830).tiff",
+        "author": "Scan by NYPL",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "* 'Rédigé par Mm. Veillard, Jaume-Saint-Hilaire, Mirbel, Poiret, et continuâe par M. Loiseleur-Deslongchamps.' \nVol. 1 has engr. t.p. and half-title.\nVol. 2 has edition statement: Nouv. âed., augm. de plus de \nmoitié pour le nombre des espáeces ... avec des figures d'aprés les dessins de P.-J. Redouté ... \nVol. 2-5 have imprint: Paris : Michel.\nVol. 5 has title: Nouveau Duhamel, ou, Traité des arbres et \narbustes que l'on cultive en France / rédigé  par G.-L.-A. Loiseleur Deslongchamps, avec des figures d'aprés les dessins de MM. P.-J. Redouté et P. Bessa. \nVols. 6-7 have title: Traitâe des arbres et arbustes que l'on \ncultive en pleine terre en Europe, et particuliérement en France / par Duhamel.\nVols 6-7: \"Edition augmentâee de plus de moitié pour le nombre \n\ndes espéces ... râedigâe par",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "naranja-malaguena-fefc55a17f3a-654f38ef6784"
+      }
+    ]
+  },
+  {
+    "name": "Naranja Mineola",
+    "scientific": "Citrus × tangelo",
+    "ids": [
+      "82",
+      "83",
+      "84"
+    ],
+    "candidates": []
+  },
+  {
+    "name": "Naranja Orlando",
+    "scientific": "Citrus × tangelo",
+    "ids": [
+      "88",
+      "89",
+      "90"
+    ],
+    "candidates": []
+  },
+  {
+    "name": "Naranja Piña",
+    "scientific": "Citrus × sinensis",
+    "ids": [
+      "94",
+      "95",
+      "96"
+    ],
+    "candidates": [
+      {
+        "title": "File:Citrus Bigaradia violacea - Citronier Bigaradier à fruit violet (NYPL b14485031-1110830).tiff",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_%28NYPL_b14485031-1110830%29.tiff/lossy-page1-1280px-Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_%28NYPL_b14485031-1110830%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_(NYPL_b14485031-1110830).tiff",
+        "author": "Scan by NYPL",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "* 'Rédigé par Mm. Veillard, Jaume-Saint-Hilaire, Mirbel, Poiret, et continuâe par M. Loiseleur-Deslongchamps.' \nVol. 1 has engr. t.p. and half-title.\nVol. 2 has edition statement: Nouv. âed., augm. de plus de \nmoitié pour le nombre des espáeces ... avec des figures d'aprés les dessins de P.-J. Redouté ... \nVol. 2-5 have imprint: Paris : Michel.\nVol. 5 has title: Nouveau Duhamel, ou, Traité des arbres et \narbustes que l'on cultive en France / rédigé  par G.-L.-A. Loiseleur Deslongchamps, avec des figures d'aprés les dessins de MM. P.-J. Redouté et P. Bessa. \nVols. 6-7 have title: Traitâe des arbres et arbustes que l'on \ncultive en pleine terre en Europe, et particuliérement en France / par Duhamel.\nVols 6-7: \"Edition augmentâee de plus de moitié pour le nombre \n\ndes espéces ... râedigâe par",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "naranja-pina-970c43df9bfe-654f38ef6784"
+      }
+    ]
+  },
+  {
+    "name": "Naranja Washington Roja",
+    "scientific": "Citrus × sinensis",
+    "ids": [
+      "106",
+      "107",
+      "108"
+    ],
+    "candidates": [
+      {
+        "title": "File:Citrus Bigaradia violacea - Citronier Bigaradier à fruit violet (NYPL b14485031-1110830).tiff",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_%28NYPL_b14485031-1110830%29.tiff/lossy-page1-1280px-Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_%28NYPL_b14485031-1110830%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Citrus_Bigaradia_violacea_-_Citronier_Bigaradier_%C3%A0_fruit_violet_(NYPL_b14485031-1110830).tiff",
+        "author": "Scan by NYPL",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "* 'Rédigé par Mm. Veillard, Jaume-Saint-Hilaire, Mirbel, Poiret, et continuâe par M. Loiseleur-Deslongchamps.' \nVol. 1 has engr. t.p. and half-title.\nVol. 2 has edition statement: Nouv. âed., augm. de plus de \nmoitié pour le nombre des espáeces ... avec des figures d'aprés les dessins de P.-J. Redouté ... \nVol. 2-5 have imprint: Paris : Michel.\nVol. 5 has title: Nouveau Duhamel, ou, Traité des arbres et \narbustes que l'on cultive en France / rédigé  par G.-L.-A. Loiseleur Deslongchamps, avec des figures d'aprés les dessins de MM. P.-J. Redouté et P. Bessa. \nVols. 6-7 have title: Traitâe des arbres et arbustes que l'on \ncultive en pleine terre en Europe, et particuliérement en France / par Duhamel.\nVols 6-7: \"Edition augmentâee de plus de moitié pour le nombre \n\ndes espéces ... râedigâe par",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "naranja-washington-roja-43e2826b4402-654f38ef6784"
+      }
+    ]
+  },
+  {
+    "name": "Achachairú",
+    "scientific": "Garcinia humilis",
+    "ids": [
+      "117"
+    ],
+    "candidates": [
+      {
+        "title": "File:Achachairú .jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Achachair%C3%BA_.jpg/1280px-Achachair%C3%BA_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Achachair%C3%BA_.jpg",
+        "author": "Caleidoscopic",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "description": "Fruto de garcinia humilis",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "achachairu-460a8da811a1-896d503fa2a4"
+      },
+      {
+        "title": "File:Fruto de Achachairú garcinia humilis.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Fruto_de_Achachair%C3%BA_garcinia_humilis.jpg/1280px-Fruto_de_Achachair%C3%BA_garcinia_humilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Fruto_de_Achachair%C3%BA_garcinia_humilis.jpg",
+        "author": "Caleidoscopic",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "description": "Fruto abierto de Achachairú",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "achachairu-460a8da811a1-2c65e9159a19"
+      },
+      {
+        "title": "File:Árbol de Achachairu (Garcinia humilis).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%C3%81rbol_de_Achachairu_%28Garcinia_humilis%29.jpg/1280px-%C3%81rbol_de_Achachairu_%28Garcinia_humilis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:%C3%81rbol_de_Achachairu_(Garcinia_humilis).jpg",
+        "author": "China Supay md",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "",
+        "description": "Árbol de Achachairu (Garcinia humilis) con frutos maduros, enla comunidad de Chahuara en Sud Yungas",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "achachairu-460a8da811a1-40a82065fdcf"
+      },
+      {
+        "title": "File:GARCINIA HUMILIS.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/GARCINIA_HUMILIS.jpg/1280px-GARCINIA_HUMILIS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:GARCINIA_HUMILIS.jpg",
+        "author": "Caleidoscopic",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "description": "Achacaitu (Garcinia gardneriana) frutos de Achachairú",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "achachairu-460a8da811a1-9bc761f1c0b6"
+      },
+      {
+        "title": "File:Garcinia humilis 969352.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Garcinia_humilis_969352.jpg/1280px-Garcinia_humilis_969352.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Garcinia_humilis_969352.jpg",
+        "author": "Eric Knight",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "",
+        "description": "Achacha (Garcinia humilis) in Dominica",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "achachairu-460a8da811a1-4b26fd85e417"
+      }
+    ]
+  },
+  {
+    "name": "Achiote",
+    "scientific": "Bixa orellana",
+    "ids": [
+      "118"
+    ],
+    "candidates": [
+      {
+        "title": "File:Achiote Hidropoeticas.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Achiote_Hidropoeticas.jpg/1280px-Achiote_Hidropoeticas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Achiote_Hidropoeticas.jpg",
+        "author": "Sandra Ramirez",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "",
+        "description": "Semilla de achiote caida al borde de la Quebrada Santa Elena",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "achiote-81eafc01014e-65ad7925c5c4"
+      },
+      {
+        "title": "File:Bixa orellana L. - Annatto - Achiote - biological specimen.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Bixa_orellana_L._-_Annatto_-_Achiote_-_biological_specimen.jpg/1280px-Bixa_orellana_L._-_Annatto_-_Achiote_-_biological_specimen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Bixa_orellana_L._-_Annatto_-_Achiote_-_biological_specimen.jpg",
+        "author": "Ynes Mexia",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "description": "Biological specimen of Bixa orellana L.  Common name of annatto or achiote. \nPlantae Dicotyledonae Violales Bixaceae. Other names:\nAchiote\nAchote\nAnatto\nAnnatto.\nBalsoe\nBija\nBurk\nKajoe balaoe\nKajoe saloep\nLoa\nMahiha\nNggesa\nPeni\nPeni or Pini\nPop (kurte plestok)\nRoucou\nTun-rice\nannatto\ndoaloa rice\nlipstick tree\n\nPuerto Vallarto., Jalisco, Mexico, North America - Neotropics. Ynes Mexia, Collector.",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "achiote-81eafc01014e-5957e406b5f6"
+      },
+      {
+        "title": "File:Bixa orellana achiote plant, April 2023.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Bixa_orellana_achiote_plant%2C_April_2023.jpg/1280px-Bixa_orellana_achiote_plant%2C_April_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Bixa_orellana_achiote_plant,_April_2023.jpg",
+        "author": "Grace789",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "View of a plant in a sunny day",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "achiote-81eafc01014e-cc9ad84c85d3"
+      },
+      {
+        "title": "File:Fruto seco abierto de achiote.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fruto_seco_abierto_de_achiote.jpg/1280px-Fruto_seco_abierto_de_achiote.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Fruto_seco_abierto_de_achiote.jpg",
+        "author": "Carlo Brescia",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Frutos secos de Bixa Orellana en San Roque de Cumbaza, San Martín, Perú.",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "achiote-81eafc01014e-7f694c3b54f0"
+      },
+      {
+        "title": "File:Frutos secos abierto de achiote.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Frutos_secos_abierto_de_achiote.jpg/1280px-Frutos_secos_abierto_de_achiote.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Frutos_secos_abierto_de_achiote.jpg",
+        "author": "Carlo Brescia",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Frutos secos de Bixa Orellana en San Roque de Cumbaza, San Martín, Perú.",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "achiote-81eafc01014e-60d04f8b2844"
+      }
+    ]
+  },
+  {
+    "name": "Arazá",
+    "scientific": "Eugenia stipitata",
+    "ids": [
+      "120"
+    ],
+    "candidates": [
+      {
+        "title": "File:Arazá fruto maduro.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Araz%C3%A1_fruto_maduro.jpg/1280px-Araz%C3%A1_fruto_maduro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Araz%C3%A1_fruto_maduro.jpg",
+        "author": "EditorDoro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Pool doroteo",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "araza-953f6ab81bfa-bec2275969d3"
+      },
+      {
+        "title": "File:Arazá, Rocha, Uruguay, 2017.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Araz%C3%A1%2C_Rocha%2C_Uruguay%2C_2017.jpg/1280px-Araz%C3%A1%2C_Rocha%2C_Uruguay%2C_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Araz%C3%A1,_Rocha,_Uruguay,_2017.jpg",
+        "author": "Museo Nacional de Historia Natural de Uruguay",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Frutos de Arazá (Eugenia stipitata) en Uruguay.",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "araza-953f6ab81bfa-d670422cdb47"
+      },
+      {
+        "title": "File:Extracción de la semilla del Arazá.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Extracci%C3%B3n_de_la_semilla_del_Araz%C3%A1.jpg/1280px-Extracci%C3%B3n_de_la_semilla_del_Araz%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Extracci%C3%B3n_de_la_semilla_del_Araz%C3%A1.jpg",
+        "author": "EditorDoro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "en Pucallpa Perú",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "araza-953f6ab81bfa-fddc8a1abcae"
+      },
+      {
+        "title": "File:Frutos del Arazá en Pucallpa Perú.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Frutos_del_Araz%C3%A1_en_Pucallpa_Per%C3%BA.jpg/1280px-Frutos_del_Araz%C3%A1_en_Pucallpa_Per%C3%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Frutos_del_Araz%C3%A1_en_Pucallpa_Per%C3%BA.jpg",
+        "author": "EditorDoro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "El fruto de Arazá en Pucallpa Ucayali por el Investigador e Practicante Pool Diego Doroteo Yupan de la Universidad Nacional de Ucayali,sosteniendo el fruto maduro del Arazá para el proceso de germinación en el fundo Santa Rita en Yarinacocha km 10 interior 5 kilómetros",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "araza-953f6ab81bfa-38d0098d1133"
+      },
+      {
+        "title": "File:Mediciones del Fruto del Arazá.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Mediciones_del_Fruto_del_Araz%C3%A1.jpg/1280px-Mediciones_del_Fruto_del_Araz%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Mediciones_del_Fruto_del_Araz%C3%A1.jpg",
+        "author": "EditorDoro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Medición del diámetro del fruto del Arazá o Guayaba Amazónico por el Investigador y prácticante Pool Diego Doroteo Yupan de la Universidad Nacional de Ucayali",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "araza-953f6ab81bfa-929902d23adc"
+      }
+    ]
+  },
+  {
+    "name": "Arándano Jambolán",
+    "scientific": "Syzygium cumini",
+    "ids": [
+      "121"
+    ],
+    "candidates": [
+      {
+        "title": "File:9506aSyzygium cumini Plumfvf 11.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/9506aSyzygium_cumini_Plumfvf_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:9506aSyzygium_cumini_Plumfvf_11.jpg",
+        "author": "Judgefloro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Syzygium cumini, Syszygium jambolanum or Duhat in Philippines, jambul, jambolan, jamblang, or jamun, is an evergreen tropical tree in the flowering plant family Myrtaceae in Barangays Bantug Bulalo, Magsaysay Sur and  Magsaysay NorteCabanatuan City, Nueva Ecija.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "arandano-jambolan-c9be944b389c-e681e9859f30"
+      },
+      {
+        "title": "File:9506aSyzygium cumini Plumfvf 13.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/9506aSyzygium_cumini_Plumfvf_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:9506aSyzygium_cumini_Plumfvf_13.jpg",
+        "author": "Judgefloro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Syzygium cumini, Syszygium jambolanum or Duhat in Philippines, jambul, jambolan, jamblang, or jamun, is an evergreen tropical tree in the flowering plant family Myrtaceae in Barangays Bantug Bulalo, Magsaysay Sur and  Magsaysay NorteCabanatuan City, Nueva Ecija.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "arandano-jambolan-c9be944b389c-dc71320048fa"
+      },
+      {
+        "title": "File:9506aSyzygium cumini Plumfvf 14.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/9506aSyzygium_cumini_Plumfvf_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:9506aSyzygium_cumini_Plumfvf_14.jpg",
+        "author": "Judgefloro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Syzygium cumini, Syszygium jambolanum or Duhat in Philippines, jambul, jambolan, jamblang, or jamun, is an evergreen tropical tree in the flowering plant family Myrtaceae in Barangays Bantug Bulalo, Magsaysay Sur and  Magsaysay NorteCabanatuan City, Nueva Ecija.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "arandano-jambolan-c9be944b389c-4df0430b5a66"
+      },
+      {
+        "title": "File:9506aSyzygium cumini Plumfvf 15.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/9506aSyzygium_cumini_Plumfvf_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:9506aSyzygium_cumini_Plumfvf_15.jpg",
+        "author": "Judgefloro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Syzygium cumini, Syszygium jambolanum or Duhat in Philippines, jambul, jambolan, jamblang, or jamun, is an evergreen tropical tree in the flowering plant family Myrtaceae in Barangays Bantug Bulalo, Magsaysay Sur and  Magsaysay NorteCabanatuan City, Nueva Ecija.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "arandano-jambolan-c9be944b389c-be637caed3f5"
+      },
+      {
+        "title": "File:9506aSyzygium cumini Plumfvf 16.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/9506aSyzygium_cumini_Plumfvf_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:9506aSyzygium_cumini_Plumfvf_16.jpg",
+        "author": "Judgefloro",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "description": "Syzygium cumini, Syszygium jambolanum or Duhat in Philippines, jambul, jambolan, jamblang, or jamun, is an evergreen tropical tree in the flowering plant family Myrtaceae in Barangays Bantug Bulalo, Magsaysay Sur and  Magsaysay NorteCabanatuan City, Nueva Ecija.",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Nombre científico de especie; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "arandano-jambolan-c9be944b389c-719b26a27972"
+      }
+    ]
+  },
+  {
+    "name": "Bacupari",
+    "scientific": "Garcinia gardneriana",
+    "ids": [
+      "123"
+    ],
+    "candidates": [
+      {
+        "title": "File:Fruta do Bacupari.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Fruta_do_Bacupari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Fruta_do_Bacupari.jpg",
+        "author": "Carolqk",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "Fruta do Bacupari (Garcinia gardneriana) - São Paulo - Brasil",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "bacupari-18f6de0bb9fa-e696c8eb6779"
+      },
+      {
+        "title": "File:Fruta e Folhas de Bacupari.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Fruta_e_Folhas_de_Bacupari.JPG/1280px-Fruta_e_Folhas_de_Bacupari.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Fruta_e_Folhas_de_Bacupari.JPG",
+        "author": "Luiz Roberto Kozikoski",
+        "license": "Public domain",
+        "license_url": "",
+        "attribution": "",
+        "description": "Tree of bakupari - fruit and leaves",
+        "match_level": "variedad_mencionada",
+        "evidence": "Nombre comercial mencionado; identidad varietal NO verificada. Revisar fuente.",
+        "filter_version": 8,
+        "candidate_id": "bacupari-18f6de0bb9fa-77b7bca06408"
+      },
+      {
+        "title": "File:Garcinia brasiliensis 351635990.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Garcinia_brasiliensis_351635990.jpg/1280px-Garcinia_brasiliensis_351635990.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Garcinia_brasiliensis_351635990.jpg",
+        "author": "Thomaz Ricardo Favreto Sinani",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "",
+        "description": "Garcinia brasiliensis in Brazil",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "bacupari-18f6de0bb9fa-1bf19e4ca0c4"
+      },
+      {
+        "title": "File:Garcinia brasiliensis 351635996.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Garcinia_brasiliensis_351635996.jpg/1280px-Garcinia_brasiliensis_351635996.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Garcinia_brasiliensis_351635996.jpg",
+        "author": "Thomaz Ricardo Favreto Sinani",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "",
+        "description": "Garcinia brasiliensis in Brazil",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "bacupari-18f6de0bb9fa-b6ecd328733f"
+      },
+      {
+        "title": "File:Garcinia brasiliensis 351636002.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Garcinia_brasiliensis_351636002.jpg/1280px-Garcinia_brasiliensis_351636002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Garcinia_brasiliensis_351636002.jpg",
+        "author": "Thomaz Ricardo Favreto Sinani",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "",
+        "description": "Garcinia brasiliensis in Brazil",
+        "match_level": "especie_sin_variedad",
+        "evidence": "Coincidencia botánica general; NO confirma la variedad.",
+        "filter_version": 8,
+        "candidate_id": "bacupari-18f6de0bb9fa-10293cc9db50"
+      }
+    ]
+  }
+]

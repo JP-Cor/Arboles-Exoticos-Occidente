@@ -1,0 +1,599 @@
+{
+  "total_productos": 258,
+  "fotografias_encontradas": 113,
+  "fotografias_asociadas": 75,
+  "fotografias_sin_producto_identificado": [
+    "acerola silvestre.webp",
+    "bacu pary.webp",
+    "biriba brasilensis.webp",
+    "castaña.webp",
+    "cempedack king.webp",
+    "cempedack mini.webp",
+    "cepe jack.webp",
+    "chempe jack.webp",
+    "cipres.webp",
+    "citricos/limon calamondin.webp",
+    "citricos/limon panama.webp",
+    "citrus mano de buda.webp",
+    "copoazu.webp",
+    "garcina hombroniana.webp",
+    "garcinia mundy.webp",
+    "grumichama amarillo.webp",
+    "grumichama morada.webp",
+    "guanabana dulce.webp",
+    "guayaba del peru.webp",
+    "guayaba leche.webp",
+    "guayava taiwanes.webp",
+    "icaco rosado.webp",
+    "jack fruit king.webp",
+    "jack fruit lemon.webp",
+    "jack fruit naranja.webp",
+    "jack fruit roja.webp",
+    "jack fruit.webp",
+    "jack fuit miel.webp",
+    "jambu blanca.webp",
+    "lepisantes.webp",
+    "logan de filli verde.webp",
+    "mamon chino.webp",
+    "mamon lichis.webp",
+    "manga irwin.webp",
+    "manga jade.webp",
+    "manga tomy.webp",
+    "mangustan rosado.webp",
+    "mangustan.webp",
+    "mani dde arbol.webp",
+    "manzana de agua morada.webp",
+    "manzana de java.webp",
+    "manzana del mono.webp",
+    "maprang.webp",
+    "mimbre.webp",
+    "mora de arbol.webp",
+    "nance amarillo.webp",
+    "nuez de cola.webp",
+    "ojo de dragon.webp",
+    "pedalai.webp",
+    "pitanga negra.webp",
+    "pitanga roja.webp",
+    "ssantol jumbo.webp",
+    "tamarindo.webp",
+    "zapote colombiano.webp"
+  ],
+  "productos_sin_fotografia": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    36,
+    130,
+    131,
+    133,
+    134,
+    135,
+    136,
+    138,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    161,
+    162,
+    163,
+    164,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    174,
+    175,
+    176,
+    177,
+    178,
+    180,
+    181,
+    182,
+    183,
+    184,
+    186,
+    187,
+    188,
+    189,
+    190,
+    192,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    232,
+    233,
+    237,
+    238,
+    239,
+    240,
+    241,
+    243,
+    244,
+    245,
+    246,
+    247,
+    249,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258
+  ],
+  "fotografias_duplicadas": [],
+  "fotografias_con_conflictos": {
+    "cacao.webp": [
+      126,
+      127,
+      128,
+      231,
+      232,
+      233
+    ],
+    "cempedak.webp": [
+      138
+    ],
+    "macambo.webp": [
+      171
+    ]
+  },
+  "fotografias_convertidas_a_webp": [],
+  "rutas_propuestas": [],
+  "referencias_invalidas": [
+    [
+      40,
+      "citricos/Limón caviar rojo y verde.webp"
+    ],
+    [
+      41,
+      "citricos/Limón caviar rojo y verde.webp"
+    ],
+    [
+      42,
+      "citricos/Limón caviar rojo y verde.webp"
+    ],
+    [
+      43,
+      "citricos/Limón criollo.webp"
+    ],
+    [
+      44,
+      "citricos/Limón criollo.webp"
+    ],
+    [
+      45,
+      "citricos/Limón criollo.webp"
+    ],
+    [
+      46,
+      "citricos/limon dulce.webp"
+    ],
+    [
+      47,
+      "citricos/limon dulce.webp"
+    ],
+    [
+      48,
+      "citricos/limon dulce.webp"
+    ],
+    [
+      49,
+      "citricos/Limón Mano de Buda (colección).webp"
+    ],
+    [
+      50,
+      "citricos/Limón Mano de Buda (colección).webp"
+    ],
+    [
+      51,
+      "citricos/Limón Mano de Buda (colección).webp"
+    ],
+    [
+      52,
+      "citricos/Limón mesino.webp"
+    ],
+    [
+      53,
+      "citricos/Limón mesino.webp"
+    ],
+    [
+      54,
+      "citricos/Limón mesino.webp"
+    ],
+    [
+      55,
+      "citricos/Limón o naranjilla.webp"
+    ],
+    [
+      56,
+      "citricos/Limón o naranjilla.webp"
+    ],
+    [
+      57,
+      "citricos/Limón o naranjilla.webp"
+    ],
+    [
+      58,
+      "citricos/Limón Verdelli.webp"
+    ],
+    [
+      59,
+      "citricos/Limón Verdelli.webp"
+    ],
+    [
+      60,
+      "citricos/Limón Verdelli.webp"
+    ],
+    [
+      61,
+      "citricos/Mandarina clementina.webp"
+    ],
+    [
+      62,
+      "citricos/Mandarina clementina.webp"
+    ],
+    [
+      63,
+      "citricos/Mandarina clementina.webp"
+    ],
+    [
+      64,
+      "citricos/Mandarina criolla.webp"
+    ],
+    [
+      65,
+      "citricos/Mandarina criolla.webp"
+    ],
+    [
+      66,
+      "citricos/Mandarina criolla.webp"
+    ],
+    [
+      67,
+      "citricos/Mandarina King.webp"
+    ],
+    [
+      68,
+      "citricos/Mandarina King.webp"
+    ],
+    [
+      69,
+      "citricos/Mandarina King.webp"
+    ],
+    [
+      70,
+      "citricos/Naranja Agria.webp"
+    ],
+    [
+      71,
+      "citricos/Naranja Agria.webp"
+    ],
+    [
+      72,
+      "citricos/Naranja Agria.webp"
+    ],
+    [
+      73,
+      "citricos/Naranja Agria variegada.webp"
+    ],
+    [
+      74,
+      "citricos/Naranja Agria variegada.webp"
+    ],
+    [
+      75,
+      "citricos/Naranja Agria variegada.webp"
+    ],
+    [
+      76,
+      "citricos/Naranja Dulce variegada.webp"
+    ],
+    [
+      77,
+      "citricos/Naranja Dulce variegada.webp"
+    ],
+    [
+      78,
+      "citricos/Naranja Dulce variegada.webp"
+    ],
+    [
+      79,
+      "citricos/Naranja Malagueña.webp"
+    ],
+    [
+      80,
+      "citricos/Naranja Malagueña.webp"
+    ],
+    [
+      81,
+      "citricos/Naranja Malagueña.webp"
+    ],
+    [
+      82,
+      "citricos/Naranja Mineola.webp"
+    ],
+    [
+      83,
+      "citricos/Naranja Mineola.webp"
+    ],
+    [
+      84,
+      "citricos/Naranja Mineola.webp"
+    ],
+    [
+      85,
+      "citricos/Naranja Navel.webp"
+    ],
+    [
+      86,
+      "citricos/Naranja Navel.webp"
+    ],
+    [
+      87,
+      "citricos/Naranja Navel.webp"
+    ],
+    [
+      88,
+      "citricos/Naranja Orlando.webp"
+    ],
+    [
+      89,
+      "citricos/Naranja Orlando.webp"
+    ],
+    [
+      90,
+      "citricos/Naranja Orlando.webp"
+    ],
+    [
+      91,
+      "citricos/Naranja Ortanique.webp"
+    ],
+    [
+      92,
+      "citricos/Naranja Ortanique.webp"
+    ],
+    [
+      93,
+      "citricos/Naranja Ortanique.webp"
+    ],
+    [
+      94,
+      "citricos/Naranja Piña.webp"
+    ],
+    [
+      95,
+      "citricos/Naranja Piña.webp"
+    ],
+    [
+      96,
+      "citricos/Naranja Piña.webp"
+    ],
+    [
+      97,
+      "citricos/Naranja Sanguínea.webp"
+    ],
+    [
+      98,
+      "citricos/Naranja Sanguínea.webp"
+    ],
+    [
+      99,
+      "citricos/Naranja Sanguínea.webp"
+    ],
+    [
+      100,
+      "citricos/Naranja Valencia.webp"
+    ],
+    [
+      101,
+      "citricos/Naranja Valencia.webp"
+    ],
+    [
+      102,
+      "citricos/Naranja Valencia.webp"
+    ],
+    [
+      103,
+      "citricos/Naranja Washington.webp"
+    ],
+    [
+      104,
+      "citricos/Naranja Washington.webp"
+    ],
+    [
+      105,
+      "citricos/Naranja Washington.webp"
+    ],
+    [
+      106,
+      "citricos/Naranja Washington Roja.webp"
+    ],
+    [
+      107,
+      "citricos/Naranja Washington Roja.webp"
+    ],
+    [
+      108,
+      "citricos/Naranja Washington Roja.webp"
+    ],
+    [
+      109,
+      "citricos/Toronja.webp"
+    ],
+    [
+      110,
+      "citricos/Toronja.webp"
+    ],
+    [
+      111,
+      "citricos/Toronja.webp"
+    ],
+    [
+      117,
+      "exoticos/achachairu.webp"
+    ],
+    [
+      118,
+      "exoticos/achiote.webp"
+    ],
+    [
+      120,
+      "exoticos/araza.webp"
+    ],
+    [
+      121,
+      "exoticos/jaba.webp"
+    ],
+    [
+      123,
+      "exoticos/bacupari.webp"
+    ],
+    [
+      124,
+      "exoticos/biriba.webp"
+    ],
+    [
+      125,
+      "exoticos/borojo.webp"
+    ],
+    [
+      126,
+      "exoticos/cacao_blanco.webp"
+    ],
+    [
+      127,
+      "exoticos/cacao_negro.webp"
+    ],
+    [
+      128,
+      "exoticos/cacao_rojo.webp"
+    ],
+    [
+      129,
+      "exoticos/calamansi.webp"
+    ]
+  ],
+  "pendientes_revision": [
+    "acerola silvestre.webp",
+    "bacu pary.webp",
+    "biriba brasilensis.webp",
+    "castaña.webp",
+    "cempedack king.webp",
+    "cempedack mini.webp",
+    "cepe jack.webp",
+    "chempe jack.webp",
+    "cipres.webp",
+    "citricos/limon calamondin.webp",
+    "citricos/limon panama.webp",
+    "citrus mano de buda.webp",
+    "copoazu.webp",
+    "garcina hombroniana.webp",
+    "garcinia mundy.webp",
+    "grumichama amarillo.webp",
+    "grumichama morada.webp",
+    "guanabana dulce.webp",
+    "guayaba del peru.webp",
+    "guayaba leche.webp",
+    "guayava taiwanes.webp",
+    "icaco rosado.webp",
+    "jack fruit king.webp",
+    "jack fruit lemon.webp",
+    "jack fruit naranja.webp",
+    "jack fruit roja.webp",
+    "jack fruit.webp",
+    "jack fuit miel.webp",
+    "jambu blanca.webp",
+    "lepisantes.webp",
+    "logan de filli verde.webp",
+    "mamon chino.webp",
+    "mamon lichis.webp",
+    "manga irwin.webp",
+    "manga jade.webp",
+    "manga tomy.webp",
+    "mangustan rosado.webp",
+    "mangustan.webp",
+    "mani dde arbol.webp",
+    "manzana de agua morada.webp",
+    "manzana de java.webp",
+    "manzana del mono.webp",
+    "maprang.webp",
+    "mimbre.webp",
+    "mora de arbol.webp",
+    "nance amarillo.webp",
+    "nuez de cola.webp",
+    "ojo de dragon.webp",
+    "pedalai.webp",
+    "pitanga negra.webp",
+    "pitanga roja.webp",
+    "ssantol jumbo.webp",
+    "tamarindo.webp",
+    "zapote colombiano.webp",
+    "cacao.webp",
+    "cempedak.webp",
+    "macambo.webp"
+  ],
+  "errores": []
+}

@@ -55,6 +55,12 @@ python scripts/optimizar_imagenes.py
 
 El script conserva los originales, genera WebP con calidad 85 %, limita el lado mayor a 1200 píxeles y actualiza las rutas convertidas de `Inventario/inventario.json`. Las imágenes que no cambiaron se omiten.
 
+Las asociaciones nuevas se hacen solo con coincidencias exactas y productos que todavía no tienen fotografía. Si hay más de una especie posible, no se asigna automáticamente. Para revisar y confirmar esas asociaciones de forma interactiva:
+
+```text
+python scripts/optimizar_imagenes.py --interactive
+```
+
 Para vigilar nuevas fotografías o cambios mientras se trabaja:
 
 ```text
@@ -62,3 +68,22 @@ python scripts/optimizar_imagenes.py --watch
 ```
 
 La vigilancia se detiene con `Ctrl+C`. También se puede ejecutar desde la tarea de VS Code **Optimizar fotografías del vivero** o **Vigilar fotografías del vivero**.
+
+## Asignar fotografías permanentemente
+
+Para asignar una fotografía existente o nueva a un producto del inventario, ejecutá desde la raíz:
+
+```text
+python scripts/asignar_fotografia.py
+```
+
+La herramienta permite buscar por ID, especie o categoría, elegir una fotografía, revisar una vista previa y asignarla a una presentación o a todas las presentaciones de la misma especie. Convierte la imagen a WebP, la guarda en la carpeta de categoría dentro de `imagenes/` y actualiza únicamente el campo `foto`.
+
+Antes de modificar el inventario crea un respaldo con formato `Inventario/inventario.backup-AAAAMMDD-HHMMSS.json`. Si el archivo WebP ya existe, solicita confirmación antes de sobrescribirlo. Después de guardar, validá y publicá los cambios con Git para que estén disponibles en GitHub Pages.
+
+## Fichas botánicas del catálogo
+
+- `Inventario/fichas_especies.json` contiene una ficha por especie o grupo botánico y relaciona sus presentaciones mediante `inventario_ids`. No reemplaza precios, tamaños ni disponibilidad.
+- `Catalogo/catalogo.js` carga las fichas separadamente y ofrece el botón **Ver información del árbol** y el buscador por altitud, clima y temperatura.
+- Para regenerar la base después de cambios en el inventario, ejecutá `python scripts/generar_fichas_especies.py`. Los campos sin respaldo específico se conservan como `null` o se marcan para validación.
+- La información nutricional es orientativa y no presenta propiedades medicinales como tratamientos. El buscador clasifica por rangos documentados, pero no sustituye la evaluación de suelo, lluvias y manejo agrícola.

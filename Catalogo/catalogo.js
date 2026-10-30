@@ -1,14 +1,81 @@
 // Catálogo generado a partir de Inventario/inventario.json.
 // Las fotos subidas desde el navegador se guardan LOCALMENTE en IndexedDB de ese navegador.
 const RUTA = '../Inventario/inventario.json?v=20261026-2';
+const RUTA_FICHAS = '../Inventario/fichas_especies.json?v=1';
 const WHATSAPP = window.VIVERO_WHATSAPP;
 const WHATSAPP_PEDIDOS = window.VIVERO_WHATSAPP;
 const CLAVE_CARRITO = 'vivero-carrito';
 const DIAGNOSTICO_FOTOS = new URLSearchParams(window.location.search).has('diagnosticoFotos');
 const $ = id => document.getElementById(id);
 let productos = [];
+let fichas = [];
 let carrito = [];
 let datosPedido = null;
+let idioma = localStorage.getItem('vivero-idioma') === 'en' ? 'en' : 'es';
+const textos = {
+    es: {
+        catalogSubtitle: 'Catálogo de especies y variedades', cart: '🛒 Carrito',
+        searchPlaceholder: 'Buscar especie, variedad, nombre científico o inglés',
+        allCategories: 'Todas las categorías', sortName: 'Ordenar por nombre', sortLow: 'Menor precio', sortHigh: 'Mayor precio',
+        zoneTitle: '¿Qué árboles puedo sembrar en mi zona?', zoneIntro: 'Indica la altitud y, opcionalmente, el clima y la temperatura aproximada de tu propiedad.',
+        altitude: 'Altitud (msnm)', climate: 'Clima', anyClimate: 'Cualquier clima', temperature: 'Temperatura (°C, opcional)',
+        categoryOptional: 'Categoría (opcional)', search: 'Buscar', searchZone: '🌳 Buscar árboles',
+        recommendations: '🌳 Recomendaciones', backToCatalog: '← Volver al catálogo',
+        searchDone: '✓ Búsqueda realizada', noProductMatches: 'No se encontraron presentaciones con esos criterios.',
+        zoneWarning: 'El suelo, la temperatura, las lluvias, el viento y el manejo agrícola también influyen en el desarrollo.',
+        resultsFor: 'Resultados para tu zona', noResults: 'No hay especies con información suficiente para esos filtros.',
+        ideal: 'Ideal', compatible: 'Compatible', notRecommended: 'No recomendado', insufficient: 'Sin información suficiente',
+        altitudeRange: 'Rango documentado', idealRange: 'Rango óptimo', climateLabel: 'Climas',
+        viewInfo: 'Ver información del árbol', details: 'Detalles comerciales', botanical: 'Información botánica',
+        scientific: 'Nombre científico', family: 'Familia botánica', origin: 'Origen', cultivation: 'Condiciones de cultivo',
+        characteristics: 'Características del árbol', nutrition: 'Beneficios y usos', sowing: 'Recomendaciones de siembra',
+        pending: 'Pendiente de validación', notAvailable: 'No disponible'
+    },
+    en: {
+        catalogSubtitle: 'Species and varieties catalog', cart: '🛒 Cart',
+        searchPlaceholder: 'Search species, variety, scientific or English name',
+        allCategories: 'All categories', sortName: 'Sort by name', sortLow: 'Lowest price', sortHigh: 'Highest price',
+        zoneTitle: 'Which trees can I grow in my area?', zoneIntro: 'Enter your property altitude and, optionally, climate and approximate temperature.',
+        altitude: 'Altitude (m.a.s.l.)', climate: 'Climate', anyClimate: 'Any climate', temperature: 'Temperature (°C, optional)',
+        categoryOptional: 'Category (optional)', search: 'Search', searchZone: '🌳 Find trees',
+        recommendations: '🌳 Recommendations', backToCatalog: '← Back to catalog',
+        searchDone: '✓ Search completed', noProductMatches: 'No presentations matched those criteria.',
+        zoneWarning: 'Soil, temperature, rainfall, wind and agricultural management also influence growth.',
+        resultsFor: 'Results for your area', noResults: 'No species has enough information for these filters.',
+        ideal: 'Ideal', compatible: 'Compatible', notRecommended: 'Not recommended', insufficient: 'Not enough information',
+        altitudeRange: 'Documented range', idealRange: 'Optimal range', climateLabel: 'Climates',
+        viewInfo: 'View tree information', details: 'Commercial details', botanical: 'Botanical information',
+        scientific: 'Scientific name', family: 'Botanical family', origin: 'Origin', cultivation: 'Growing conditions',
+        characteristics: 'Tree characteristics', nutrition: 'Benefits and uses', sowing: 'Planting recommendations',
+        pending: 'Pending validation', notAvailable: 'Not available'
+    }
+};
+function t(key) { return textos[idioma][key] || key }
+function cambiarVista(vista) {
+    const mostrarRecomendaciones = vista === 'recomendaciones';
+    $('vista-catalogo').hidden = mostrarRecomendaciones;
+    $('vista-recomendaciones').hidden = !mostrarRecomendaciones;
+    $('abrir-recomendaciones').setAttribute('aria-expanded', String(mostrarRecomendaciones));
+    if (mostrarRecomendaciones) $('altitud-zona').focus();
+    else $('buscar').focus();
+}
+function mostrarEstadoBoton(id) {
+    const boton = $(id);
+    boton.classList.add('busqueda-ejecutada');
+    const texto = boton.querySelector('[data-i18n]');
+    if (texto) texto.textContent = t('searchDone');
+    window.setTimeout(() => {
+        boton.classList.remove('busqueda-ejecutada');
+        if (texto) texto.textContent = t(texto.dataset.i18n);
+    }, 1200);
+}
+function actualizarIdioma() {
+    document.documentElement.lang = idioma;
+    document.querySelectorAll('[data-i18n]').forEach(elemento => { elemento.textContent = t(elemento.dataset.i18n) });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(elemento => { elemento.placeholder = t(elemento.dataset.i18nPlaceholder) });
+    $('cambiar-idioma').textContent = idioma === 'es' ? 'EN' : 'ES';
+    $('cambiar-idioma').setAttribute('aria-label', idioma === 'es' ? 'Switch to English' : 'Cambiar a español');
+}
 const dbReady = new Promise((resolve, reject) => { const r = indexedDB.open('vivero-fotos', 1); r.onupgradeneeded = () => r.result.createObjectStore('fotos'); r.onsuccess = () => resolve(r.result); r.onerror = () => reject(r.error) });
 async function fotoLocal(id) { const db = await dbReady; return new Promise(resolve => { const tx = db.transaction('fotos', 'readonly'); const req = tx.objectStore('fotos').get(id); req.onsuccess = () => resolve(req.result || null); req.onerror = () => resolve(null) }) }
 async function guardarFoto(id, file) { if (!file.type.startsWith('image/')) throw Error('Seleccioná una imagen'); if (file.size > 3 * 1024 * 1024) throw Error('Máximo 3 MB'); const db = await dbReady; return new Promise((resolve, reject) => { const tx = db.transaction('fotos', 'readwrite'); tx.objectStore('fotos').put(file, id); tx.oncomplete = resolve; tx.onerror = () => reject(tx.error) }) }
@@ -201,8 +268,8 @@ function rutaFotoPermanente(foto) {
     return new URL(`../imagenes/${segmentos.join('/')}`, document.baseURI).href;
 }
 async function imagen(p) {
-    // 1. Buscar fotografía guardada en este navegador
-    const local = await fotoLocal(p.id);
+    // El diagnóstico fuerza la comprobación de la fotografía permanente.
+    const local = DIAGNOSTICO_FOTOS ? null : await fotoLocal(p.id);
 
     if (local) {
         const url = URL.createObjectURL(local);
@@ -217,7 +284,7 @@ async function imagen(p) {
         return img;
     }
 
-    // 2. Buscar fotografía permanente del catálogo
+    // Buscar fotografía permanente del catálogo.
     if (p.foto) {
         const img = nodo('img', 'foto');
 
@@ -258,7 +325,66 @@ async function imagen(p) {
     );
 }
 function linea(contenedor, etiqueta, valor) { if (!valor) return; const p = nodo('p'); const b = nodo('strong', null, etiqueta + ': '); p.append(b, document.createTextNode(String(valor))); contenedor.append(p) }
-function detalle(p) { const c = $('contenido-detalle'); c.replaceChildren(); c.append(nodo('h2', null, p.especie)); linea(c, 'Categoría', p.categoria); linea(c, 'Nombre científico', p.cientifico); linea(c, 'Nombre en inglés', p.ingles); linea(c, 'Precio', moneda(p.precio)); linea(c, 'Tamaño', p.tamano); linea(c, 'Propagación / clima', p.propagacion); linea(c, 'Observaciones', p.observaciones); linea(c, 'Disponibilidad', p.disponibilidad || 'Consultar'); linea(c, 'Validación taxonómica', p.validacion); $('detalle').showModal() }
+function fichaProducto(p) { return fichas.find(ficha => ficha.inventario_ids.includes(p.id)) || null }
+function valorFicha(valor) { return valor || t('pending') }
+function listaFicha(contenedor, etiqueta, valores) {
+    if (!Array.isArray(valores) || !valores.length) return;
+    const section = nodo('div', 'ficha-seccion');
+    section.append(nodo('h3', null, etiqueta));
+    const ul = nodo('ul', 'ficha-lista');
+    valores.forEach(valor => ul.append(nodo('li', null, valor)));
+    section.append(ul);
+    contenedor.append(section);
+}
+async function detalle(p) {
+    const c = $('contenido-detalle');
+    c.replaceChildren();
+    const ficha = fichaProducto(p);
+    c.append(nodo('h2', null, idioma === 'es' ? p.especie : (p.ingles || p.especie)));
+    const foto = await imagen(p);
+    foto.classList.add('ficha-foto');
+    c.append(foto);
+    const comercial = nodo('div', 'ficha-seccion');
+    comercial.append(nodo('h3', null, t('details')));
+    linea(comercial, idioma === 'es' ? 'Categoría' : 'Category', p.categoria);
+    linea(comercial, t('scientific'), p.cientifico);
+    linea(comercial, idioma === 'es' ? 'Precio' : 'Price', moneda(p.precio));
+    linea(comercial, idioma === 'es' ? 'Tamaño' : 'Size', p.tamano);
+    linea(comercial, idioma === 'es' ? 'Disponibilidad' : 'Availability', p.disponibilidad || t('notAvailable'));
+    c.append(comercial);
+    if (ficha) {
+        c.append(nodo('div', 'ficha-seccion', ficha.descripcion[idioma]));
+        linea(c, t('family'), valorFicha(ficha.familia_botanica));
+        linea(c, t('origin'), valorFicha(ficha.origen));
+        const cultivo = ficha.cultivo;
+        const condiciones = nodo('div', 'ficha-seccion');
+        condiciones.append(nodo('h3', null, t('cultivation')));
+        linea(condiciones, idioma === 'es' ? 'Altitud recomendada' : 'Recommended altitude', cultivo.altitud_minima === null ? t('pending') : `${cultivo.altitud_minima}-${cultivo.altitud_maxima} msnm`);
+        linea(condiciones, idioma === 'es' ? 'Clima' : 'Climate', cultivo.clima.join(', ') || t('pending'));
+        linea(condiciones, idioma === 'es' ? 'Temperatura óptima' : 'Optimal temperature', valorFicha(cultivo.temperatura_optima));
+        linea(condiciones, idioma === 'es' ? 'Exposición solar' : 'Sun exposure', valorFicha(cultivo.exposicion_solar));
+        linea(condiciones, idioma === 'es' ? 'Riego' : 'Watering', valorFicha(cultivo.riego));
+        linea(condiciones, idioma === 'es' ? 'Suelo y drenaje' : 'Soil and drainage', `${valorFicha(cultivo.suelo)} ${cultivo.drenaje ? `(${cultivo.drenaje})` : ''}`);
+        c.append(condiciones);
+        const caracteristicas = ficha.caracteristicas;
+        const arbol = nodo('div', 'ficha-seccion');
+        arbol.append(nodo('h3', null, t('characteristics')));
+        linea(arbol, idioma === 'es' ? 'Altura adulta' : 'Mature height', valorFicha(caracteristicas.altura_adulta));
+        linea(arbol, idioma === 'es' ? 'Producción' : 'Bearing time', valorFicha(caracteristicas.tiempo_produccion));
+        linea(arbol, idioma === 'es' ? 'Poda' : 'Pruning', valorFicha(caracteristicas.recomendaciones_poda));
+        c.append(arbol);
+        const beneficios = nodo('div', 'ficha-seccion');
+        beneficios.append(nodo('h3', null, t('nutrition')));
+        linea(beneficios, idioma === 'es' ? 'Vitaminas' : 'Vitamins', ficha.beneficios.vitaminas.join(', ') || t('pending'));
+        linea(beneficios, idioma === 'es' ? 'Minerales' : 'Minerals', ficha.beneficios.minerales.join(', ') || t('pending'));
+        linea(beneficios, idioma === 'es' ? 'Antioxidantes' : 'Antioxidants', ficha.beneficios.antioxidantes.join(', ') || t('pending'));
+        linea(beneficios, idioma === 'es' ? 'Características nutricionales' : 'Nutritional characteristics', valorFicha(ficha.beneficios.nutricion));
+        linea(beneficios, idioma === 'es' ? 'Usos gastronómicos' : 'Culinary uses', valorFicha(ficha.beneficios.usos_gastronomicos));
+        c.append(beneficios);
+        linea(c, idioma === 'es' ? 'Validación' : 'Validation', ficha.cultivo.estado_validacion);
+    }
+    $('detalle').showModal();
+}
 async function tarjeta(p) {
     const card = nodo('article', 'tarjeta');
     card.append(await imagen(p));
@@ -297,7 +423,7 @@ async function tarjeta(p) {
     d.append(selector, subtotal);
 
     const bs = nodo('div', 'botones');
-    const btn = nodo('button', null, 'Ver detalles');
+    const btn = nodo('button', null, t('viewInfo'));
     btn.onclick = () => detalle(p);
     bs.append(btn);
     const agregar = nodo('button', 'agregar-carrito', tienePrecio ? '🛒 Agregar 1 al carrito' : 'Consultar precio');
@@ -317,7 +443,7 @@ async function tarjeta(p) {
     const wa = enlaceWA(p);
     if (wa) { const a = nodo('a', null, 'WhatsApp'); a.href = wa; a.target = '_blank'; a.rel = 'noopener noreferrer'; bs.append(a) }
     d.append(bs);
-    const label = nodo('label', 'muted', 'Agregar/cambiar foto (solo este navegador)');
+    const label = nodo('label', 'muted', idioma === 'es' ? 'Agregar/cambiar foto (solo este navegador)' : 'Add/change photo (this browser only)');
     const file = nodo('input', 'foto-input');
     file.type = 'file';
     file.accept = 'image/*';
@@ -329,17 +455,125 @@ async function tarjeta(p) {
     actualizarSelector();
     return card;
 }
+function rangoTexto(min, max) { return min === null || max === null ? t('pending') : `${min}-${max} msnm` }
+function evaluarFicha(ficha, altitud, clima, temperatura) {
+    const cultivo = ficha.cultivo;
+    if (cultivo.altitud_minima === null || cultivo.altitud_maxima === null) return 'insufficient';
+    if (clima && !cultivo.clima.some(item => item.toLocaleLowerCase('es') === clima)) return 'no-recomendado';
+    if (temperatura !== null && (cultivo.temperatura_minima === null || cultivo.temperatura_maxima === null)) return 'insufficient';
+    if (temperatura !== null && (temperatura < cultivo.temperatura_minima || temperatura > cultivo.temperatura_maxima)) return 'no-recomendado';
+    if (altitud >= cultivo.altitud_ideal_minima && altitud <= cultivo.altitud_ideal_maxima) return 'ideal';
+    if (altitud >= cultivo.altitud_minima && altitud <= cultivo.altitud_maxima) return 'compatible';
+    return 'no-recomendado';
+}
+function mostrarResultadosZona() {
+    const altitud = Number($('altitud-zona').value);
+    const temperaturaValor = $('temperatura-zona').value.trim();
+    const temperatura = temperaturaValor === '' ? null : Number(temperaturaValor);
+    const clima = $('clima-zona').value;
+    const categoria = $('categoria-zona').value;
+    const resultados = $('resultados-zona');
+    resultados.replaceChildren();
+    if (!Number.isFinite(altitud) || altitud < 0) {
+        resultados.append(nodo('p', 'muted', idioma === 'es' ? 'Ingresa una altitud válida en msnm.' : 'Enter a valid altitude in m.a.s.l.'));
+        return;
+    }
+    const clasificados = fichas
+        .filter(ficha => !categoria || ficha.categoria === categoria)
+        .map(ficha => ({ ficha, estado: evaluarFicha(ficha, altitud, clima, temperatura) }))
+        .sort((a, b) => {
+            const prioridad = ['ideal', 'compatible', 'no-recomendado', 'insufficient'];
+            const diferencia = prioridad.indexOf(a.estado) - prioridad.indexOf(b.estado);
+            if (diferencia !== 0) return diferencia;
+            const nombreA = idioma === 'es' ? a.ficha.nombre_es : a.ficha.nombre_en;
+            const nombreB = idioma === 'es' ? b.ficha.nombre_es : b.ficha.nombre_en;
+            return nombreA.localeCompare(nombreB, idioma);
+        });
+    if (!clasificados.length) {
+        resultados.append(nodo('p', 'muted', t('noResults')));
+        return;
+    }
+    resultados.append(nodo('h3', null, `${t('resultsFor')} (${clasificados.length})`));
+    const grid = nodo('div', 'resultados-zona-grid');
+    clasificados.forEach(({ ficha, estado }) => {
+        const card = nodo('article', `resultado-zona ${estado}`);
+        const titulo = nodo('h3', null, idioma === 'es' ? ficha.nombre_es : ficha.nombre_en);
+        const estadoTexto = t(estado === 'no-recomendado' ? 'notRecommended' : estado);
+        card.append(titulo, nodo('p', 'etiqueta-compatibilidad', estadoTexto));
+        card.append(nodo('p', null, `${t('altitudeRange')}: ${rangoTexto(ficha.cultivo.altitud_minima, ficha.cultivo.altitud_maxima)}`));
+        card.append(nodo('p', null, `${t('idealRange')}: ${rangoTexto(ficha.cultivo.altitud_ideal_minima, ficha.cultivo.altitud_ideal_maxima)}`));
+        if (ficha.cultivo.clima.length) card.append(nodo('p', null, `${t('climateLabel')}: ${ficha.cultivo.clima.join(', ')}`));
+        if (ficha.cultivo.temperatura_optima) card.append(nodo('p', null, `${idioma === 'es' ? 'Temperatura recomendada' : 'Recommended temperature'}: ${ficha.cultivo.temperatura_optima}`));
+        const info = nodo('button', null, t('viewInfo'));
+        info.type = 'button';
+        info.onclick = () => {
+            const producto = productos.find(item => ficha.inventario_ids.includes(item.id));
+            if (producto) detalle(producto);
+        };
+        card.append(info);
+        grid.append(card);
+    });
+    resultados.append(grid);
+}
 let renderVersion = 0;
-async function pintar() { const v = ++renderVersion; const q = $('buscar').value.toLocaleLowerCase('es').trim(), cat = $('categoria').value, ord = $('orden').value; const filtered = productos.filter(p => (!cat || p.categoria === cat) && [p.especie, p.cientifico, p.ingles, p.categoria].join(' ').toLocaleLowerCase('es').includes(q)); filtered.sort((a, b) => ord === 'precio-asc' ? Number(a.precio || 0) - Number(b.precio || 0) : ord === 'precio-desc' ? Number(b.precio || 0) - Number(a.precio || 0) : a.especie.localeCompare(b.especie, 'es')); $('total').textContent = `${filtered.length} presentaciones encontradas`; const cont = document.createDocumentFragment(); for (const p of filtered) { if (v !== renderVersion) return; cont.append(await tarjeta(p)) } if (v === renderVersion) $('tarjetas').replaceChildren(cont) }
+async function pintar() {
+    const v = ++renderVersion;
+    const q = $('buscar').value.toLocaleLowerCase('es').trim();
+    const cat = $('categoria').value;
+    const ord = $('orden').value;
+    const filtered = productos.filter(p => (!cat || p.categoria === cat) && [p.especie, p.cientifico, p.ingles, p.categoria].join(' ').toLocaleLowerCase('es').includes(q));
+    filtered.sort((a, b) => ord === 'precio-asc'
+        ? Number(a.precio || 0) - Number(b.precio || 0)
+        : ord === 'precio-desc'
+            ? Number(b.precio || 0) - Number(a.precio || 0)
+            : a.especie.localeCompare(b.especie, 'es'));
+    $('total').textContent = `${filtered.length} ${idioma === 'es' ? 'presentaciones encontradas' : 'presentations found'}`;
+    const cont = document.createDocumentFragment();
+    if (!filtered.length) {
+        cont.append(nodo('p', 'sin-resultados', t('noProductMatches')));
+    } else {
+        for (const p of filtered) {
+            if (v !== renderVersion) return;
+            cont.append(await tarjeta(p));
+        }
+    }
+    if (v === renderVersion) $('tarjetas').replaceChildren(cont);
+}
 async function iniciar() {
     try {
-        const r = await fetch(RUTA);
-        if (!r.ok) throw Error('No se pudo abrir el JSON');
-        productos = await r.json();
+        const [inventarioResponse, fichasResponse] = await Promise.all([fetch(RUTA), fetch(RUTA_FICHAS)]);
+        if (!inventarioResponse.ok || !fichasResponse.ok) throw Error('No se pudo abrir el inventario botánico o comercial');
+        productos = await inventarioResponse.json();
+        const fichasData = await fichasResponse.json();
+        fichas = Array.isArray(fichasData.especies) ? fichasData.especies : [];
+        if (!fichas.length) throw Error('La base botánica no contiene especies');
+        actualizarIdioma();
         cargarCarrito();
         sincronizarCarrito();
-        for (const cat of [...new Set(productos.map(p => p.categoria))].sort((a, b) => a.localeCompare(b, 'es'))) { const op = nodo('option', null, cat); op.value = cat; $('categoria').append(op) }
+        for (const cat of [...new Set(productos.map(p => p.categoria))].sort((a, b) => a.localeCompare(b, 'es'))) {
+            const op = nodo('option', null, cat); op.value = cat; $('categoria').append(op);
+            const zonaOp = op.cloneNode(true); $('categoria-zona').append(zonaOp);
+        }
         for (const id of ['buscar', 'categoria', 'orden']) $(id).addEventListener(id === 'buscar' ? 'input' : 'change', pintar);
+        $('formulario-busqueda').onsubmit = event => {
+            event.preventDefault();
+            pintar();
+            mostrarEstadoBoton('buscar-catalogo');
+        };
+        $('formulario-busqueda-zona').onsubmit = event => {
+            event.preventDefault();
+            mostrarResultadosZona();
+            mostrarEstadoBoton('buscar-zona');
+        };
+        $('cambiar-idioma').onclick = () => {
+            idioma = idioma === 'es' ? 'en' : 'es';
+            localStorage.setItem('vivero-idioma', idioma);
+            actualizarIdioma();
+            pintar();
+            if ($('vista-recomendaciones').hidden === false && $('altitud-zona').value) mostrarResultadosZona();
+        };
+        $('abrir-recomendaciones').onclick = () => cambiarVista('recomendaciones');
+        $('volver-catalogo').onclick = () => cambiarVista('catalogo');
         $('cerrar').onclick = () => $('detalle').close();
         $('abrir-carrito').onclick = () => { abrirDialogo('carrito'); mostrarCarrito() };
         $('cerrar-carrito').onclick = () => $('carrito').close();
@@ -365,6 +599,9 @@ async function iniciar() {
             window.setTimeout(() => { boton.disabled = false }, 1000);
         };
         await pintar();
+        if (new URLSearchParams(window.location.search).get('seccion') === 'recomendaciones') {
+            cambiarVista('recomendaciones');
+        }
     } catch (e) { $('total').textContent = 'Error cargando el inventario. Abrí el proyecto con Live Server en VS Code. ' + e.message }
 }
 iniciar();

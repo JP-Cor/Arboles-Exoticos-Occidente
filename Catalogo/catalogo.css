@@ -34,6 +34,45 @@ header h1 {
     margin: 0
 }
 
+.idioma {
+    margin-left: auto;
+    background: transparent;
+    color: #d8f5dd;
+    border-color: #8bb99a;
+    cursor: pointer
+}
+
+.recomendaciones-acceso,
+.volver-catalogo {
+    border: 0;
+    border-radius: 10px;
+    background: #e7f4e7;
+    color: #174a35;
+    cursor: pointer;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: background-color .15s ease, transform .15s ease
+}
+
+.recomendaciones-acceso:hover,
+.volver-catalogo:hover {
+    background: #c9e8ce;
+    transform: translateY(-1px)
+}
+
+.vista-recomendaciones[hidden],
+#vista-catalogo[hidden] {
+    display: none
+}
+
+.vista-recomendaciones {
+    padding: 25px 0 50px
+}
+
+.volver-catalogo {
+    margin-bottom: 18px
+}
+
 .carrito-acceso {
     background: #e7f4e7;
     color: #174a35;
@@ -66,6 +105,148 @@ header h1 {
     min-width: 160px
 }
 
+.boton-busqueda,
+.zona-controles button {
+    border: 0;
+    background: #174a35;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    min-height: 46px;
+    white-space: nowrap;
+    transition: background-color .15s ease, transform .15s ease
+}
+
+.boton-busqueda:hover,
+.zona-controles button:hover {
+    background: #23834c;
+    transform: translateY(-1px)
+}
+
+.boton-busqueda:focus-visible,
+.zona-controles button:focus-visible {
+    outline: 3px solid #9ed5a9;
+    outline-offset: 2px
+}
+
+.boton-busqueda.busqueda-ejecutada,
+.zona-controles button.busqueda-ejecutada {
+    background: #23834c
+}
+
+.buscador-zona {
+    margin: 28px 0;
+    padding: 22px;
+    border: 1px solid #cfe0d0;
+    border-radius: 16px;
+    background: #edf6ec
+}
+
+.buscador-zona h2 {
+    margin-top: 0
+}
+
+.zona-controles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    align-items: end
+}
+
+.zona-controles label {
+    display: grid;
+    gap: 6px;
+    font-weight: 650;
+    font-size: 14px
+}
+
+.zona-controles button {
+    align-self: end;
+    width: 100%
+}
+
+.aviso-zona {
+    margin-bottom: 0;
+    color: #53695a;
+    font-size: 13px
+}
+
+.resultados-zona {
+    width: 100%;
+    margin: 20px auto 0
+}
+
+.resultados-zona > h3 {
+    margin: 0 0 16px;
+    text-align: left
+}
+
+.resultados-zona-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(220px, 320px));
+    gap: 18px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: stretch
+}
+
+.resultado-zona {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 14px;
+    border-radius: 12px;
+    background: white;
+    border-left: 6px solid #819487;
+    box-shadow: 0 3px 12px #00000014
+}
+
+.resultado-zona.ideal { border-left-color: #23834c }
+.resultado-zona.compatible { border-left-color: #c28a1c }
+.resultado-zona.no-recomendado { border-left-color: #a84646 }
+
+.resultado-zona h3 {
+    margin: 0 0 5px
+}
+
+.resultado-zona p {
+    margin: 5px 0
+}
+
+.resultado-zona button {
+    margin-top: auto;
+    cursor: pointer
+}
+
+.etiqueta-compatibilidad {
+    font-weight: 750
+}
+
+.ficha-seccion {
+    margin: 18px 0;
+    padding: 14px;
+    border-radius: 10px;
+    background: #f0f6ed
+}
+
+.ficha-seccion h3 {
+    margin-top: 0
+}
+
+.ficha-lista {
+    margin: 6px 0;
+    padding-left: 20px
+}
+
+.ficha-foto {
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+    border-radius: 10px;
+    background: #eaf2e8
+}
+
 input,
 select,
 button {
@@ -80,6 +261,17 @@ button {
     grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
     gap: 20px;
     margin-bottom: 50px
+}
+
+.sin-resultados {
+    width: 100%;
+    margin: 20px 0;
+    padding: 18px;
+    border: 1px solid #cfe0d0;
+    border-radius: 12px;
+    background: #f0f6ed;
+    color: #53695a;
+    text-align: center
 }
 
 .tarjeta {
@@ -391,6 +583,16 @@ form textarea {
         flex-direction: column
     }
 
+    .idioma {
+        margin-left: 0
+    }
+
+    .recomendaciones-acceso,
+    .idioma,
+    .carrito-acceso {
+        width: 100%
+    }
+
     .carrito-acceso {
         width: 100%
     }
@@ -415,9 +617,20 @@ form textarea {
         height: 58px
     }
 
+    .resultados-zona-grid {
+        grid-template-columns: 1fr
+    }
+
     .item-carrito > .eliminar-item {
         grid-column: 2;
         justify-self: start
+    }
+
+}
+
+@media(min-width:601px) and (max-width:900px) {
+    .resultados-zona-grid {
+        grid-template-columns: repeat(2, minmax(0, 320px))
     }
 }
 /* Fotografías de la página principal */

@@ -8,6 +8,8 @@ import os
 import sys
 import tempfile
 import time
+import re
+import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -56,6 +58,16 @@ def source_files() -> list[Path]:
     )
 
 
+def webp_files() -> set[str]:
+    if not IMAGES_DIR.is_dir():
+        return set()
+    return {
+        relative_image_path(path)
+        for path in IMAGES_DIR.rglob("*.webp")
+        if path.is_file()
+    }
+
+
 def webp_path(source: Path) -> Path:
     return source.with_suffix(".webp")
 
@@ -91,9 +103,53 @@ def relative_image_path(path: Path) -> str:
     return path.relative_to(IMAGES_DIR).as_posix()
 
 
-def update_inventory(converted_sources: set[str]) -> bool:
+def normalized_name(value: str) -> str:
+    value = unicodedata.normalize("NFD", value.lower())
+    value = "".join(char for char in value if unicodedata.category(char) != "Mn")
+    return " ".join(re.sub(r"[^a-z0-9]+", " ", value).split())
+
+
+def association_key(path: Path) -> str:
+    return normalized_name(re.sub(r"\s*\d+$", "", path.stem))
+
+
+def associate_new_photos(
+    inventory: list[dict],
+    webp_paths: set[str],
+    interactive: bool = False,
+) -> dict[str, list[dict]]:
+    """Associate exact, unambiguous filenames with all matching presentations."""
+    by_name: dict[str, list[dict]] = {}
+    for product in inventory:
+        for value in (product.get("especie"), product.get("ingles")):
+            key = normalized_name(str(value or ""))
+            if key:
+                by_name.setdefault(key, []).append(product)
+
+    associations: dict[str, list[dict]] = {}
+    for photo in sorted(webp_paths):
+        key = association_key(Path(photo))
+        candidates = {id(product): product for product in by_name.get(key, [])}
+        if not candidates:
+            continue
+        products = list(candidates.values())
+        if len({normalized_name(str(p.get("especie", ""))) for p in products}) > 1:
+            print(f"ASOCIACIÓN AMBIGUA: {photo}")
+            for product in products:
+                print(f"  - id={product.get('id')} {product.get('especie')} ({product.get('tamano', 'sin tamaño')})")
+            if not interactive or input("¿Asociar a todos estos productos? [s/N] ").strip().lower() not in {"s", "si", "sí"}:
+                continue
+        associations[photo] = products
+    return associations
+
+
+def update_inventory(
+    converted_sources: set[str],
+    available_webp: set[str],
+    interactive: bool = False,
+) -> bool:
     """Replace only successfully optimized source references and validate JSON."""
-    if not converted_sources or not INVENTORY_FILE.exists():
+    if not INVENTORY_FILE.exists():
         return False
     try:
         original_text = INVENTORY_FILE.read_text(encoding="utf-8")
@@ -111,6 +167,12 @@ def update_inventory(converted_sources: set[str]) -> bool:
             if normalized in converted_sources:
                 product["foto"] = f"{Path(normalized).with_suffix('.webp').as_posix()}"
                 changed = True
+        associations = associate_new_photos(inventory, available_webp, interactive)
+        for photo, products in associations.items():
+            for product in products:
+                if not product.get("foto"):
+                    product["foto"] = photo
+                    changed = True
         if not changed:
             return False
         serialized = json.dumps(inventory, ensure_ascii=False, indent=2) + "\n"
@@ -125,7 +187,7 @@ def update_inventory(converted_sources: set[str]) -> bool:
         raise
 
 
-def optimize(paths: Iterable[Path] | None = None) -> Result:
+def optimize(paths: Iterable[Path] | None = None, interactive: bool = False) -> Result:
     selected = [Path(path).resolve() for path in paths] if paths is not None else source_files()
     result = Result(found=len(selected))
     destinations: dict[Path, Path] = {}
@@ -156,7 +218,7 @@ def optimize(paths: Iterable[Path] | None = None) -> Result:
             print(f"ERROR: {relative_image_path(source)}: {error}", file=sys.stderr)
 
     try:
-        update_inventory(successfully_available)
+        update_inventory(successfully_available, webp_files(), interactive)
     except (OSError, UnicodeError, json.JSONDecodeError, ValueError) as error:
         result.errors += 1
         result.error_files.append(str(INVENTORY_FILE.relative_to(ROOT)))
@@ -219,11 +281,16 @@ def watch() -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Optimiza fotografías del catálogo a WebP.")
     parser.add_argument("--watch", action="store_true", help="vigila imagenes/ y convierte cambios")
+    parser.add_argument(
+        "--interactive",
+        action="store_true",
+        help="solicita confirmación para asociaciones ambiguas",
+    )
     args = parser.parse_args()
     if args.watch:
         watch()
         return 0
-    print_report(optimize())
+    print_report(optimize(interactive=args.interactive))
     return 0
 
 

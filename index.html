@@ -31,6 +31,12 @@
                     📖 Catálogo
                 </a>
 
+                <a href="Catalogo/index.html?seccion=recomendaciones"
+                   data-es="🌳 Recomendaciones"
+                   data-en="🌳 Recommendations">
+                    🌳 Recomendaciones
+                </a>
+
                 <a id="contact-link" href="https://wa.me/50685574977"
                    target="_blank"
                    rel="noopener noreferrer"
@@ -67,11 +73,18 @@
                 fotografías y precios.
             </p>
 
-            <a href="Catalogo/index.html"
-               class="primary"
-               id="explore">
-                📖 Explorar catálogo →
-            </a>
+            <div class="hero-actions">
+                <a href="Catalogo/index.html"
+                   class="primary"
+                   id="explore">
+                    📖 Explorar catálogo →
+                </a>
+                <a href="Catalogo/index.html?seccion=recomendaciones"
+                   class="primary recommendations-primary"
+                   id="recommendations">
+                    🌳 Recomendaciones →
+                </a>
+            </div>
 
         </div>
     </section>
@@ -162,6 +175,7 @@
                 hero: "Descubrí la naturaleza en cada fruto",
                 descripcion: "Explorá nuestra variedad de árboles frutales y especies exóticas. Conocé sus características, fotografías y precios.",
                 explorar: "📖 Explorar catálogo →",
+                recomendaciones: "🌳 Recomendaciones →",
                 etiqueta: "NUESTRO VIVERO",
                 catalogo: "Catálogo de plantas",
                 intro: "Descubrí nuestras variedades de aguacates, cítricos, mangos, árboles frutales y especies exóticas. Consultá fotografías, características y precios.",
@@ -176,6 +190,7 @@
                 hero: "Discover nature in every fruit",
                 descripcion: "Explore our variety of fruit trees and exotic species. Discover their characteristics, photographs and prices.",
                 explorar: "📖 Explore catalog →",
+                recomendaciones: "🌳 Recommendations →",
                 etiqueta: "OUR NURSERY",
                 catalogo: "Plant catalog",
                 intro: "Discover our varieties of avocados, citrus fruits, mangoes, fruit trees and exotic species. Explore photographs, characteristics and prices.",
@@ -203,6 +218,7 @@
                 document.getElementById("hero-title").textContent = t.hero;
                 document.getElementById("hero-desc").textContent = t.descripcion;
                 document.getElementById("explore").textContent = t.explorar;
+                document.getElementById("recommendations").textContent = t.recomendaciones;
                 document.getElementById("sectiontag").textContent = t.etiqueta;
                 document.getElementById("catalog-title").textContent = t.catalogo;
                 document.getElementById("intro").textContent = t.intro;

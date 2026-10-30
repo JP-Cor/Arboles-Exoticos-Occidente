@@ -13,24 +13,58 @@
         <div class="wrap"><a href="../index.html">← Inicio</a>
             <h1>Árboles Exóticos Occidente</h1>
             <div class="encabezado-fila">
-                <p>Catálogo de especies y variedades</p>
+                <p data-i18n="catalogSubtitle">Catálogo de especies y variedades</p>
+                <button id="abrir-recomendaciones" class="recomendaciones-acceso" type="button"
+                    aria-controls="vista-recomendaciones" aria-expanded="false" data-i18n="recommendations">🌳 Recomendaciones</button>
+                <button id="cambiar-idioma" class="idioma" type="button" aria-label="Cambiar idioma">EN</button>
                 <button id="abrir-carrito" class="carrito-acceso" type="button" aria-controls="carrito"
-                    aria-label="Abrir carrito de compras">🛒 Carrito (<span id="contador-carrito">0</span>)</button>
+                    aria-label="Abrir carrito de compras"><span data-i18n="cart">🛒 Carrito</span> (<span
+                        id="contador-carrito">0</span>)</button>
             </div>
         </div>
     </header>
     <main class="wrap">
-        <section class="filtros"><input id="buscar" type="search"
-                placeholder="Buscar especie, variedad, nombre científico o inglés" aria-label="Buscar plantas"><select
-                id="categoria" aria-label="Categoría">
-                <option value="">Todas las categorías</option>
+        <section id="vista-catalogo">
+            <form id="formulario-busqueda" class="filtros"><input id="buscar" type="search"
+                data-i18n-placeholder="searchPlaceholder" placeholder="Buscar especie, variedad, nombre científico o inglés"
+                aria-label="Buscar plantas"><select id="categoria" aria-label="Categoría">
+                <option value="" data-i18n="allCategories">Todas las categorías</option>
             </select><select id="orden" aria-label="Ordenar">
-                <option value="nombre">Ordenar por nombre</option>
-                <option value="precio-asc">Menor precio</option>
-                <option value="precio-desc">Mayor precio</option>
-            </select></section>
-        <p id="total" aria-live="polite"></p>
-        <div id="tarjetas" class="tarjetas"></div>
+                <option value="nombre" data-i18n="sortName">Ordenar por nombre</option>
+                <option value="precio-asc" data-i18n="sortLow">Menor precio</option>
+                <option value="precio-desc" data-i18n="sortHigh">Mayor precio</option>
+            </select><button id="buscar-catalogo" class="boton-busqueda" type="submit"><span aria-hidden="true">🔍</span>
+                <span data-i18n="search">Buscar</span></button></form>
+            <p id="total" aria-live="polite"></p>
+            <div id="tarjetas" class="tarjetas"></div>
+        </section>
+        <section id="vista-recomendaciones" class="vista-recomendaciones" aria-labelledby="titulo-zona" hidden>
+            <button id="volver-catalogo" class="volver-catalogo" type="button" data-i18n="backToCatalog">← Volver al catálogo</button>
+            <div class="buscador-zona">
+            <h2 id="titulo-zona" data-i18n="zoneTitle">¿Qué árboles puedo sembrar en mi zona?</h2>
+            <p data-i18n="zoneIntro">Indica la altitud y, opcionalmente, el clima y la temperatura aproximada de tu propiedad.</p>
+            <form id="formulario-busqueda-zona" class="zona-controles">
+                <label><span data-i18n="altitude">Altitud (msnm)</span><input id="altitud-zona" type="number" min="0"
+                        max="9000" step="1" inputmode="numeric" placeholder="950"></label>
+                <label><span data-i18n="climate">Clima</span><select id="clima-zona">
+                        <option value="" data-i18n="anyClimate">Cualquier clima</option>
+                        <option value="tropical húmedo">Tropical húmedo</option>
+                        <option value="tropical seco">Tropical seco</option>
+                        <option value="tropical cálido">Tropical cálido</option>
+                        <option value="templado">Templado</option>
+                        <option value="montañoso">Montañoso</option>
+                    </select></label>
+                <label><span data-i18n="temperature">Temperatura (°C, opcional)</span><input id="temperatura-zona"
+                        type="number" min="-20" max="60" step="0.5" inputmode="decimal" placeholder="24"></label>
+                <label><span data-i18n="categoryOptional">Categoría (opcional)</span><select id="categoria-zona">
+                        <option value="" data-i18n="allCategories">Todas las categorías</option>
+                    </select></label>
+                <button id="buscar-zona" class="boton-principal" type="submit" data-i18n="searchZone">🌳 Buscar árboles</button>
+            </form>
+            <p class="aviso-zona" data-i18n="zoneWarning">El suelo, la temperatura, las lluvias, el viento y el manejo agrícola también influyen en el desarrollo.</p>
+            <div id="resultados-zona" class="resultados-zona" aria-live="polite"></div>
+            </div>
+        </section>
     </main>
     <div id="notificaciones-carrito" class="notificaciones-carrito" role="status" aria-live="polite"
         aria-atomic="false"></div>

@@ -126,14 +126,16 @@
         <div id="rescue-services" class="rescue-services"></div>
         <form id="rescue-form" class="rescue-form">
             <h3 id="rescue-form-title">Solicitar asesoría</h3>
+            <p id="rescue-form-subtitle" class="rescue-form-subtitle">Contanos qué le sucede a tu árbol y te ayudaremos a identificar posibles causas y alternativas de recuperación.</p>
+            <div class="rescue-form-divider"></div>
             <div class="rescue-fields">
-                <label><span id="label-client-name">Nombre del cliente</span><input id="rescue-name" name="name" required></label>
-                <label><span id="label-phone">Teléfono</span><input id="rescue-phone" name="phone" type="tel" required></label>
-                <label><span id="label-location">Ubicación</span><input id="rescue-location" name="location" placeholder="Cantón o distrito"></label>
-                <label><span id="label-species">Especie del árbol</span><input id="rescue-species" name="species" required></label>
-                <label><span id="label-age">Edad aproximada</span><input id="rescue-age" name="age"></label>
-                <label><span id="label-height">Altura aproximada</span><input id="rescue-height" name="height"></label>
-                <label><span id="label-problem">Problema principal</span>
+                <label class="rescue-client-row"><span id="label-client-name">Nombre del cliente</span><input id="rescue-name" name="name" required></label>
+                <label class="rescue-client-row"><span id="label-phone">Teléfono</span><input id="rescue-phone" name="phone" type="tel" required></label>
+                <label class="rescue-client-row"><span id="label-location">Ubicación</span><input id="rescue-location" name="location" placeholder="Cantón o distrito"></label>
+                <label class="rescue-tree-row"><span id="label-species">Especie del árbol</span><input id="rescue-species" name="species" required></label>
+                <label class="rescue-tree-row"><span id="label-age">Edad aproximada</span><input id="rescue-age" name="age"></label>
+                <label class="rescue-tree-row"><span id="label-height">Altura aproximada</span><input id="rescue-height" name="height"></label>
+                <label class="rescue-problem-row"><span id="label-problem">Problema principal</span>
                     <select id="rescue-problem" name="problem" required>
                         <option value="">Seleccioná una opción</option>
                         <option>Plagas</option><option>Enfermedades</option><option>Hojas amarillas</option>
@@ -142,10 +144,10 @@
                         <option>Mantenimiento</option><option>Otro</option>
                     </select>
                 </label>
-                <label><span id="label-duration">Tiempo con síntomas</span><input id="rescue-duration" name="duration"></label>
+                <label class="rescue-problem-row"><span id="label-duration">Tiempo con síntomas</span><input id="rescue-duration" name="duration"></label>
                 <label class="rescue-wide"><span id="label-description">Descripción del problema</span><textarea id="rescue-description" name="description" rows="4" required></textarea></label>
                 <label class="rescue-wide"><span id="label-treatments">Tratamientos aplicados anteriormente</span><textarea id="rescue-treatments" name="treatments" rows="3"></textarea></label>
-                <label class="rescue-wide"><span id="label-photos">Fotografías (adjuntalas manualmente en WhatsApp)</span><input id="rescue-photos" type="file" accept="image/*" multiple></label>
+                <label class="rescue-wide"><span id="label-photos">Fotografías del árbol</span><input id="rescue-photos" type="file" accept="image/*" multiple><small id="rescue-photo-help">Podés seleccionar fotografías de hojas, frutos, tronco o del árbol completo. Deberás adjuntarlas manualmente al abrir WhatsApp.</small></label>
             </div>
             <p id="rescue-notice" class="rescue-notice">La información permitirá realizar una evaluación inicial. Algunos problemas pueden requerir una inspección presencial. Las fotografías seleccionadas no se envían automáticamente.</p>
             <button type="submit" class="rescue-submit" id="rescue-submit">🩺 Solicitar asesoría por WhatsApp</button>
@@ -260,7 +262,7 @@
                     nav: "🩺 Solicitar asesoría", title: "🩺 Rescate de Árboles", subtitle: "Diagnóstico orientativo, recuperación y mantenimiento de tus árboles.",
                     intro: "En Árboles Exóticos Occidente te ayudamos a identificar posibles problemas que afectan la salud y producción de tus árboles. Recibí orientación sobre plagas, enfermedades, nutrición, podas y mantenimiento.",
                     card: "¿Tu árbol presenta hojas amarillas, plagas, enfermedades o problemas de producción? Te orientamos para identificar posibles causas y encontrar alternativas de manejo, recuperación y mantenimiento.",
-                    request: "🩺 Solicitar asesoría →", requestAdvice: "🩺 Solicitar asesoría →", form: "Solicitar asesoría", name: "Nombre del cliente", phone: "Teléfono", location: "Ubicación", species: "Especie del árbol", age: "Edad aproximada", height: "Altura aproximada", problem: "Problema principal", duration: "Tiempo con síntomas", description: "Descripción del problema", treatments: "Tratamientos aplicados anteriormente", photos: "Fotografías (adjuntalas manualmente en WhatsApp)", choose: "Seleccioná una opción",
+                    request: "🩺 Solicitar asesoría →", requestAdvice: "🩺 Solicitar asesoría →", form: "Solicitar asesoría", formSubtitle: "Contanos qué le sucede a tu árbol y te ayudaremos a identificar posibles causas y alternativas de recuperación.", name: "Nombre del cliente", phone: "Teléfono", location: "Ubicación", species: "Especie del árbol", age: "Edad aproximada", height: "Altura aproximada", problem: "Problema principal", duration: "Tiempo con síntomas", description: "Descripción del problema", treatments: "Tratamientos aplicados anteriormente", photos: "Fotografías del árbol", photoHelp: "Podés seleccionar fotografías de hojas, frutos, tronco o del árbol completo. Deberás adjuntarlas manualmente al abrir WhatsApp.", choose: "Seleccioná una opción",
                     notice: "La información permitirá realizar una evaluación inicial. Algunos problemas pueden requerir una inspección presencial. Las fotografías seleccionadas no se envían automáticamente.",
                     submit: "🩺 Solicitar asesoría por WhatsApp", safety: "La orientación es inicial y no constituye un diagnóstico definitivo ni una certificación profesional. No apliques productos sin verificar su etiqueta y compatibilidad.",
                     services: [["🐛", "Control de plagas", "Orientación sobre insectos, ácaros y otros organismos que afectan hojas, raíces, tallos y frutos."], ["🍂", "Enfermedades de árboles", "Evaluación inicial de síntomas como manchas, pudriciones, caída de hojas y deterioro general."], ["🌱", "Nutrición y fertilización", "Asesoría sobre fertilización, deficiencias nutricionales y mejoramiento del suelo."], ["🍊", "Mejoramiento de producción", "Orientación sobre floración, fructificación, riego, nutrición y mantenimiento productivo."], ["✂️", "Poda y mantenimiento", "Recomendaciones de poda, formación, limpieza y cuidados preventivos."], ["🚑", "Recuperación de árboles", "Evaluación de árboles debilitados, con crecimiento deficiente, daños o síntomas de estrés."]]
@@ -300,7 +302,7 @@
                     nav: "🩺 Request Advice", title: "🩺 Tree Rescue", subtitle: "Guidance, recovery and maintenance for your trees.",
                     intro: "At Árboles Exóticos Occidente, we help identify possible problems affecting your trees' health and production. Receive guidance on pests, diseases, nutrition, pruning and maintenance.",
                     card: "Does your tree have yellow leaves, pests, diseases or production problems? We can help identify possible causes and management, recovery and maintenance alternatives.",
-                    request: "🩺 Request guidance →", form: "Request guidance", name: "Client name", phone: "Phone", location: "Location", species: "Tree species", age: "Approximate age", height: "Approximate height", problem: "Main problem", duration: "Time with symptoms", description: "Problem description", treatments: "Previous treatments", photos: "Photos (attach them manually in WhatsApp)", choose: "Select an option",
+                    request: "🩺 Request guidance →", form: "Request guidance", formSubtitle: "Tell us what is happening to your tree and we will help identify possible causes and recovery alternatives.", name: "Client name", phone: "Phone", location: "Location", species: "Tree species", age: "Approximate age", height: "Approximate height", problem: "Main problem", duration: "Time with symptoms", description: "Problem description", treatments: "Previous treatments", photos: "Tree photos", photoHelp: "You can select photos of leaves, fruit, trunk or the whole tree. Attach them manually when WhatsApp opens.", choose: "Select an option",
                     notice: "This information enables an initial assessment. Some problems may require an in-person inspection. Selected photos are not sent automatically.",
                     submit: "🩺 Request guidance via WhatsApp", safety: "This is initial guidance, not a definitive diagnosis or professional certification. Do not apply products without checking their label and compatibility.",
                     requestAdvice: "🩺 Request Advice →",
@@ -416,6 +418,7 @@
             document.getElementById("rescue-subtitle").textContent = t.subtitle;
             document.getElementById("rescue-intro").textContent = t.intro;
             document.getElementById("rescue-form-title").textContent = t.form;
+            document.getElementById("rescue-form-subtitle").textContent = t.formSubtitle;
             [["label-client-name", t.name], ["label-phone", t.phone], ["label-location", t.location], ["label-species", t.species], ["label-age", t.age], ["label-height", t.height], ["label-problem", t.problem], ["label-duration", t.duration], ["label-description", t.description], ["label-treatments", t.treatments], ["label-photos", t.photos]].forEach(([id, texto]) => document.getElementById(id).textContent = texto);
             document.getElementById("rescue-problem").options[0].textContent = t.choose;
             const problemas = idioma === "es"
@@ -423,6 +426,7 @@
                 : ["Pests", "Diseases", "Yellow leaves", "Leaf drop", "Low production", "Flowering problems", "Fertilization", "Pruning", "Recovery", "Maintenance", "Other"];
             [...document.getElementById("rescue-problem").options].slice(1).forEach((option, index) => option.textContent = problemas[index]);
             document.getElementById("rescue-location").placeholder = idioma === "es" ? "Cantón o distrito" : "Canton or district";
+            document.getElementById("rescue-photo-help").textContent = t.photoHelp;
             document.getElementById("rescue-notice").textContent = t.notice;
             document.getElementById("rescue-submit").textContent = t.submit;
             document.getElementById("rescue-safety").textContent = t.safety;

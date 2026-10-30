@@ -20,6 +20,7 @@ const textos = {
         zoneTitle: '¿Qué árboles puedo sembrar en mi zona?', zoneIntro: 'Indica la altitud y, opcionalmente, el clima y la temperatura aproximada de tu propiedad.',
         altitude: 'Altitud (msnm)', climate: 'Clima', anyClimate: 'Cualquier clima', temperature: 'Temperatura (°C, opcional)',
         categoryOptional: 'Categoría (opcional)', search: 'Buscar', searchZone: '🌳 Buscar árboles',
+        productName: 'Nombre', productPrice: 'Precio', productSize: 'Tamaño', productSizePending: 'Tamaño por consultar',
         recommendations: '🌳 Recomendaciones', backToCatalog: '← Volver al catálogo',
         searchDone: '✓ Búsqueda realizada', noProductMatches: 'No se encontraron presentaciones con esos criterios.',
         zoneWarning: 'El suelo, la temperatura, las lluvias, el viento y el manejo agrícola también influyen en el desarrollo.',
@@ -29,7 +30,8 @@ const textos = {
         viewInfo: 'Ver información del árbol', details: 'Detalles comerciales', botanical: 'Información botánica',
         scientific: 'Nombre científico', family: 'Familia botánica', origin: 'Origen', cultivation: 'Condiciones de cultivo',
         characteristics: 'Características del árbol', nutrition: 'Beneficios y usos', sowing: 'Recomendaciones de siembra',
-        pending: 'Pendiente de validación', notAvailable: 'No disponible'
+        pending: 'Pendiente de validación', notAvailable: 'No disponible',
+        pendingNotice: 'Algunas características de esta especie están en proceso de verificación.'
     },
     en: {
         catalogSubtitle: 'Species and varieties catalog', cart: '🛒 Cart',
@@ -38,6 +40,7 @@ const textos = {
         zoneTitle: 'Which trees can I grow in my area?', zoneIntro: 'Enter your property altitude and, optionally, climate and approximate temperature.',
         altitude: 'Altitude (m.a.s.l.)', climate: 'Climate', anyClimate: 'Any climate', temperature: 'Temperature (°C, optional)',
         categoryOptional: 'Category (optional)', search: 'Search', searchZone: '🌳 Find trees',
+        productName: 'Name', productPrice: 'Price', productSize: 'Size', productSizePending: 'Size to be confirmed',
         recommendations: '🌳 Recommendations', backToCatalog: '← Back to catalog',
         searchDone: '✓ Search completed', noProductMatches: 'No presentations matched those criteria.',
         zoneWarning: 'Soil, temperature, rainfall, wind and agricultural management also influence growth.',
@@ -47,10 +50,16 @@ const textos = {
         viewInfo: 'View tree information', details: 'Commercial details', botanical: 'Botanical information',
         scientific: 'Scientific name', family: 'Botanical family', origin: 'Origin', cultivation: 'Growing conditions',
         characteristics: 'Tree characteristics', nutrition: 'Benefits and uses', sowing: 'Planting recommendations',
-        pending: 'Pending validation', notAvailable: 'Not available'
+        pending: 'Pending validation', notAvailable: 'Not available',
+        pendingNotice: 'Some characteristics of this species are still being verified.'
     }
 };
 function t(key) { return textos[idioma][key] || key }
+function campoProducto(etiqueta, valor, clase = '') {
+    const campo = nodo('p', `campo-producto${clase ? ` ${clase}` : ''}`);
+    campo.append(nodo('strong', null, `${etiqueta}: `), document.createTextNode(String(valor)));
+    return campo;
+}
 function cambiarVista(vista) {
     const mostrarRecomendaciones = vista === 'recomendaciones';
     $('vista-catalogo').hidden = mostrarRecomendaciones;
@@ -324,9 +333,10 @@ async function imagen(p) {
         '🌱 Fotografía pendiente'
     );
 }
-function linea(contenedor, etiqueta, valor) { if (!valor) return; const p = nodo('p'); const b = nodo('strong', null, etiqueta + ': '); p.append(b, document.createTextNode(String(valor))); contenedor.append(p) }
+function tieneDato(valor) { return valor !== null && valor !== undefined && valor !== '' && (!Array.isArray(valor) || valor.length > 0) }
+function linea(contenedor, etiqueta, valor) { if (!tieneDato(valor)) return false; const p = nodo('p'); const b = nodo('strong', null, etiqueta + ': '); p.append(b, document.createTextNode(String(valor))); contenedor.append(p); return true }
 function fichaProducto(p) { return fichas.find(ficha => ficha.inventario_ids.includes(p.id)) || null }
-function valorFicha(valor) { return valor || t('pending') }
+function valorFicha(valor) { return tieneDato(valor) ? valor : null }
 function listaFicha(contenedor, etiqueta, valores) {
     if (!Array.isArray(valores) || !valores.length) return;
     const section = nodo('div', 'ficha-seccion');
@@ -353,35 +363,39 @@ async function detalle(p) {
     linea(comercial, idioma === 'es' ? 'Disponibilidad' : 'Availability', p.disponibilidad || t('notAvailable'));
     c.append(comercial);
     if (ficha) {
-        c.append(nodo('div', 'ficha-seccion', ficha.descripcion[idioma]));
-        linea(c, t('family'), valorFicha(ficha.familia_botanica));
-        linea(c, t('origin'), valorFicha(ficha.origen));
+        if (tieneDato(ficha.descripcion?.[idioma])) c.append(nodo('div', 'ficha-seccion', ficha.descripcion[idioma]));
+        let pendiente = false;
+        if (!linea(c, t('family'), valorFicha(ficha.familia_botanica))) pendiente = true;
+        if (!linea(c, t('origin'), valorFicha(ficha.origen))) pendiente = true;
         const cultivo = ficha.cultivo;
         const condiciones = nodo('div', 'ficha-seccion');
         condiciones.append(nodo('h3', null, t('cultivation')));
-        linea(condiciones, idioma === 'es' ? 'Altitud recomendada' : 'Recommended altitude', cultivo.altitud_minima === null ? t('pending') : `${cultivo.altitud_minima}-${cultivo.altitud_maxima} msnm`);
-        linea(condiciones, idioma === 'es' ? 'Clima' : 'Climate', cultivo.clima.join(', ') || t('pending'));
-        linea(condiciones, idioma === 'es' ? 'Temperatura óptima' : 'Optimal temperature', valorFicha(cultivo.temperatura_optima));
-        linea(condiciones, idioma === 'es' ? 'Exposición solar' : 'Sun exposure', valorFicha(cultivo.exposicion_solar));
-        linea(condiciones, idioma === 'es' ? 'Riego' : 'Watering', valorFicha(cultivo.riego));
-        linea(condiciones, idioma === 'es' ? 'Suelo y drenaje' : 'Soil and drainage', `${valorFicha(cultivo.suelo)} ${cultivo.drenaje ? `(${cultivo.drenaje})` : ''}`);
+        const altitud = cultivo.altitud_minima !== null && cultivo.altitud_maxima !== null
+            ? `${cultivo.altitud_minima}-${cultivo.altitud_maxima} msnm` : null;
+        if (!linea(condiciones, idioma === 'es' ? 'Altitud recomendada' : 'Recommended altitude', altitud)) pendiente = true;
+        if (!linea(condiciones, idioma === 'es' ? 'Clima' : 'Climate', cultivo.clima?.join(', '))) pendiente = true;
+        if (!linea(condiciones, idioma === 'es' ? 'Temperatura óptima' : 'Optimal temperature', valorFicha(cultivo.temperatura_optima))) pendiente = true;
+        if (!linea(condiciones, idioma === 'es' ? 'Exposición solar' : 'Sun exposure', valorFicha(cultivo.exposicion_solar))) pendiente = true;
+        if (!linea(condiciones, idioma === 'es' ? 'Riego' : 'Watering', valorFicha(cultivo.riego))) pendiente = true;
+        const suelo = tieneDato(cultivo.suelo) ? `${cultivo.suelo}${cultivo.drenaje ? ` (${cultivo.drenaje})` : ''}` : null;
+        if (!linea(condiciones, idioma === 'es' ? 'Suelo y drenaje' : 'Soil and drainage', suelo)) pendiente = true;
         c.append(condiciones);
         const caracteristicas = ficha.caracteristicas;
         const arbol = nodo('div', 'ficha-seccion');
         arbol.append(nodo('h3', null, t('characteristics')));
-        linea(arbol, idioma === 'es' ? 'Altura adulta' : 'Mature height', valorFicha(caracteristicas.altura_adulta));
-        linea(arbol, idioma === 'es' ? 'Producción' : 'Bearing time', valorFicha(caracteristicas.tiempo_produccion));
-        linea(arbol, idioma === 'es' ? 'Poda' : 'Pruning', valorFicha(caracteristicas.recomendaciones_poda));
+        if (!linea(arbol, idioma === 'es' ? 'Altura adulta' : 'Mature height', valorFicha(caracteristicas.altura_adulta))) pendiente = true;
+        if (!linea(arbol, idioma === 'es' ? 'Producción' : 'Bearing time', valorFicha(caracteristicas.tiempo_produccion))) pendiente = true;
+        if (!linea(arbol, idioma === 'es' ? 'Poda' : 'Pruning', valorFicha(caracteristicas.recomendaciones_poda))) pendiente = true;
         c.append(arbol);
         const beneficios = nodo('div', 'ficha-seccion');
         beneficios.append(nodo('h3', null, t('nutrition')));
-        linea(beneficios, idioma === 'es' ? 'Vitaminas' : 'Vitamins', ficha.beneficios.vitaminas.join(', ') || t('pending'));
-        linea(beneficios, idioma === 'es' ? 'Minerales' : 'Minerals', ficha.beneficios.minerales.join(', ') || t('pending'));
-        linea(beneficios, idioma === 'es' ? 'Antioxidantes' : 'Antioxidants', ficha.beneficios.antioxidantes.join(', ') || t('pending'));
-        linea(beneficios, idioma === 'es' ? 'Características nutricionales' : 'Nutritional characteristics', valorFicha(ficha.beneficios.nutricion));
-        linea(beneficios, idioma === 'es' ? 'Usos gastronómicos' : 'Culinary uses', valorFicha(ficha.beneficios.usos_gastronomicos));
+        if (!linea(beneficios, idioma === 'es' ? 'Vitaminas' : 'Vitamins', ficha.beneficios.vitaminas?.join(', '))) pendiente = true;
+        if (!linea(beneficios, idioma === 'es' ? 'Minerales' : 'Minerals', ficha.beneficios.minerales?.join(', '))) pendiente = true;
+        if (!linea(beneficios, idioma === 'es' ? 'Antioxidantes' : 'Antioxidants', ficha.beneficios.antioxidantes?.join(', '))) pendiente = true;
+        if (!linea(beneficios, idioma === 'es' ? 'Características nutricionales' : 'Nutritional characteristics', valorFicha(ficha.beneficios.nutricion))) pendiente = true;
+        if (!linea(beneficios, idioma === 'es' ? 'Usos gastronómicos' : 'Culinary uses', valorFicha(ficha.beneficios.usos_gastronomicos))) pendiente = true;
         c.append(beneficios);
-        linea(c, idioma === 'es' ? 'Validación' : 'Validation', ficha.cultivo.estado_validacion);
+        if (pendiente || ficha.cultivo.estado_validacion) c.append(nodo('p', 'aviso-pendiente-ficha', t('pendingNotice')));
     }
     $('detalle').showModal();
 }
@@ -389,7 +403,14 @@ async function tarjeta(p) {
     const card = nodo('article', 'tarjeta');
     card.append(await imagen(p));
     const d = nodo('div', 'datos');
-    d.append(nodo('span', 'muted', p.categoria), nodo('h2', null, p.especie), nodo('div', 'muted', p.cientifico || 'Nombre científico pendiente'), nodo('div', 'muted', p.ingles || 'Nombre inglés pendiente'), nodo('p', 'precio', moneda(p.precio)), nodo('p', 'muted', p.tamano || 'Tamaño por consultar'));
+    d.append(
+        nodo('span', 'muted', p.categoria),
+        campoProducto(t('productName'), p.especie, 'campo-nombre nombre-producto'),
+        nodo('div', 'muted', p.cientifico || 'Nombre científico pendiente'),
+        nodo('div', 'muted', p.ingles || 'Nombre inglés pendiente'),
+        campoProducto(t('productPrice'), moneda(p.precio), 'campo-precio precio'),
+        campoProducto(t('productSize'), p.tamano || t('productSizePending'), 'campo-tamano')
+    );
 
     const tienePrecio = precioValido(p);
     const selector = nodo('div', 'selector-cantidad');
@@ -456,8 +477,20 @@ async function tarjeta(p) {
     return card;
 }
 function rangoTexto(min, max) { return min === null || max === null ? t('pending') : `${min}-${max} msnm` }
+function fichaTieneFuentesVerificables(ficha) {
+    return Array.isArray(ficha.fuentes) && ficha.fuentes.some(fuente => fuente && typeof fuente.url === 'string' && fuente.url.trim());
+}
+function fichaTieneDatosCriticos(ficha) {
+    const cultivo = ficha.cultivo || {};
+    return ficha.estado_investigacion === 'Validada'
+        && fichaTieneFuentesVerificables(ficha)
+        && [cultivo.altitud_minima, cultivo.altitud_maxima, cultivo.altitud_ideal_minima, cultivo.altitud_ideal_maxima,
+            cultivo.temperatura_minima, cultivo.temperatura_maxima].every(value => typeof value === 'number')
+        && Array.isArray(cultivo.clima) && cultivo.clima.length > 0;
+}
 function evaluarFicha(ficha, altitud, clima, temperatura) {
     const cultivo = ficha.cultivo;
+    if (!fichaTieneDatosCriticos(ficha)) return 'insufficient';
     if (cultivo.altitud_minima === null || cultivo.altitud_maxima === null) return 'insufficient';
     if (clima && !cultivo.clima.some(item => item.toLocaleLowerCase('es') === clima)) return 'no-recomendado';
     if (temperatura !== null && (cultivo.temperatura_minima === null || cultivo.temperatura_maxima === null)) return 'insufficient';
@@ -553,6 +586,10 @@ async function iniciar() {
         for (const cat of [...new Set(productos.map(p => p.categoria))].sort((a, b) => a.localeCompare(b, 'es'))) {
             const op = nodo('option', null, cat); op.value = cat; $('categoria').append(op);
             const zonaOp = op.cloneNode(true); $('categoria-zona').append(zonaOp);
+        }
+        const categoriaInicial = new URLSearchParams(window.location.search).get('categoria');
+        if (categoriaInicial && [...$('categoria').options].some(option => option.value === categoriaInicial)) {
+            $('categoria').value = categoriaInicial;
         }
         for (const id of ['buscar', 'categoria', 'orden']) $(id).addEventListener(id === 'buscar' ? 'input' : 'change', pintar);
         $('formulario-busqueda').onsubmit = event => {

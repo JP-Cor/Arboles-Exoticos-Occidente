@@ -247,6 +247,15 @@ header h1 {
     background: #eaf2e8
 }
 
+.aviso-pendiente-ficha {
+    margin: 14px 0 0;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: #f5f1df;
+    color: #665c36;
+    font-size: 13px
+}
+
 input,
 select,
 button {
@@ -307,6 +316,30 @@ button {
 .datos h2 {
     font-size: 19px;
     margin: 4px 0
+}
+
+.campo-producto {
+    margin: 7px 0;
+    color: #21352a;
+    line-height: 1.35
+}
+
+.campo-producto strong {
+    color: #174a35;
+    font-weight: 750
+}
+
+.nombre-producto {
+    font-size: 19px;
+    font-weight: 700
+}
+
+.campo-precio {
+    margin-top: 12px
+}
+
+.campo-tamano {
+    margin-bottom: 10px
 }
 
 .muted {

@@ -75,7 +75,18 @@
         "es": "Catalina (Persea americana) es una opción de interés para el jardín y la producción tropical. Fruto de pulpa cremosa y semilla grande; la textura y el contenido de aceite varían por cultivar. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
         "en": "Avocado (Persea americana) is an interesting option for tropical gardens and production. Fruto de pulpa cremosa y semilla grande; la textura y el contenido de aceite varían por cultivar. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local.",
+      "fuentes": [
+        {
+          "titulo": "Persea americana Mill. | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:463703-1"
+        },
+        {
+          "titulo": "Persea americana | USDA PLANTS Database",
+          "url": "https://plants.usda.gov/home/plantProfile?symbol=PEAM3"
+        }
+      ],
+      "estado_investigacion": "Parcialmente validada"
     },
     {
       "id_especie": "persea_americana_aguacates_clima_frio",
@@ -141,7 +152,18 @@
         "es": "Hass (Persea americana) es una opción de interés para el jardín y la producción tropical. Fruto de pulpa cremosa y semilla grande; la textura y el contenido de aceite varían por cultivar. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
         "en": "Avocado (Persea americana) is an interesting option for tropical gardens and production. Fruto de pulpa cremosa y semilla grande; la textura y el contenido de aceite varían por cultivar. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local.",
+      "fuentes": [
+        {
+          "titulo": "Persea americana Mill. | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:463703-1"
+        },
+        {
+          "titulo": "Persea americana | USDA PLANTS Database",
+          "url": "https://plants.usda.gov/home/plantProfile?symbol=PEAM3"
+        }
+      ],
+      "estado_investigacion": "Parcialmente validada"
     },
     {
       "id_especie": "punica_granatum_criollos_de_semilla",
@@ -200,7 +222,14 @@
         "es": "Granada gigante (Punica granatum) es una opción de interés para el jardín y la producción tropical. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
         "en": "Pomegranate (Punica granatum) is an interesting option for tropical gardens and production. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local.",
+      "fuentes": [
+        {
+          "titulo": "Punica granatum L. | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77173949-1"
+        }
+      ],
+      "estado_investigacion": "Parcialmente validada"
     },
     {
       "id_especie": "passiflora_ligularis_criollos_de_semilla",
@@ -259,7 +288,14 @@
         "es": "Granadilla (Passiflora ligularis) es una opción de interés para el jardín y la producción tropical. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
         "en": "Sweet granadilla (Passiflora ligularis) is an interesting option for tropical gardens and production. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local.",
+      "fuentes": [
+        {
+          "titulo": "Passiflora ligularis Juss. | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:674072-1"
+        }
+      ],
+      "estado_investigacion": "Parcialmente validada"
     },
     {
       "id_especie": "annona_muricata_criollos_de_semilla",
@@ -319,7 +355,14 @@
         "es": "Guanábana (Annona muricata) es una opción de interés para el jardín y la producción tropical. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
         "en": "Soursop (Annona muricata) is an interesting option for tropical gardens and production. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local.",
+      "fuentes": [
+        {
+          "titulo": "Annona muricata L. | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:14460-2"
+        }
+      ],
+      "estado_investigacion": "Parcialmente validada"
     },
     {
       "id_especie": "syzygium_jambos_criollos_de_semilla",
@@ -379,7 +422,14 @@
         "es": "Manzana rosa (Syzygium jambos) es una opción de interés para el jardín y la producción tropical. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
         "en": "Rose apple (Syzygium jambos) is an interesting option for tropical gardens and production. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local.",
+      "fuentes": [
+        {
+          "titulo": "Syzygium jambos (L.) Alston | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:601947-1"
+        }
+      ],
+      "estado_investigacion": "Parcialmente validada"
     },
     {
       "id_especie": "passiflora_edulis_criollos_de_semilla",
@@ -438,7 +488,14 @@
         "es": "Maracuyá (Passiflora edulis) es una opción de interés para el jardín y la producción tropical. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
         "en": "Passion fruit (Passiflora edulis) is an interesting option for tropical gardens and production. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local.",
+      "fuentes": [
+        {
+          "titulo": "Passiflora edulis Sims | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:674110-1"
+        }
+      ],
+      "estado_investigacion": "Parcialmente validada"
     },
     {
       "id_especie": "anacardium_occidentale_criollos_de_semilla",
@@ -499,7 +556,14 @@
         "es": "Marañón (Anacardium occidentale) es una opción de interés para el jardín y la producción tropical. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
         "en": "Cashew (Anacardium occidentale) is an interesting option for tropical gardens and production. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local.",
+      "fuentes": [
+        {
+          "titulo": "Anacardium occidentale L. | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:160355-1"
+        }
+      ],
+      "estado_investigacion": "Parcialmente validada"
     },
     {
       "id_especie": "rubus_sp_criollos_de_semilla",
@@ -555,7 +619,14 @@
         "es": "Mora de palo sin espina (Rubus sp.) es una opción de interés para el jardín y la producción tropical. Características del fruto pendientes de validación botánica. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
         "en": "Tree blackberry (Rubus sp.) is an interesting option for tropical gardens and production. Características del fruto pendientes de validación botánica. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local.",
+      "fuentes": [
+        {
+          "titulo": "Rubus L. | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:331867-2"
+        }
+      ],
+      "estado_investigacion": "Parcialmente validada"
     },
     {
       "id_especie": "eriobotrya_japonica_criollos_de_semilla",
@@ -615,7 +686,14 @@
         "es": "Níspero (Eriobotrya japonica) es una opción de interés para el jardín y la producción tropical. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Su adaptación y fecha de producción dependen de la propagación, el microclima y el manejo; en Costa Rica conviene seleccionar un sitio con buen drenaje y confirmar el cultivar.",
         "en": "Loquat (Eriobotrya japonica) is an interesting option for tropical gardens and production. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
-      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+      "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local.",
+      "fuentes": [
+        {
+          "titulo": "Eriobotrya japonica (Thunb.) Lindl. | Plants of the World Online | Kew Science",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:723579-1"
+        }
+      ],
+      "estado_investigacion": "Parcialmente validada"
     },
     {
       "id_especie": "carica_papaya_criollos_de_semilla",
@@ -6727,6 +6805,1658 @@
         "en": "Mamey sapote (Pouteria sapota) is an interesting option for tropical gardens and production. Fruto comestible; la forma, color y sabor dependen de la especie o variedad. Adaptation and bearing time depend on propagation, microclimate and management; in Costa Rica, choose a well-drained site and confirm the cultivar."
       },
       "fuente_datos": "Referencia hortícola general; los campos sin respaldo específico se mantienen nulos para validación local."
+    },
+    {
+      "id_especie": "pendiente_259_aceituno",
+      "inventario_ids": [
+        259
+      ],
+      "nombre_es": "Aceituno",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Aceituno pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Aceituno pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_260_caoba",
+      "inventario_ids": [
+        260
+      ],
+      "nombre_es": "Caoba",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Caoba pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Caoba pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_261_cedro_amargo",
+      "inventario_ids": [
+        261
+      ],
+      "nombre_es": "Cedro Amargo",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Cedro Amargo pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Cedro Amargo pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_262_cedro_dulce",
+      "inventario_ids": [
+        262
+      ],
+      "nombre_es": "Cedro Dulce",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Cedro Dulce pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Cedro Dulce pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_263_ceiba",
+      "inventario_ids": [
+        263
+      ],
+      "nombre_es": "Ceiba",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Ceiba pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Ceiba pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_264_cenizaro",
+      "inventario_ids": [
+        264
+      ],
+      "nombre_es": "Cenízaro",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Cenízaro pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Cenízaro pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_265_cipres",
+      "inventario_ids": [
+        265
+      ],
+      "nombre_es": "Ciprés",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Ciprés pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Ciprés pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_266_cocobolo",
+      "inventario_ids": [
+        266
+      ],
+      "nombre_es": "Cocobolo",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Cocobolo pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Cocobolo pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_267_cristobal",
+      "inventario_ids": [
+        267
+      ],
+      "nombre_es": "Cristóbal",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Cristóbal pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Cristóbal pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_268_espavel",
+      "inventario_ids": [
+        268
+      ],
+      "nombre_es": "Espavel",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Espavel pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Espavel pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_269_eucalipto",
+      "inventario_ids": [
+        269
+      ],
+      "nombre_es": "Eucalipto",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Eucalipto pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Eucalipto pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_270_guachipelin",
+      "inventario_ids": [
+        270
+      ],
+      "nombre_es": "Guachipelín",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Guachipelín pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Guachipelín pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_271_guapinol",
+      "inventario_ids": [
+        271
+      ],
+      "nombre_es": "Guapinol",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Guapinol pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Guapinol pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_272_nogal",
+      "inventario_ids": [
+        272
+      ],
+      "nombre_es": "Nogal",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Nogal pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Nogal pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_273_pochote",
+      "inventario_ids": [
+        273
+      ],
+      "nombre_es": "Pochote",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Pochote pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Pochote pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_274_ron_ron",
+      "inventario_ids": [
+        274
+      ],
+      "nombre_es": "Ron Ron",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Maderables",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Ron Ron pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Ron Ron pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_275_aguacatito",
+      "inventario_ids": [
+        275
+      ],
+      "nombre_es": "Aguacatito",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Aguacatito pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Aguacatito pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_276_almendro_de_montana",
+      "inventario_ids": [
+        276
+      ],
+      "nombre_es": "Almendro de Montaña",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Almendro de Montaña pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Almendro de Montaña pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_277_almendro_de_playa",
+      "inventario_ids": [
+        277
+      ],
+      "nombre_es": "Almendro de Playa",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Almendro de Playa pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Almendro de Playa pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_278_capulin",
+      "inventario_ids": [
+        278
+      ],
+      "nombre_es": "Capulín",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Capulín pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Capulín pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_279_cereza",
+      "inventario_ids": [
+        279
+      ],
+      "nombre_es": "Cereza",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Cereza pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Cereza pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_280_damas",
+      "inventario_ids": [
+        280
+      ],
+      "nombre_es": "Damas",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Damas pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Damas pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_281_guayaba_de_mono",
+      "inventario_ids": [
+        281
+      ],
+      "nombre_es": "Guayaba de Mono",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Guayaba de Mono pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Guayaba de Mono pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_282_guitite",
+      "inventario_ids": [
+        282
+      ],
+      "nombre_es": "Güitite",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Güitite pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Güitite pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_283_manzanita",
+      "inventario_ids": [
+        283
+      ],
+      "nombre_es": "Manzanita",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Manzanita pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Manzanita pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_284_pitanga",
+      "inventario_ids": [
+        284
+      ],
+      "nombre_es": "Pitanga",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Pitanga pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Pitanga pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_285_tucuico",
+      "inventario_ids": [
+        285
+      ],
+      "nombre_es": "Tucuico",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Tucuico pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Tucuico pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
+    },
+    {
+      "id_especie": "pendiente_286_uva_de_la_selva",
+      "inventario_ids": [
+        286
+      ],
+      "nombre_es": "Uva de la Selva",
+      "nombre_en": "Identification pending",
+      "nombre_cientifico": "Por verificar",
+      "familia_botanica": null,
+      "categoria": "Frutas para Aves",
+      "origen": null,
+      "cultivo": {
+        "altitud_minima": null,
+        "altitud_maxima": null,
+        "altitud_ideal_minima": null,
+        "altitud_ideal_maxima": null,
+        "temperatura_minima": null,
+        "temperatura_maxima": null,
+        "temperatura_optima": null,
+        "clima": [],
+        "exposicion_solar": null,
+        "riego": null,
+        "suelo": null,
+        "drenaje": null,
+        "resistencia_viento": null,
+        "tolerancia_sequia": null,
+        "estado_validacion": "Identificación científica pendiente de confirmación."
+      },
+      "caracteristicas": {
+        "altura_adulta": null,
+        "diametro_copa": null,
+        "velocidad_crecimiento": null,
+        "tiempo_produccion": null,
+        "epoca_floracion": null,
+        "epoca_cosecha": null,
+        "produccion_estimada": null,
+        "recomendaciones_poda": null,
+        "distancia_siembra": null,
+        "fruto": null
+      },
+      "beneficios": {
+        "vitaminas": [],
+        "minerales": [],
+        "antioxidantes": [],
+        "fibra": null,
+        "nutricion": null,
+        "beneficios": null,
+        "usos_gastronomicos": null,
+        "usos_tradicionales": null
+      },
+      "descripcion": {
+        "es": "Ficha botánica de Uva de la Selva pendiente de identificación científica y validación de condiciones de cultivo.",
+        "en": "Botanical record for Uva de la Selva pending scientific identification and growing-condition validation."
+      },
+      "fuente_datos": "Investigación pendiente; no se asignan valores sin confirmar la especie utilizada en Costa Rica.",
+      "estado_investigacion": "Pendiente",
+      "fuentes": [],
+      "datos_especiales": {}
     }
   ],
   "referencias_comerciales": {

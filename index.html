@@ -31,6 +31,13 @@
                     📖 Catálogo
                 </a>
 
+                <details class="menu-categorias">
+                    <summary id="categories-menu">Categorías ▾</summary>
+                    <div id="categories-list" class="categories-list">
+                        <a href="Catalogo/index.html" data-es="Todas las categorías" data-en="All categories">Todas las categorías</a>
+                    </div>
+                </details>
+
                 <a href="Catalogo/index.html?seccion=recomendaciones"
                    data-es="🌳 Recomendaciones"
                    data-en="🌳 Recommendations">
@@ -89,6 +96,13 @@
         </div>
     </section>
 
+    <section class="categorias-destacadas wrap" aria-labelledby="categories-title">
+        <div class="sectionhead">
+            <h2 id="categories-title">Categorías del vivero</h2>
+        </div>
+        <div id="category-cards" class="category-cards"></div>
+    </section>
+
     <main class="wrap">
 
         <!-- ACCESO AL CATÁLOGO -->
@@ -138,8 +152,8 @@
             </p>
 
             <p id="contact-note">
-                Para activar WhatsApp, configurá
-                el número del vivero.
+                Para activar WhatsApp, clic en el menú principal Contacto y se abrirá la aplicación con un mensaje predefinido. Asegúrate de tener WhatsApp instalado y configurado en tu dispositivo, y de que el número del vivero esté correcto.
+                el número del vivero. 85574977
             </p>
 
         </section>
@@ -176,14 +190,30 @@
                 descripcion: "Explorá nuestra variedad de árboles frutales y especies exóticas. Conocé sus características, fotografías y precios.",
                 explorar: "📖 Explorar catálogo →",
                 recomendaciones: "🌳 Recomendaciones →",
+                categorias: "Categorías ▾",
+                todasCategorias: "Todas las categorías",
+                categoriasVivero: "Categorías del vivero",
+                verEspecies: "Ver especies →",
+                descripcionGenerica: "Descubrí especies seleccionadas de nuestro vivero para jardines, fincas y proyectos productivos.",
+                categorias: {
+                    "Aguacates clima caliente": ["🥑", "Aguacates clima caliente", "Explorá variedades de aguacates adaptadas a condiciones cálidas, ideales para diferentes proyectos de cultivo y producción."],
+                    "Aguacates clima frío": ["🥑", "Aguacates clima frío", "Conocé variedades de aguacates recomendadas para zonas de temperaturas más frescas y regiones de mayor altitud."],
+                    "Cítricos": ["🍊", "Cítricos", "Descubrí nuestra selección de naranjas, mandarinas, limones y otras variedades de cítricos para tu jardín o producción agrícola."],
+                    "Criollos de semilla": ["🌱", "Criollos de semilla", "Encontrá árboles tradicionales propagados por semilla, ideales para conservar la diversidad de especies frutales."],
+                    "Exóticos": ["🌺", "Exóticos", "Explorá árboles y plantas poco comunes, con frutos, formas y características que aportan variedad a tu colección."],
+                    "Frutas para Aves": ["🐦", "Frutas para Aves", "Conocé especies frutales que pueden proporcionar alimento y refugio para aves y otros animales silvestres."],
+                    "Maderables": ["🌳", "Maderables", "Descubrí árboles forestales de valor ecológico, utilizados en proyectos de reforestación, conservación y aprovechamiento responsable."],
+                    "Mangos": ["🥭", "Mangos", "Explorá variedades de mangos con diferentes sabores, tamaños y características de producción."],
+                    "Otros frutales injertados": ["🍎", "Otros frutales injertados", "Conocé árboles frutales injertados de diferentes especies y variedades para jardines, fincas y proyectos productivos."]
+                },
                 etiqueta: "NUESTRO VIVERO",
                 catalogo: "Catálogo de plantas",
                 intro: "Descubrí nuestras variedades de aguacates, cítricos, mangos, árboles frutales y especies exóticas. Consultá fotografías, características y precios.",
                 boton: "📖 Ver catálogo de plantas →",
                 contacto: "Consultas y pedidos",
                 contactoTexto: "Consultá disponibilidad, tamaño y precio de cada planta directamente con el vivero.",
-                nota: "Para activar notificaciones, configurá el número del vivero, click en contacto menu principal.",
-                footer: "Catálogo informativo"
+                nota: "Para activar notificaciones, clic  en el menú principal Contacto.",
+                footer: "Catálogo informativo "
             },
 
             en: {
@@ -191,6 +221,22 @@
                 descripcion: "Explore our variety of fruit trees and exotic species. Discover their characteristics, photographs and prices.",
                 explorar: "📖 Explore catalog →",
                 recomendaciones: "🌳 Recommendations →",
+                categorias: "Categories ▾",
+                todasCategorias: "All categories",
+                categoriasVivero: "Nursery Categories",
+                verEspecies: "View species →",
+                descripcionGenerica: "Discover selected nursery species for gardens, farms and productive projects.",
+                categorias: {
+                    "Aguacates clima caliente": ["🥑", "Warm-climate avocados", "Explore avocado varieties adapted to warm conditions for different growing and production projects."],
+                    "Aguacates clima frío": ["🥑", "Cool-climate avocados", "Learn about avocado varieties recommended for cooler temperatures and higher-altitude regions."],
+                    "Cítricos": ["🍊", "Citrus", "Discover our selection of oranges, mandarins, lemons and other citrus varieties for gardens or agricultural production."],
+                    "Criollos de semilla": ["🌱", "Seed-grown heirlooms", "Find traditional trees propagated from seed that help preserve fruit-tree diversity."],
+                    "Exóticos": ["🌺", "Exotic trees", "Explore uncommon trees and plants with fruits, forms and characteristics that add variety to your collection."],
+                    "Frutas para Aves": ["🐦", "Fruit Trees for Birds", "Learn about fruit-bearing species that may provide food and shelter for birds and other wildlife."],
+                    "Maderables": ["🌳", "Timber Trees", "Discover forest trees of ecological value for reforestation, conservation and responsible use."],
+                    "Mangos": ["🥭", "Mangoes", "Explore mango varieties with different flavors, sizes and production characteristics."],
+                    "Otros frutales injertados": ["🍎", "Other grafted fruit trees", "Learn about grafted fruit trees for gardens, farms and productive projects."]
+                },
                 etiqueta: "OUR NURSERY",
                 catalogo: "Plant catalog",
                 intro: "Discover our varieties of avocados, citrus fruits, mangoes, fruit trees and exotic species. Explore photographs, characteristics and prices.",
@@ -219,6 +265,9 @@
                 document.getElementById("hero-desc").textContent = t.descripcion;
                 document.getElementById("explore").textContent = t.explorar;
                 document.getElementById("recommendations").textContent = t.recomendaciones;
+                document.getElementById("categories-menu").textContent = t.categorias;
+                document.getElementById("categories-title").textContent = t.categoriasVivero;
+                renderCategoryCards(categoriasInventario);
                 document.getElementById("sectiontag").textContent = t.etiqueta;
                 document.getElementById("catalog-title").textContent = t.catalogo;
                 document.getElementById("intro").textContent = t.intro;
@@ -236,8 +285,82 @@
                 );
 
                 this.textContent = idioma === "es" ? "EN" : "ES";
+                cargarMenuCategorias();
             }
         );
+
+        let categoriasInventario = [];
+        const ordenCategorias = [
+            "Aguacates clima caliente",
+            "Aguacates clima frío",
+            "Cítricos",
+            "Criollos de semilla",
+            "Exóticos",
+            "Frutas para Aves",
+            "Maderables",
+            "Mangos",
+            "Otros frutales injertados"
+        ];
+        const normalizarCategoria = categoria => categoria
+            .replaceAll("Ã¡", "á")
+            .replaceAll("Ã©", "é")
+            .replaceAll("Ã­", "í")
+            .replaceAll("Ã³", "ó")
+            .replaceAll("Ãº", "ú")
+            .replaceAll("Ã±", "ñ");
+
+        function renderCategoryCards(categorias) {
+            const contenedor = document.getElementById("category-cards");
+            const t = traducciones[idioma];
+            contenedor.replaceChildren();
+            categorias.forEach(categoria => {
+                const clave = normalizarCategoria(categoria);
+                const datos = t.categorias[clave] || ["🌿", clave, t.descripcionGenerica];
+                const tarjeta = document.createElement("article");
+                tarjeta.className = "category-card";
+                tarjeta.innerHTML = `
+                    <div class="category-card-icon" aria-hidden="true">${datos[0]}</div>
+                    <h3>${datos[1]}</h3>
+                    <p>${datos[2]}</p>
+                    <a href="Catalogo/index.html?categoria=${encodeURIComponent(categoria)}" class="category-card-link">${t.verEspecies}</a>
+                `;
+                contenedor.append(tarjeta);
+            });
+        }
+
+        async function cargarMenuCategorias() {
+            const lista = document.getElementById("categories-list");
+            try {
+                const respuesta = await fetch("Inventario/inventario.json");
+                if (!respuesta.ok) throw new Error("No se pudo cargar las categorías");
+                const inventario = await respuesta.json();
+                categoriasInventario = [...new Set(inventario.map(item => item.categoria).filter(Boolean))]
+                    .sort((a, b) => {
+                        const posicionA = ordenCategorias.indexOf(normalizarCategoria(a));
+                        const posicionB = ordenCategorias.indexOf(normalizarCategoria(b));
+                        if (posicionA === -1 && posicionB === -1) return a.localeCompare(b, "es");
+                        if (posicionA === -1) return 1;
+                        if (posicionB === -1) return -1;
+                        return posicionA - posicionB;
+                    });
+                lista.replaceChildren();
+                const todas = document.createElement("a");
+                todas.href = "Catalogo/index.html";
+                todas.textContent = traducciones[idioma].todasCategorias;
+                lista.append(todas);
+                categoriasInventario.forEach(categoria => {
+                    const enlace = document.createElement("a");
+                    enlace.href = `Catalogo/index.html?categoria=${encodeURIComponent(categoria)}`;
+                    const clave = normalizarCategoria(categoria);
+                    enlace.textContent = (traducciones[idioma].categorias[clave] || [null, clave])[1];
+                    lista.append(enlace);
+                });
+                renderCategoryCards(categoriasInventario);
+            } catch (error) {
+                console.error("No se pudo cargar el menú de categorías:", error);
+            }
+        }
+        cargarMenuCategorias();
     </script>
 
 </body>

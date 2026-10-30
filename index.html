@@ -44,6 +44,13 @@
                     🌳 Recomendaciones
                 </a>
 
+                <a href="#rescate"
+                   id="rescue-nav"
+                   data-es="🩺 Solicitar asesoría"
+                   data-en="🩺 Request Advice">
+                    🩺 Solicitar asesoría
+                </a>
+
                 <a id="contact-link" href="https://wa.me/50685574977"
                    target="_blank"
                    rel="noopener noreferrer"
@@ -91,6 +98,11 @@
                    id="recommendations">
                     🌳 Recomendaciones →
                 </a>
+                <a href="#rescate"
+                   class="primary rescue-primary"
+                   id="request-advice">
+                    🩺 Solicitar asesoría →
+                </a>
             </div>
 
         </div>
@@ -101,6 +113,44 @@
             <h2 id="categories-title">Categorías del vivero</h2>
         </div>
         <div id="category-cards" class="category-cards"></div>
+    </section>
+
+    <section id="rescate" class="rescue-section wrap" aria-labelledby="rescue-title">
+        <div class="sectionhead">
+            <div>
+                <h2 id="rescue-title">🩺 Rescate de Árboles</h2>
+                <p id="rescue-subtitle">Diagnóstico orientativo, recuperación y mantenimiento de tus árboles.</p>
+            </div>
+        </div>
+        <p id="rescue-intro">En Árboles Exóticos Occidente te ayudamos a identificar posibles problemas que afectan la salud y producción de tus árboles. Recibí orientación sobre plagas, enfermedades, nutrición, podas y mantenimiento.</p>
+        <div id="rescue-services" class="rescue-services"></div>
+        <form id="rescue-form" class="rescue-form">
+            <h3 id="rescue-form-title">Solicitar asesoría</h3>
+            <div class="rescue-fields">
+                <label><span id="label-client-name">Nombre del cliente</span><input id="rescue-name" name="name" required></label>
+                <label><span id="label-phone">Teléfono</span><input id="rescue-phone" name="phone" type="tel" required></label>
+                <label><span id="label-location">Ubicación</span><input id="rescue-location" name="location" placeholder="Cantón o distrito"></label>
+                <label><span id="label-species">Especie del árbol</span><input id="rescue-species" name="species" required></label>
+                <label><span id="label-age">Edad aproximada</span><input id="rescue-age" name="age"></label>
+                <label><span id="label-height">Altura aproximada</span><input id="rescue-height" name="height"></label>
+                <label><span id="label-problem">Problema principal</span>
+                    <select id="rescue-problem" name="problem" required>
+                        <option value="">Seleccioná una opción</option>
+                        <option>Plagas</option><option>Enfermedades</option><option>Hojas amarillas</option>
+                        <option>Caída de hojas</option><option>Baja producción</option><option>Problemas de floración</option>
+                        <option>Fertilización</option><option>Poda</option><option>Recuperación</option>
+                        <option>Mantenimiento</option><option>Otro</option>
+                    </select>
+                </label>
+                <label><span id="label-duration">Tiempo con síntomas</span><input id="rescue-duration" name="duration"></label>
+                <label class="rescue-wide"><span id="label-description">Descripción del problema</span><textarea id="rescue-description" name="description" rows="4" required></textarea></label>
+                <label class="rescue-wide"><span id="label-treatments">Tratamientos aplicados anteriormente</span><textarea id="rescue-treatments" name="treatments" rows="3"></textarea></label>
+                <label class="rescue-wide"><span id="label-photos">Fotografías (adjuntalas manualmente en WhatsApp)</span><input id="rescue-photos" type="file" accept="image/*" multiple></label>
+            </div>
+            <p id="rescue-notice" class="rescue-notice">La información permitirá realizar una evaluación inicial. Algunos problemas pueden requerir una inspección presencial. Las fotografías seleccionadas no se envían automáticamente.</p>
+            <button type="submit" class="rescue-submit" id="rescue-submit">🩺 Solicitar asesoría por WhatsApp</button>
+            <p id="rescue-safety" class="rescue-safety">La orientación es inicial y no constituye un diagnóstico definitivo ni una certificación profesional. No apliques productos sin verificar su etiqueta y compatibilidad.</p>
+        </form>
     </section>
 
     <main class="wrap">
@@ -206,6 +256,15 @@
                     "Mangos": ["🥭", "Mangos", "Explorá variedades de mangos con diferentes sabores, tamaños y características de producción."],
                     "Otros frutales injertados": ["🍎", "Otros frutales injertados", "Conocé árboles frutales injertados de diferentes especies y variedades para jardines, fincas y proyectos productivos."]
                 },
+                rescate: {
+                    nav: "🩺 Solicitar asesoría", title: "🩺 Rescate de Árboles", subtitle: "Diagnóstico orientativo, recuperación y mantenimiento de tus árboles.",
+                    intro: "En Árboles Exóticos Occidente te ayudamos a identificar posibles problemas que afectan la salud y producción de tus árboles. Recibí orientación sobre plagas, enfermedades, nutrición, podas y mantenimiento.",
+                    card: "¿Tu árbol presenta hojas amarillas, plagas, enfermedades o problemas de producción? Te orientamos para identificar posibles causas y encontrar alternativas de manejo, recuperación y mantenimiento.",
+                    request: "🩺 Solicitar asesoría →", requestAdvice: "🩺 Solicitar asesoría →", form: "Solicitar asesoría", name: "Nombre del cliente", phone: "Teléfono", location: "Ubicación", species: "Especie del árbol", age: "Edad aproximada", height: "Altura aproximada", problem: "Problema principal", duration: "Tiempo con síntomas", description: "Descripción del problema", treatments: "Tratamientos aplicados anteriormente", photos: "Fotografías (adjuntalas manualmente en WhatsApp)", choose: "Seleccioná una opción",
+                    notice: "La información permitirá realizar una evaluación inicial. Algunos problemas pueden requerir una inspección presencial. Las fotografías seleccionadas no se envían automáticamente.",
+                    submit: "🩺 Solicitar asesoría por WhatsApp", safety: "La orientación es inicial y no constituye un diagnóstico definitivo ni una certificación profesional. No apliques productos sin verificar su etiqueta y compatibilidad.",
+                    services: [["🐛", "Control de plagas", "Orientación sobre insectos, ácaros y otros organismos que afectan hojas, raíces, tallos y frutos."], ["🍂", "Enfermedades de árboles", "Evaluación inicial de síntomas como manchas, pudriciones, caída de hojas y deterioro general."], ["🌱", "Nutrición y fertilización", "Asesoría sobre fertilización, deficiencias nutricionales y mejoramiento del suelo."], ["🍊", "Mejoramiento de producción", "Orientación sobre floración, fructificación, riego, nutrición y mantenimiento productivo."], ["✂️", "Poda y mantenimiento", "Recomendaciones de poda, formación, limpieza y cuidados preventivos."], ["🚑", "Recuperación de árboles", "Evaluación de árboles debilitados, con crecimiento deficiente, daños o síntomas de estrés."]]
+                },
                 etiqueta: "NUESTRO VIVERO",
                 catalogo: "Catálogo de plantas",
                 intro: "Descubrí nuestras variedades de aguacates, cítricos, mangos, árboles frutales y especies exóticas. Consultá fotografías, características y precios.",
@@ -237,6 +296,16 @@
                     "Mangos": ["🥭", "Mangoes", "Explore mango varieties with different flavors, sizes and production characteristics."],
                     "Otros frutales injertados": ["🍎", "Other grafted fruit trees", "Learn about grafted fruit trees for gardens, farms and productive projects."]
                 },
+                rescate: {
+                    nav: "🩺 Request Advice", title: "🩺 Tree Rescue", subtitle: "Guidance, recovery and maintenance for your trees.",
+                    intro: "At Árboles Exóticos Occidente, we help identify possible problems affecting your trees' health and production. Receive guidance on pests, diseases, nutrition, pruning and maintenance.",
+                    card: "Does your tree have yellow leaves, pests, diseases or production problems? We can help identify possible causes and management, recovery and maintenance alternatives.",
+                    request: "🩺 Request guidance →", form: "Request guidance", name: "Client name", phone: "Phone", location: "Location", species: "Tree species", age: "Approximate age", height: "Approximate height", problem: "Main problem", duration: "Time with symptoms", description: "Problem description", treatments: "Previous treatments", photos: "Photos (attach them manually in WhatsApp)", choose: "Select an option",
+                    notice: "This information enables an initial assessment. Some problems may require an in-person inspection. Selected photos are not sent automatically.",
+                    submit: "🩺 Request guidance via WhatsApp", safety: "This is initial guidance, not a definitive diagnosis or professional certification. Do not apply products without checking their label and compatibility.",
+                    requestAdvice: "🩺 Request Advice →",
+                    services: [["🐛", "Pest control", "Guidance on insects, mites and other organisms affecting leaves, roots, stems and fruit."], ["🍂", "Tree diseases", "Initial assessment of symptoms such as spots, rot, leaf drop and general decline."], ["🌱", "Nutrition and fertilization", "Advice on fertilization, nutritional deficiencies and soil improvement."], ["🍊", "Production improvement", "Guidance on flowering, fruiting, irrigation, nutrition and productive maintenance."], ["✂️", "Pruning and maintenance", "Recommendations for pruning, training, cleaning and preventive care."], ["🚑", "Tree recovery", "Assessment of weakened trees with poor growth, damage or stress symptoms."]]
+                },
                 etiqueta: "OUR NURSERY",
                 catalogo: "Plant catalog",
                 intro: "Discover our varieties of avocados, citrus fruits, mangoes, fruit trees and exotic species. Explore photographs, characteristics and prices.",
@@ -265,9 +334,11 @@
                 document.getElementById("hero-desc").textContent = t.descripcion;
                 document.getElementById("explore").textContent = t.explorar;
                 document.getElementById("recommendations").textContent = t.recomendaciones;
+                document.getElementById("request-advice").textContent = t.rescate.requestAdvice;
                 document.getElementById("categories-menu").textContent = t.categorias;
                 document.getElementById("categories-title").textContent = t.categoriasVivero;
                 renderCategoryCards(categoriasInventario);
+                actualizarRescate();
                 document.getElementById("sectiontag").textContent = t.etiqueta;
                 document.getElementById("catalog-title").textContent = t.catalogo;
                 document.getElementById("intro").textContent = t.intro;
@@ -326,6 +397,41 @@
                 `;
                 contenedor.append(tarjeta);
             });
+            const rescue = document.createElement("article");
+            rescue.className = "category-card rescue-card";
+            rescue.innerHTML = `<div class="category-card-icon" aria-hidden="true">🩺</div><h3>${t.rescate.title.replace("🩺 ", "")}</h3><p>${t.rescate.card}</p><a href="#rescate" class="category-card-link">${t.rescate.request}</a>`;
+            rescue.querySelector("a").addEventListener("click", mostrarRescate);
+            contenedor.append(rescue);
+        }
+
+        function renderRescueServices() {
+            const t = traducciones[idioma].rescate;
+            document.getElementById("rescue-services").innerHTML = t.services.map(servicio => `<article class="rescue-service"><div class="category-card-icon" aria-hidden="true">${servicio[0]}</div><h3>${servicio[1]}</h3><p>${servicio[2]}</p></article>`).join("");
+        }
+
+        function actualizarRescate() {
+            const t = traducciones[idioma].rescate;
+            document.getElementById("rescue-nav").textContent = t.nav;
+            document.getElementById("rescue-title").textContent = t.title;
+            document.getElementById("rescue-subtitle").textContent = t.subtitle;
+            document.getElementById("rescue-intro").textContent = t.intro;
+            document.getElementById("rescue-form-title").textContent = t.form;
+            [["label-client-name", t.name], ["label-phone", t.phone], ["label-location", t.location], ["label-species", t.species], ["label-age", t.age], ["label-height", t.height], ["label-problem", t.problem], ["label-duration", t.duration], ["label-description", t.description], ["label-treatments", t.treatments], ["label-photos", t.photos]].forEach(([id, texto]) => document.getElementById(id).textContent = texto);
+            document.getElementById("rescue-problem").options[0].textContent = t.choose;
+            const problemas = idioma === "es"
+                ? ["Plagas", "Enfermedades", "Hojas amarillas", "Caída de hojas", "Baja producción", "Problemas de floración", "Fertilización", "Poda", "Recuperación", "Mantenimiento", "Otro"]
+                : ["Pests", "Diseases", "Yellow leaves", "Leaf drop", "Low production", "Flowering problems", "Fertilization", "Pruning", "Recovery", "Maintenance", "Other"];
+            [...document.getElementById("rescue-problem").options].slice(1).forEach((option, index) => option.textContent = problemas[index]);
+            document.getElementById("rescue-location").placeholder = idioma === "es" ? "Cantón o distrito" : "Canton or district";
+            document.getElementById("rescue-notice").textContent = t.notice;
+            document.getElementById("rescue-submit").textContent = t.submit;
+            document.getElementById("rescue-safety").textContent = t.safety;
+            renderRescueServices();
+        }
+
+        function mostrarRescate(event) {
+            if (event) event.preventDefault();
+            document.getElementById("rescate").scrollIntoView({ behavior: "smooth", block: "start" });
         }
 
         async function cargarMenuCategorias() {
@@ -361,6 +467,18 @@
             }
         }
         cargarMenuCategorias();
+
+        document.getElementById("rescue-nav").addEventListener("click", mostrarRescate);
+        document.getElementById("request-advice").addEventListener("click", mostrarRescate);
+        document.getElementById("rescue-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            const valor = id => document.getElementById(id).value.trim() || "No indicado";
+            const mensaje = idioma === "es"
+                ? `Hola, necesito asesoría del servicio Rescate de Árboles de Árboles Exóticos Occidente.\n\nNombre: ${valor("rescue-name")}\nTeléfono: ${valor("rescue-phone")}\nUbicación: ${valor("rescue-location")}\nEspecie: ${valor("rescue-species")}\nEdad aproximada: ${valor("rescue-age")}\nAltura: ${valor("rescue-height")}\nProblema: ${valor("rescue-problem")}\nTiempo con síntomas: ${valor("rescue-duration")}\nTratamientos anteriores: ${valor("rescue-treatments")}\nDescripción: ${valor("rescue-description")}\n\nAdjuntaré las fotografías manualmente en esta conversación.`
+                : `Hello, I need guidance from the Tree Rescue service at Árboles Exóticos Occidente.\n\nName: ${valor("rescue-name")}\nPhone: ${valor("rescue-phone")}\nLocation: ${valor("rescue-location")}\nSpecies: ${valor("rescue-species")}\nApproximate age: ${valor("rescue-age")}\nHeight: ${valor("rescue-height")}\nProblem: ${valor("rescue-problem")}\nTime with symptoms: ${valor("rescue-duration")}\nPrevious treatments: ${valor("rescue-treatments")}\nDescription: ${valor("rescue-description")}\n\nI will attach the photos manually in this conversation.`;
+            window.open(`https://wa.me/${window.VIVERO_WHATSAPP}?text=${encodeURIComponent(mensaje)}`, "_blank", "noopener,noreferrer");
+        });
+        actualizarRescate();
     </script>
 
 </body>
